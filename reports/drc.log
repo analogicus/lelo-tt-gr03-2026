@@ -56,9 +56,6 @@ Cell JNWTR_NDX1_CV read from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A
 Scaled magic input cell JNWTR_NDX1_CV geometry by factor of 2
 Cell JNWTR_TAPCELLB_CV read from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A
 Scaled magic input cell JNWTR_TAPCELLB_CV geometry by factor of 2
-Cells JNWTR_NCHDL in ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
-Cells JNWTR_PCHDL in ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
-Cells JNWTR_cut_M1M4_2x1 in ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
 Cell COMPARATOR read from path ../design/LELO_GR03_SKY130A
 Warning:  Parent cell lists instance of "JNWATR_PCH_4C5F0" at bad file path ../design/LELO_GR03_SKY130A/JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.mag.
 The cell exists in the search paths at ../design/JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.mag.
@@ -116,12 +113,8 @@ The cell exists in the search paths at ../design/JNW_TR_SKY130A/JNWTR_TIEL_CV.ma
 The discovered version will be used.
 Cell JNWTR_TIEL_CV read from path ../design/JNW_TR_SKY130A
 Scaled magic input cell JNWTR_TIEL_CV geometry by factor of 2
-Duplicate cell in JNWTR_TIEL_CV:  Instance of cell JNWTR_NCHDL is from path ../design/JNW_TR_SKY130A/LELO_GR01_SKY130A/../JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A.
-New path does not exist and will be ignored.
-Duplicate cell in JNWTR_TIEL_CV:  Instance of cell JNWTR_PCHDL is from path ../design/JNW_TR_SKY130A/LELO_GR01_SKY130A/../JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A.
-New path does not exist and will be ignored.
-Duplicate cell in JNWTR_TIEL_CV:  Instance of cell JNWTR_cut_M1M4_2x1 is from path ../design/JNW_TR_SKY130A/LELO_GR01_SKY130A/../JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A.
-New path does not exist and will be ignored.
+Processing timestamp mismatches.
+Timestamp mismatches found in these cells: JNWTR_CAPX1, JNWTR_DFRNQNX1_CV, JNWTR_cut_M1M2_2x1, JNWTR_cut_M1M3_2x1, JNWTR_IVX1_CV, JNWTR_NDTRIX1_CV, JNWTR_IVTRIX1_CV, JNWTR_NDX1_CV, JNWTR_TAPCELLB_CV, JNWTR_CAPX4, JNWTR_RES4, JNWTR_RPPO2, JNWTR_RES2, JNWTR_RPPO4, JNWTR_RPPO16, JNWTR_RES16, JNWTR_NCHDL, JNWTR_PCHDL, JNWTR_cut_M1M4_2x1, JNWTR_TIEL_CV.
 DRC style is now "drc(full)"
 Loading DRC CIF style.
 No errors found.

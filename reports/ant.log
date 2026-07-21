@@ -54,12 +54,6 @@ Cell JNWTR_NDX1_CV read from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A
 Scaled magic input cell JNWTR_NDX1_CV geometry by factor of 2
 Cell JNWTR_TAPCELLB_CV read from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A
 Scaled magic input cell JNWTR_TAPCELLB_CV geometry by factor of 2
-Duplicate cell in JNWTR_TAPCELLB_CV:  Instance of cell JNWTR_NCHDL is from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A.
-New path does not exist and will be ignored.
-Duplicate cell in JNWTR_TAPCELLB_CV:  Instance of cell JNWTR_PCHDL is from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A.
-New path does not exist and will be ignored.
-Duplicate cell in JNWTR_TAPCELLB_CV:  Instance of cell JNWTR_cut_M1M4_2x1 is from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A.
-New path does not exist and will be ignored.
 Cell COMPARATOR read from path ../design/LELO_GR03_SKY130A
 Warning:  Parent cell lists instance of "JNWATR_PCH_4C5F0" at bad file path ../design/LELO_GR03_SKY130A/JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.mag.
 The cell exists in the search paths at ../design/JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.mag.
@@ -119,18 +113,15 @@ The cell exists in the search paths at ../design/JNW_TR_SKY130A/JNWTR_TIEL_CV.ma
 The discovered version will be used.
 Cell JNWTR_TIEL_CV read from path ../design/JNW_TR_SKY130A
 Scaled magic input cell JNWTR_TIEL_CV geometry by factor of 2
-Cells JNWTR_NCHDL in ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A and ../design/JNW_TR_SKY130A/LELO_GR01_SKY130A/../JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
-Cells JNWTR_PCHDL in ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A and ../design/JNW_TR_SKY130A/LELO_GR01_SKY130A/../JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
-Cells JNWTR_cut_M1M4_2x1 in ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A and ../design/JNW_TR_SKY130A/LELO_GR01_SKY130A/../JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
-Extracting sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ into ant/ext/sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ.ext:
-sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ: 1 warning
+Processing timestamp mismatches.
+Timestamp mismatches found in these cells: JNWTR_CAPX1, JNWTR_DFRNQNX1_CV, JNWTR_cut_M1M2_2x1, JNWTR_cut_M1M3_2x1, JNWTR_IVX1_CV, JNWTR_NDTRIX1_CV, JNWTR_IVTRIX1_CV, JNWTR_NDX1_CV, JNWTR_TAPCELLB_CV, JNWTR_CAPX4, JNWTR_RES4, JNWTR_RPPO2, JNWTR_RES2, JNWTR_RPPO4, JNWTR_RPPO16, JNWTR_RES16, JNWTR_NCHDL, JNWTR_PCHDL, JNWTR_cut_M1M4_2x1, JNWTR_TIEL_CV.
 Extracting JNWTR_CAPX1 into ant/ext/JNWTR_CAPX1.ext:
 Extracting JNWTR_CAPX4 into ant/ext/JNWTR_CAPX4.ext:
 Extracting JNWTR_cut_M1M2_2x1 into ant/ext/JNWTR_cut_M1M2_2x1.ext:
 Extracting JNWTR_cut_M1M3_2x1 into ant/ext/JNWTR_cut_M1M3_2x1.ext:
-Extracting JNWTR_cut_M1M4_2x1 into ant/ext/JNWTR_cut_M1M4_2x1.ext:
-Extracting JNWTR_PCHDL into ant/ext/JNWTR_PCHDL.ext:
 Extracting JNWTR_NCHDL into ant/ext/JNWTR_NCHDL.ext:
+Extracting JNWTR_PCHDL into ant/ext/JNWTR_PCHDL.ext:
+Extracting JNWTR_cut_M1M4_2x1 into ant/ext/JNWTR_cut_M1M4_2x1.ext:
 Extracting JNWTR_IVX1_CV into ant/ext/JNWTR_IVX1_CV.ext:
 Extracting JNWTR_NDTRIX1_CV into ant/ext/JNWTR_NDTRIX1_CV.ext:
 Extracting JNWTR_IVTRIX1_CV into ant/ext/JNWTR_IVTRIX1_CV.ext:
@@ -142,20 +133,22 @@ Extracting JNWATR_NCH_4C5F0 into ant/ext/JNWATR_NCH_4C5F0.ext:
 Extracting JNWATR_NCH_8C1F2 into ant/ext/JNWATR_NCH_8C1F2.ext:
 Extracting JNWATR_PCH_8C1F2 into ant/ext/JNWATR_PCH_8C1F2.ext:
 Extracting COMPARATOR into ant/ext/COMPARATOR.ext:
-Extracting sky130_fd_pr__rf_pnp_05v5_W3p40L3p40 into ant/ext/sky130_fd_pr__rf_pnp_05v5_W3p40L3p40.ext:
+Extracting JNWTR_RES2 into ant/ext/JNWTR_RES2.ext:
+Extracting JNWTR_RPPO2 into ant/ext/JNWTR_RPPO2.ext:
 Extracting JNWTR_RES4 into ant/ext/JNWTR_RES4.ext:
 Extracting JNWTR_RPPO4 into ant/ext/JNWTR_RPPO4.ext:
+Extracting sky130_fd_pr__rf_pnp_05v5_W3p40L3p40 into ant/ext/sky130_fd_pr__rf_pnp_05v5_W3p40L3p40.ext:
 Extracting LELOATR_LVT_PCH_4C5F0 into ant/ext/LELOATR_LVT_PCH_4C5F0.ext:
 Extracting BANDGAP_OTA_PMOS into ant/ext/BANDGAP_OTA_PMOS.ext:
 Extracting JNWATR_PCH_2C5F0 into ant/ext/JNWATR_PCH_2C5F0.ext:
-Extracting JNWTR_RES2 into ant/ext/JNWTR_RES2.ext:
-Extracting JNWTR_RPPO2 into ant/ext/JNWTR_RPPO2.ext:
 Extracting BANDGAP_CIRCUIT into ant/ext/BANDGAP_CIRCUIT.ext:
 Extracting JNWTR_RES16 into ant/ext/JNWTR_RES16.ext:
 Extracting JNWTR_RPPO16 into ant/ext/JNWTR_RPPO16.ext:
 Extracting BIAS_CIRCUIT2 into ant/ext/BIAS_CIRCUIT2.ext:
 Extracting LELO_GR03 into ant/ext/LELO_GR03.ext:
 Extracting JNWTR_TIEL_CV into ant/ext/JNWTR_TIEL_CV.ext:
+Extracting sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ into ant/ext/sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ.ext:
+sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ: 1 warning
 Extracting tt_um_lelo_gr03_analogicus into ant/ext/tt_um_lelo_gr03_analogicus.ext:
 Total of 1 warning.
 Reading extract file.

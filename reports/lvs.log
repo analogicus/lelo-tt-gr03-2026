@@ -932,8 +932,8 @@ Cell tt_um_lelo_gr03_analogicus (1) disconnected node: clk
 Subcircuit summary:
 Circuit 1: tt_um_lelo_gr03_analogicus      |Circuit 2: tt_um_lelo_gr03_analogicus      
 -------------------------------------------|-------------------------------------------
-JNWTR_TAPCELLB_CV (1)                      |JNWTR_TAPCELLB_CV (1)                      
 sky130_fd_pr__diode_pw2nd_05v5 (1)         |sky130_fd_pr__diode_pw2nd_05v5 (1)         
+JNWTR_TAPCELLB_CV (1)                      |JNWTR_TAPCELLB_CV (1)                      
 LELO_GR03 (1)                              |LELO_GR03 (1)                              
 JNWTR_PCHDL (1)                            |JNWTR_PCHDL (1)                            
 JNWTR_NCHDL (1)                            |JNWTR_NCHDL (1)                            
@@ -957,9 +957,9 @@ uio_oe[6]                                  |uio_oe[6]
 uio_oe[1]                                  |uio_oe[1]                                  
 uio_oe[2]                                  |uio_oe[2]                                  
 uo_out[0]                                  |uo_out[0]                                  
+VDPWR                                      |VDPWR                                      
 ui_in[0]                                   |ui_in[0]                                   
 VGND                                       |VGND                                       
-VDPWR                                      |VDPWR                                      
 uo_out[7]                                  |uo_out[7]                                  
 uo_out[6]                                  |uo_out[6]                                  
 uo_out[5]                                  |uo_out[5]                                  
