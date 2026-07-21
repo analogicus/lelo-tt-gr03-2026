@@ -1,0 +1,33 @@
+# Dependency lock for tapeout delivery -- AUTO-GENERATED.
+# 'revision' is the exact commit SHA that produced the delivered GDS.
+# Regenerate with tech/py/deps2tapeout.py (make deliver).
+
+#- Temperature sensor Group 3
+lelo_gr03_sky130a:
+  remote: git@github.com:analogicus/lelo_gr03_sky130a.git
+  revision: ea90132330416eda5e01ea4d9de66562f16d05f6
+
+#- Carsten's PDK. Borders, symbols, loop stability
+cpdk:
+  remote: git@github.com:wulffern/cpdk.git
+  revision: 3e13caebb3f793640ad37fb4a0366e492ecc3ed2
+
+#- Technology library
+tech_sky130A:
+  remote: git@github.com:wulffern/tech_sky130A.git
+  revision: f53ea908789de97f8ddbc159844e01adc08d9908
+
+#- Analog transistor library
+jnw_atr_sky130a:
+  remote: git@github.com:analogicus/jnw_atr_sky130A.git
+  revision: 35fbb50fbd095e2618e7dbcf616662c46bdfdd36
+
+#- Standard cells
+jnw_tr_sky130a:
+  remote: git@github.com:analogicus/jnw_tr_sky130A.git
+  revision: 4e76dc75ea9ad1617c20e1f4229c333765911082
+
+#- Transistor library
+lelo_atr_sky130a:
+  remote: git@github.com:wulffern/lelo_atr_sky130a.git
+  revision: 6eb2a946e1f7f977217aa81e0b315cec60d5c8fc

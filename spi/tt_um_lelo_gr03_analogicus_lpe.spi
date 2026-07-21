@@ -1,0 +1,1817 @@
+* NGSPICE file created from tt_um_lelo_gr03_analogicus.ext - technology: sky130A
+
+* Replacing the lpe port list (../tech/scripts/fixlpe)
+.subckt tt_um_lelo_gr03_analogicus uo_out<7> uo_out<6> uo_out<5> uo_out<4> uo_out<3> uo_out<2> uo_out<1> uo_out<0>
++ uio_out<7> uio_out<6> uio_out<5> uio_out<4> uio_out<3> uio_out<2> uio_out<1> uio_out<0> uio_oe<7> uio_oe<6> uio_oe<5> uio_oe<4> uio_oe<3> uio_oe<2> uio_oe<1> uio_oe<0> VDPWR VGND
++ ui_in<7> ui_in<6> ui_in<5> ui_in<4> ui_in<3> ui_in<2> ui_in<1> ui_in<0> uio_in<7> uio_in<6> uio_in<5> uio_in<4> uio_in<3> uio_in<2> uio_in<1> uio_in<0> ena rst_n clk
+*.subckt tt_um_lelo_gr03_analogicus uo_out<7> uo_out<6> uo_out<5> uo_out<4> uo_out<3>
+*+ uo_out<2> uo_out<1> uo_out<0> uio_out<7> uio_out<6> uio_out<5> uio_out<4> uio_out<3>
+*+ uio_out<2> uio_out<1> uio_out<0> uio_oe<7> uio_oe<6> uio_oe<5> uio_oe<4> uio_oe<3>
+*+ uio_oe<2> uio_oe<1> uio_oe<0> VDPWR VGND ui_in<7> ui_in<6> ui_in<5> ui_in<4> ui_in<3>
+*+ ui_in<2> ui_in<1> ui_in<0> uio_in<7> uio_in<6> uio_in<5> uio_in<4> uio_in<3> uio_in<2>
+*+ uio_in<1> uio_in<0> ena rst_n clk
+X0 a_7444_17154# a_7228_15234# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X1 LELO_GR03_1.x7.x21.S LELO_GR03_1.x7.x21.G LELO_GR03_1.x7.x20.G VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X2 LELO_GR03_1.x10.XA3.Y LELO_GR03_1.x10.XA7.CN LELO_GR03_1.x10.XA3.MP1.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0.288 ps=1.54 w=0.9 l=0.16
+X3 a_11962_7464# a_12178_5544# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X4 LELO_GR03_1.x7.x21.G LELO_GR03_1.x7.x20.G LELO_GR03_1.x7.x21.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X5 LELO_GR03_1.x1.x11.D LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x7.INN VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X6 LELO_GR03_1.BIAS_CIRCUIT2_0.xb7.D a_11746_9122# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X7 LELO_GR03_1.x7.x21.G LELO_GR03_1.x7.x21.G LELO_GR03_1.x7.x21.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X8 LELO_GR03_1.x7.x7<2>.S LELO_GR03_1.x7.INN LELO_GR03_1.x7.x20.G VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X9 LELO_GR03_1.x7.x21.G LELO_GR03_1.x12<1>.A LELO_GR03_1.x7.x7<2>.S VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X10 LELO_GR03_1.x7.PWRUP_N_1V8 ui_in<0> VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0.468 ps=2.84 w=0.9 l=0.16
+X11 LELO_GR03_1.x7.x21.S LELO_GR03_1.x7.PWRUP_N_1V8 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.8352 pd=3.46 as=1.4112 ps=6.74 w=2.88 l=0.22
+X12 LELO_GR03_1.x10.XA6.MP1.S LELO_GR03_1.x10.XA6.A VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.288 pd=1.54 as=0.468 ps=2.84 w=0.9 l=0.16
+X13 LELO_GR03_1.x10.XA7.MP2.S uo_out<0> LELO_GR03_1.x10.XA7.MN2.D VGND sky130_fd_pr__nfet_01v8 ad=0.288 pd=1.54 as=0.288 ps=1.54 w=0.9 l=0.16
+X14 LELO_GR03_1.BIAS_CIRCUIT2_0.xa5.N a_11746_5544# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X15 VGND VGND LELO_GR03_1.x1.XQ2<3>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X16 LELO_GR03_1.x1.x14.D LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x17.D VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X17 LELO_GR03_1.x7.x20.G LELO_GR03_1.x7.x21.G LELO_GR03_1.x7.x21.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X18 LELO_GR03_1.x1.XQ2<3>.Emitter a_5288_15234# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X19 VGND LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x21.OUT VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X20 VGND LELO_GR03_1.x12<1>.A sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X21 LELO_GR03_1.BIAS_CIRCUIT2_0.xc2.S LELO_GR03_1.x7.VB_N LELO_GR03_1.x7.VB_N VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X22 LELO_GR03_1.x1.x15.G LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x18.G VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X23 LELO_GR03_1.BIAS_CIRCUIT2_0.xa6.N a_14770_9122# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X24 VGND LELO_GR03_1.x10.CK LELO_GR03_1.x12<1>.A VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X25 LELO_GR03_1.x10.XA1.MN1.S LELO_GR03_1.x10.CK VGND VGND sky130_fd_pr__nfet_01v8 ad=0.288 pd=1.54 as=0.468 ps=2.84 w=0.9 l=0.16
+X26 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x21.x11<1>.A sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X27 VGND LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.x7.x8.S VGND sky130_fd_pr__nfet_01v8 ad=1.4112 pd=6.74 as=0.8352 ps=3.46 w=2.88 l=0.22
+X28 LELO_GR03_1.x1.x21.x6.G LELO_GR03_1.x1.x21.INP LELO_GR03_1.x1.x21.x3<1>.D VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X29 VGND LELO_GR03_1.x12<1>.A sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X30 LELO_GR03_1.x7.x10.D LELO_GR03_1.x7.x6.G LELO_GR03_1.x7.x8.S VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X31 LELO_GR03_1.x1.x21.x3<1>.S LELO_GR03_1.x7.PWRUP_N_1V8 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.8352 pd=3.46 as=1.4112 ps=6.74 w=2.88 l=0.22
+X32 LELO_GR03_1.BIAS_CIRCUIT2_0.xa6.N a_14770_5544# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X33 VGND LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.BIAS_CIRCUIT2_0.xc2.S VGND sky130_fd_pr__nfet_01v8 ad=1.4112 pd=6.74 as=0.8352 ps=3.46 w=2.88 l=0.22
+X34 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X35 LELO_GR03_1.x1.x21.x6.S LELO_GR03_1.x1.x21.x4.G LELO_GR03_1.x1.x21.x6.G VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+R0 uio_oe<2> JNWTR_TIEL_CV_0.Y sky130_fd_pr__res_generic_m4 w=0.3 l=0.3
+X36 LELO_GR03_1.x7.x20.G LELO_GR03_1.x7.INN LELO_GR03_1.x7.x7<2>.S VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X37 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X38 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X39 LELO_GR03_1.x1.x18.S LELO_GR03_1.x1.x18.G LELO_GR03_1.x1.x21.OUT VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X40 LELO_GR03_1.x10.XA3.Y LELO_GR03_1.x10.XA7.C LELO_GR03_1.x10.XA4.MP1.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0.288 ps=1.54 w=0.9 l=0.16
+X41 LELO_GR03_1.x1.x21.x3<1>.D LELO_GR03_1.x1.XQ2<3>.Emitter LELO_GR03_1.x1.x21.x4.G VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X42 a_13690_11042# a_13474_9122# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X43 uo_out<0> LELO_GR03_1.x10.D VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0.468 ps=2.84 w=0.9 l=0.16
+X44 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x18.S sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X45 LELO_GR03_1.x7.x7<2>.S LELO_GR03_1.x7.INN LELO_GR03_1.x7.x20.G VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X46 LELO_GR03_1.x1.x21.x6.S LELO_GR03_1.x7.PWRUP_1V8 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.8352 pd=3.46 as=1.4112 ps=6.74 w=2.88 l=0.22
+X47 LELO_GR03_1.x7.x8.S LELO_GR03_1.x7.PWRUP_1V8 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.8352 pd=3.46 as=1.4112 ps=6.74 w=2.88 l=0.22
+X48 LELO_GR03_1.x1.x18.S LELO_GR03_1.x7.PWRUP_N_1V8 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.8352 pd=3.46 as=1.4112 ps=6.74 w=2.88 l=0.22
+X49 LELO_GR03_1.x1.XQ2<16>.Emitter a_10188_5354# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X50 a_13690_7464# a_13474_5544# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X51 VGND LELO_GR03_1.x12<1>.A sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X52 LELO_GR03_1.x7.x21.S LELO_GR03_1.x7.PWRUP_N_1V8 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.8352 pd=3.46 as=1.4112 ps=6.74 w=2.88 l=0.22
+X53 VDPWR VDPWR LELO_GR03_1.x10.XA7.MP2.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.288 pd=1.54 as=0.468 ps=2.84 w=0.9 l=0.16
+X54 LELO_GR03_1.x1.x18.G LELO_GR03_1.x1.x18.G LELO_GR03_1.x1.x18.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X55 VDPWR LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x1.x21.x3<1>.S VDPWR sky130_fd_pr__pfet_01v8 ad=1.4112 pd=6.74 as=0.8352 ps=3.46 w=2.88 l=0.22
+X56 a_13258_11042# a_13474_9122# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X57 LELO_GR03_1.x10.XA7.CN LELO_GR03_1.x10.XA7.C VGND VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0.468 ps=2.84 w=0.9 l=0.16
+X58 LELO_GR03_1.BIAS_CIRCUIT2_0.xb6.S LELO_GR03_1.x7.VB_N LELO_GR03_1.x1.VB_P VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X59 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+R1 uio_oe<1> JNWTR_TIEL_CV_0.Y sky130_fd_pr__res_generic_m4 w=0.3 l=0.3
+X60 VGND LELO_GR03_1.x12<1>.A sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X61 LELO_GR03_1.x1.x21.x6.G LELO_GR03_1.x1.x21.INP LELO_GR03_1.x1.x21.x3<1>.D VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X62 a_13258_7464# a_13474_5544# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X63 LELO_GR03_1.x7.x8.S LELO_GR03_1.x7.x10.D LELO_GR03_1.x10.CK VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X64 LELO_GR03_1.x1.x18.S LELO_GR03_1.x7.PWRUP_N_1V8 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.8352 pd=3.46 as=1.4112 ps=6.74 w=2.88 l=0.22
+X65 LELO_GR03_1.x7.VB_N a_12178_2046# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X66 LELO_GR03_1.x12<1>.A LELO_GR03_1.x7.PWRUP_N_1V8 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X67 LELO_GR03_1.x1.x14.D a_5720_15234# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X68 LELO_GR03_1.x1.x18.S LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x9.D VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X69 LELO_GR03_1.x1.x21.x6.G a_3500_8957# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X70 VGND VGND VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=199.33521 ps=1.08756k w=1.6 l=0.94
+X71 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x21.x6.G LELO_GR03_1.x1.x21.x6.S VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X72 LELO_GR03_1.x7.x20.G LELO_GR03_1.x7.x21.G LELO_GR03_1.x7.x21.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X73 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X74 LELO_GR03_1.x1.x21.x3<1>.D LELO_GR03_1.x1.XQ2<3>.Emitter LELO_GR03_1.x1.x21.x4.G VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X75 a_13258_11042# a_13042_9122# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X76 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X77 VGND VGND VGND VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0 ps=0 w=0.9 l=0.16
+X78 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=46.8984 ps=233.08 w=1.6 l=0.94
+X79 LELO_GR03_1.x1.x21.x3<1>.S LELO_GR03_1.x1.VB_P LELO_GR03_1.x1.x21.OUT VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X80 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X81 VDPWR LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x1.x18.S VDPWR sky130_fd_pr__pfet_01v8 ad=1.4112 pd=6.74 as=0.8352 ps=3.46 w=2.88 l=0.22
+X82 a_11962_3966# a_11746_2046# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X83 LELO_GR03_1.x10.XA3.Y LELO_GR03_1.x10.XA7.C LELO_GR03_1.x10.XA3.MN1.S VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0.288 ps=1.54 w=0.9 l=0.16
+X84 LELO_GR03_1.x7.x8.S LELO_GR03_1.x7.x6.G LELO_GR03_1.x7.x6.G VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X85 LELO_GR03_1.x1.x15.G LELO_GR03_1.x1.x15.G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X86 a_13258_7464# a_13042_5544# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X87 LELO_GR03_1.x7.x21.S LELO_GR03_1.x7.x20.G LELO_GR03_1.x7.x21.G VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X88 a_12826_11042# a_12610_9122# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X89 a_11962_3966# a_12178_2046# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X90 VGND LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.x7.x8.S VGND sky130_fd_pr__nfet_01v8 ad=1.4112 pd=6.74 as=0.8352 ps=3.46 w=2.88 l=0.22
+X91 LELO_GR03_1.x1.VB_P LELO_GR03_1.x1.VB_P LELO_GR03_1.BIAS_CIRCUIT2_0.xc4.D VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X92 LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.x7.PWRUP_N_1V8 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0.468 ps=2.84 w=0.9 l=0.16
+X93 VGND LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.x1.x21.x6.S VGND sky130_fd_pr__nfet_01v8 ad=1.4112 pd=6.74 as=0.8352 ps=3.46 w=2.88 l=0.22
+X94 LELO_GR03_1.x7.x21.G LELO_GR03_1.x7.x20.G LELO_GR03_1.x7.x21.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X95 LELO_GR03_1.x10.XA6.MN1.S LELO_GR03_1.x10.XA6.A VGND VGND sky130_fd_pr__nfet_01v8 ad=0.288 pd=1.54 as=0.468 ps=2.84 w=0.9 l=0.16
+X96 LELO_GR03_1.x7.INN a_7660_15234# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X97 a_12826_7464# a_12610_5544# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X98 LELO_GR03_1.x1.x18.S LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x11.D VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X99 LELO_GR03_1.x7.x7<2>.S LELO_GR03_1.x7.VB_N LELO_GR03_1.x7.x8.S VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X100 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X101 VDPWR LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x7.x21.S VDPWR sky130_fd_pr__pfet_01v8 ad=1.4112 pd=6.74 as=0.8352 ps=3.46 w=2.88 l=0.22
+X102 LELO_GR03_1.BIAS_CIRCUIT2_0.xa5.N a_11746_2046# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X103 LELO_GR03_1.x7.x21.G LELO_GR03_1.x12<1>.A LELO_GR03_1.x7.x7<2>.S VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X104 LELO_GR03_1.x1.x21.x3<1>.S LELO_GR03_1.x7.PWRUP_N_1V8 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.8352 pd=3.46 as=1.4112 ps=6.74 w=2.88 l=0.22
+R2 uio_oe<6> JNWTR_TIEL_CV_0.Y sky130_fd_pr__res_generic_m4 w=0.3 l=0.3
+X105 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0 ps=0 w=0.9 l=0.16
+X106 LELO_GR03_1.x10.CK LELO_GR03_1.x7.x10.D LELO_GR03_1.x7.x21.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X107 LELO_GR03_1.x1.x21.x6.G LELO_GR03_1.x1.x21.INP LELO_GR03_1.x1.x21.x3<1>.D VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X108 LELO_GR03_1.x7.x7<2>.S LELO_GR03_1.x12<1>.A LELO_GR03_1.x7.x21.G VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X109 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0 ps=0 w=1.6 l=0.94
+X110 LELO_GR03_1.x1.x21.x3<1>.D LELO_GR03_1.x1.VB_P LELO_GR03_1.x1.x21.x3<1>.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X111 LELO_GR03_1.x10.XA3.Y LELO_GR03_1.x10.XA7.CN LELO_GR03_1.x10.XA4.MN1.S VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0.288 ps=1.54 w=0.9 l=0.16
+X112 a_14554_11042# a_14770_9122# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X113 LELO_GR03_1.x10.XA3.MP1.S LELO_GR03_1.x10.D VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.288 pd=1.54 as=0.468 ps=2.84 w=0.9 l=0.16
+X114 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X115 LELO_GR03_1.x1.x21.x6.S LELO_GR03_1.x1.x21.x4.G LELO_GR03_1.x1.x21.x4.G VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X116 uo_out<0> LELO_GR03_1.x10.D VGND VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0.468 ps=2.84 w=0.9 l=0.16
+X117 LELO_GR03_1.x7.x21.S LELO_GR03_1.x7.x20.G LELO_GR03_1.x7.x10.D VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X118 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X119 LELO_GR03_1.x1.x17.D LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x18.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X120 a_14554_7464# a_14770_5544# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X121 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x18.S sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X122 LELO_GR03_1.x12<1>.A LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x9.D VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X123 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0 ps=0 w=1.6 l=0.94
+X124 LELO_GR03_1.x1.x21.x3<1>.S LELO_GR03_1.x1.VB_P LELO_GR03_1.x1.x21.x3<1>.D VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X125 LELO_GR03_1.x10.XA7.MN2.D VDPWR VGND VGND sky130_fd_pr__nfet_01v8 ad=0.288 pd=1.54 as=0.468 ps=2.84 w=0.9 l=0.16
+X126 VDPWR LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.BIAS_CIRCUIT2_0.xb7.D VDPWR sky130_fd_pr__pfet_01v8 ad=1.4112 pd=6.74 as=0.8352 ps=3.46 w=2.88 l=0.22
+X127 a_5504_17154# a_5720_15234# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X128 a_14554_11042# a_14338_9122# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X129 LELO_GR03_1.x7.x21.S LELO_GR03_1.x7.x20.G LELO_GR03_1.x7.x21.G VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X130 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X131 VDPWR VDPWR LELO_GR03_1.x10.XA7.C VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0.288 ps=1.54 w=0.9 l=0.16
+X132 LELO_GR03_1.x7.x8.S LELO_GR03_1.x7.PWRUP_1V8 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.8352 pd=3.46 as=1.4112 ps=6.74 w=2.88 l=0.22
+X133 LELO_GR03_1.x1.x21.INP a_7228_15234# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X134 a_14554_7464# a_14338_5544# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X135 LELO_GR03_1.x7.x21.S LELO_GR03_1.x7.x21.G LELO_GR03_1.x7.x21.G VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X136 LELO_GR03_1.BIAS_CIRCUIT2_0.xc2.S LELO_GR03_1.x7.PWRUP_1V8 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.8352 pd=3.46 as=1.4112 ps=6.74 w=2.88 l=0.22
+X137 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x21.x11<1>.A sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X138 LELO_GR03_1.x1.x21.x4.G LELO_GR03_1.x1.XQ2<3>.Emitter LELO_GR03_1.x1.x21.x3<1>.D VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X139 LELO_GR03_1.x7.x6.G LELO_GR03_1.x7.x21.G LELO_GR03_1.x7.x21.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X140 LELO_GR03_1.x7.x7<2>.S LELO_GR03_1.x7.VB_N LELO_GR03_1.x7.x8.S VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X141 LELO_GR03_1.x7.INN LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x11.D VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X142 VDPWR LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x1.x21.x3<1>.S VDPWR sky130_fd_pr__pfet_01v8 ad=1.4112 pd=6.74 as=0.8352 ps=3.46 w=2.88 l=0.22
+X143 LELO_GR03_1.x10.XA4.MP1.S LELO_GR03_1.x10.XA6.A VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.288 pd=1.54 as=0.468 ps=2.84 w=0.9 l=0.16
+X144 VGND LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.x1.x21.x6.S VGND sky130_fd_pr__nfet_01v8 ad=1.4112 pd=6.74 as=0.8352 ps=3.46 w=2.88 l=0.22
+X145 a_14122_11042# a_14338_9122# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X146 LELO_GR03_1.x7.x21.S LELO_GR03_1.x7.x21.G LELO_GR03_1.x7.x20.G VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X147 LELO_GR03_1.x7.x20.G LELO_GR03_1.x7.x20.G LELO_GR03_1.x7.x21.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X148 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0 ps=0 w=0.9 l=0.16
+X149 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X150 JNWTR_TIEL_CV_0.Y JNWTR_TIEL_CV_0.MP0.G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0.468 ps=2.84 w=0.9 l=0.16
+X151 a_7444_17154# a_7660_15234# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X152 a_14122_7464# a_14338_5544# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X153 LELO_GR03_1.x7.x20.G LELO_GR03_1.x7.x21.G LELO_GR03_1.x7.x21.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X154 LELO_GR03_1.x1.x21.x3<1>.D LELO_GR03_1.x1.x21.INP LELO_GR03_1.x1.x21.x6.G VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X155 LELO_GR03_1.x7.x8.S LELO_GR03_1.x7.x6.G LELO_GR03_1.x7.x10.D VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X156 LELO_GR03_1.x7.x7<2>.S LELO_GR03_1.x12<1>.A LELO_GR03_1.x7.x21.G VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X157 a_3284_10877# a_3500_8957# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X158 a_13690_11042# a_13906_9122# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X159 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x18.S sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X160 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X161 LELO_GR03_1.x1.x17.D LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x14.D VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X162 a_12826_11042# a_13042_9122# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X163 LELO_GR03_1.x7.x20.G LELO_GR03_1.x7.INN LELO_GR03_1.x7.x7<2>.S VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X164 a_13690_7464# a_13906_5544# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X165 VGND LELO_GR03_1.x12<1>.A sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X166 LELO_GR03_1.x10.XA6.A LELO_GR03_1.x10.XA3.Y VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0.468 ps=2.84 w=0.9 l=0.16
+X167 VGND LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.BIAS_CIRCUIT2_0.xb6.S VGND sky130_fd_pr__nfet_01v8 ad=1.4112 pd=6.74 as=0.8352 ps=3.46 w=2.88 l=0.22
+X168 LELO_GR03_1.BIAS_CIRCUIT2_0.xb7.D LELO_GR03_1.x7.PWRUP_N_1V8 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.8352 pd=3.46 as=1.4112 ps=6.74 w=2.88 l=0.22
+X169 a_12826_7464# a_13042_5544# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X170 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x18.G LELO_GR03_1.x1.x18.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X171 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x21.OUT VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+R3 uio_oe<5> JNWTR_TIEL_CV_0.Y sky130_fd_pr__res_generic_m4 w=0.3 l=0.3
+X172 LELO_GR03_1.x7.VB_N LELO_GR03_1.x7.VB_N LELO_GR03_1.BIAS_CIRCUIT2_0.xc2.S VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X173 LELO_GR03_1.x1.x18.G LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x15.G VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X174 a_12394_11042# a_12610_9122# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X175 LELO_GR03_1.x12<1>.A LELO_GR03_1.x10.CK VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X176 VGND LELO_GR03_1.x12<1>.A sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X177 VGND VGND VGND VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0 ps=0 w=0.9 l=0.16
+X178 LELO_GR03_1.x7.x7<2>.S LELO_GR03_1.x7.INN LELO_GR03_1.x7.x20.G VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X179 LELO_GR03_1.x7.x20.G LELO_GR03_1.x7.INN LELO_GR03_1.x7.x7<2>.S VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X180 LELO_GR03_1.x10.D LELO_GR03_1.x10.XA7.CN LELO_GR03_1.x10.XA7.MP2.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0.288 ps=1.54 w=0.9 l=0.16
+X181 a_12394_7464# a_12610_5544# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X182 LELO_GR03_1.x1.x21.x6.G LELO_GR03_1.x1.x21.x4.G LELO_GR03_1.x1.x21.x6.S VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X183 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x21.x11<1>.A sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X184 LELO_GR03_1.x1.x18.S LELO_GR03_1.x1.x18.G LELO_GR03_1.x1.x18.G VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X185 VDPWR LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x7.x21.S VDPWR sky130_fd_pr__pfet_01v8 ad=1.4112 pd=6.74 as=0.8352 ps=3.46 w=2.88 l=0.22
+X186 LELO_GR03_1.x1.x18.S LELO_GR03_1.x7.PWRUP_N_1V8 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.8352 pd=3.46 as=1.4112 ps=6.74 w=2.88 l=0.22
+X187 LELO_GR03_1.x1.x21.x3<1>.S LELO_GR03_1.x7.PWRUP_N_1V8 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.8352 pd=3.46 as=1.4112 ps=6.74 w=2.88 l=0.22
+X188 LELO_GR03_1.x10.XA3.MN1.S LELO_GR03_1.x10.D VGND VGND sky130_fd_pr__nfet_01v8 ad=0.288 pd=1.54 as=0.468 ps=2.84 w=0.9 l=0.16
+X189 LELO_GR03_1.x1.x21.x4.G LELO_GR03_1.x1.XQ2<3>.Emitter LELO_GR03_1.x1.x21.x3<1>.D VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+R4 uio_oe<4> JNWTR_TIEL_CV_0.Y sky130_fd_pr__res_generic_m4 w=0.3 l=0.3
+X190 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X191 LELO_GR03_1.x1.x21.x3<1>.D LELO_GR03_1.x1.x21.INP LELO_GR03_1.x1.x21.x6.G VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X192 LELO_GR03_1.x7.x8.S LELO_GR03_1.x7.PWRUP_1V8 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.8352 pd=3.46 as=1.4112 ps=6.74 w=2.88 l=0.22
+X193 VGND LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x12<1>.A VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X194 VGND VGND VGND VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0 ps=0 w=1.6 l=0.94
+X195 LELO_GR03_1.x1.x21.x6.S LELO_GR03_1.x1.x21.x6.G LELO_GR03_1.x1.x21.OUT VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X196 LELO_GR03_1.x1.x21.x6.S LELO_GR03_1.x7.PWRUP_1V8 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.8352 pd=3.46 as=1.4112 ps=6.74 w=2.88 l=0.22
+X197 LELO_GR03_1.x7.x21.S LELO_GR03_1.x7.x21.G LELO_GR03_1.x7.x20.G VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X198 LELO_GR03_1.x10.D LELO_GR03_1.x10.XA7.C LELO_GR03_1.x10.XA6.MP1.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0.288 ps=1.54 w=0.9 l=0.16
+X199 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X200 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X201 LELO_GR03_1.x7.x21.S LELO_GR03_1.x7.PWRUP_N_1V8 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.8352 pd=3.46 as=1.4112 ps=6.74 w=2.88 l=0.22
+X202 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X203 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X204 VGND LELO_GR03_1.x1.x15.G LELO_GR03_1.x1.x15.G VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X205 LELO_GR03_1.x10.XA7.C VDPWR LELO_GR03_1.x10.XA1.MN1.S VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0.288 ps=1.54 w=0.9 l=0.16
+X206 LELO_GR03_1.x1.VB_P LELO_GR03_1.x7.VB_N LELO_GR03_1.BIAS_CIRCUIT2_0.xb6.S VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X207 VGND LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.x7.x8.S VGND sky130_fd_pr__nfet_01v8 ad=1.4112 pd=6.74 as=0.8352 ps=3.46 w=2.88 l=0.22
+X208 VDPWR LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x1.x18.S VDPWR sky130_fd_pr__pfet_01v8 ad=1.4112 pd=6.74 as=0.8352 ps=3.46 w=2.88 l=0.22
+X209 LELO_GR03_1.BIAS_CIRCUIT2_0.xc4.D LELO_GR03_1.x1.VB_P LELO_GR03_1.x1.VB_P VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X210 VGND LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.x1.x21.x6.S VGND sky130_fd_pr__nfet_01v8 ad=1.4112 pd=6.74 as=0.8352 ps=3.46 w=2.88 l=0.22
+X211 LELO_GR03_1.x10.CK LELO_GR03_1.x7.x10.D LELO_GR03_1.x7.x8.S VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X212 LELO_GR03_1.x7.PWRUP_N_1V8 ui_in<0> VGND VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0.468 ps=2.84 w=0.9 l=0.16
+X213 VDPWR LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.BIAS_CIRCUIT2_0.xc4.D VDPWR sky130_fd_pr__pfet_01v8 ad=1.4112 pd=6.74 as=0.8352 ps=3.46 w=2.88 l=0.22
+X214 LELO_GR03_1.x7.x21.S LELO_GR03_1.x7.x20.G LELO_GR03_1.x7.x21.G VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X215 LELO_GR03_1.x1.x9.D LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x18.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X216 VDPWR LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x7.x21.S VDPWR sky130_fd_pr__pfet_01v8 ad=1.4112 pd=6.74 as=0.8352 ps=3.46 w=2.88 l=0.22
+X217 LELO_GR03_1.x10.XA4.MN1.S LELO_GR03_1.x10.XA6.A VGND VGND sky130_fd_pr__nfet_01v8 ad=0.288 pd=1.54 as=0.468 ps=2.84 w=0.9 l=0.16
+X218 LELO_GR03_1.x10.XA7.MP2.S uo_out<0> VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.288 pd=1.54 as=0.288 ps=1.54 w=0.9 l=0.16
+X219 LELO_GR03_1.x7.x8.S LELO_GR03_1.x7.VB_N LELO_GR03_1.x7.x7<2>.S VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X220 LELO_GR03_1.x1.x21.x4.G LELO_GR03_1.x1.XQ2<3>.Emitter LELO_GR03_1.x1.x21.x3<1>.D VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X221 JNWTR_TIEL_CV_0.MP0.G JNWTR_TIEL_CV_0.MP0.G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0.468 ps=2.84 w=0.9 l=0.16
+X222 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0 ps=0 w=1.6 l=0.94
+X223 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.VB_P LELO_GR03_1.x1.x21.x3<1>.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X224 LELO_GR03_1.x10.XA7.C LELO_GR03_1.x10.CK VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.288 pd=1.54 as=0.468 ps=2.84 w=0.9 l=0.16
+X225 LELO_GR03_1.x7.x6.G LELO_GR03_1.x7.x6.G LELO_GR03_1.x7.x8.S VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X226 LELO_GR03_1.x7.x21.S LELO_GR03_1.x7.x10.D LELO_GR03_1.x10.CK VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X227 LELO_GR03_1.x7.x21.G LELO_GR03_1.x7.x20.G LELO_GR03_1.x7.x21.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X228 LELO_GR03_1.x1.x21.x3<1>.D LELO_GR03_1.x1.x21.INP LELO_GR03_1.x1.x21.x6.G VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X229 VDPWR LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x1.x18.S VDPWR sky130_fd_pr__pfet_01v8 ad=1.4112 pd=6.74 as=0.8352 ps=3.46 w=2.88 l=0.22
+X230 a_14122_11042# a_13906_9122# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X231 LELO_GR03_1.x1.x21.INP a_10188_5354# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X232 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0 ps=0 w=1.6 l=0.94
+X233 LELO_GR03_1.x1.x21.x3<1>.S LELO_GR03_1.x1.VB_P LELO_GR03_1.x1.x21.x3<1>.D VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+R5 uio_oe<0> JNWTR_TIEL_CV_0.Y sky130_fd_pr__res_generic_m4 w=0.3 l=0.3
+R6 uio_oe<3> JNWTR_TIEL_CV_0.Y sky130_fd_pr__res_generic_m4 w=0.3 l=0.3
+X234 LELO_GR03_1.x10.XA6.A LELO_GR03_1.x10.XA3.Y VGND VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0.468 ps=2.84 w=0.9 l=0.16
+X235 LELO_GR03_1.x7.x7<2>.S LELO_GR03_1.x12<1>.A LELO_GR03_1.x7.x21.G VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X236 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X237 LELO_GR03_1.x7.x21.G LELO_GR03_1.x12<1>.A LELO_GR03_1.x7.x7<2>.S VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X238 LELO_GR03_1.x1.x11.D LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x18.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X239 a_14122_7464# a_13906_5544# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X240 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X241 a_3284_10877# a_3068_8957# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X242 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X243 LELO_GR03_1.x1.x18.S LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x17.D VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X244 LELO_GR03_1.x10.D LELO_GR03_1.x10.XA7.C LELO_GR03_1.x10.XA7.MP2.S VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0.288 ps=1.54 w=0.9 l=0.16
+X245 LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.x7.PWRUP_N_1V8 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0.468 ps=2.84 w=0.9 l=0.16
+X246 LELO_GR03_1.x1.x21.x6.S LELO_GR03_1.x7.PWRUP_1V8 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.8352 pd=3.46 as=1.4112 ps=6.74 w=2.88 l=0.22
+X247 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X248 LELO_GR03_1.BIAS_CIRCUIT2_0.xc4.D LELO_GR03_1.x7.PWRUP_N_1V8 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.8352 pd=3.46 as=1.4112 ps=6.74 w=2.88 l=0.22
+X249 VGND LELO_GR03_1.x12<1>.A sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X250 a_12394_11042# a_12178_9122# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X251 a_5504_17154# a_5288_15234# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X252 LELO_GR03_1.x1.x9.D LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x12<1>.A VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X253 LELO_GR03_1.x1.x21.x11<1>.A a_3068_8957# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+R7 uio_oe<7> JNWTR_TIEL_CV_0.Y sky130_fd_pr__res_generic_m4 w=0.3 l=0.3
+X254 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x21.x11<1>.A sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X255 LELO_GR03_1.x10.XA7.CN LELO_GR03_1.x10.XA7.C VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0.468 ps=2.84 w=0.9 l=0.16
+X256 VDPWR LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x1.x21.x3<1>.S VDPWR sky130_fd_pr__pfet_01v8 ad=1.4112 pd=6.74 as=0.8352 ps=3.46 w=2.88 l=0.22
+X257 LELO_GR03_1.x1.x21.x4.G LELO_GR03_1.x1.x21.x4.G LELO_GR03_1.x1.x21.x6.S VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X258 VGND LELO_GR03_1.x12<1>.A sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X259 LELO_GR03_1.x7.x10.D LELO_GR03_1.x7.x20.G LELO_GR03_1.x7.x21.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X260 a_12394_7464# a_12178_5544# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X261 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X262 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0 ps=0 w=1.6 l=0.94
+X263 LELO_GR03_1.x1.x21.x3<1>.D LELO_GR03_1.x1.XQ2<3>.Emitter LELO_GR03_1.x1.x21.x4.G VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X264 LELO_GR03_1.x1.x21.x3<1>.D LELO_GR03_1.x1.VB_P LELO_GR03_1.x1.x21.x3<1>.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X265 LELO_GR03_1.x7.x21.S LELO_GR03_1.x7.x21.G LELO_GR03_1.x7.x6.G VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X266 LELO_GR03_1.x7.x8.S LELO_GR03_1.x7.VB_N LELO_GR03_1.x7.x7<2>.S VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X267 VGND ui_in<0> sky130_fd_pr__diode_pw2nd_05v5 perim=1.8e+06 area=2.025e+11
+X268 a_11962_11042# a_11746_9122# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X269 LELO_GR03_1.BIAS_CIRCUIT2_0.xb6.S LELO_GR03_1.x7.PWRUP_1V8 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.8352 pd=3.46 as=1.4112 ps=6.74 w=2.88 l=0.22
+X270 LELO_GR03_1.x10.D LELO_GR03_1.x10.XA7.CN LELO_GR03_1.x10.XA6.MN1.S VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0.288 ps=1.54 w=0.9 l=0.16
+X271 LELO_GR03_1.x7.x21.S LELO_GR03_1.x7.x20.G LELO_GR03_1.x7.x20.G VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X272 a_11962_11042# a_12178_9122# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+X273 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x18.S sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X274 VGND VGND LELO_GR03_1.x1.XQ2<16>.Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X275 a_11962_7464# a_11746_5544# VGND sky130_fd_pr__res_high_po w=0.36 l=7.36
+C0 a_11212_15560# VDPWR 0.468f
+C1 a_13420_2436# a_13420_2276# 0.15007f
+C2 a_20562_5768# VDPWR 0.59897f
+C3 LELO_GR03_1.x7.INN LELO_GR03_1.BIAS_CIRCUIT2_0.xc4.D 0.39054f
+C4 a_14122_11042# a_14554_11042# 0.21349f
+C5 LELO_GR03_1.x7.VB_N a_17962_2968# 0.08051f
+C6 LELO_GR03_1.x1.x18.S a_8932_17580# 0.05336f
+C7 LELO_GR03_1.x7.PWRUP_N_1V8 a_8932_17420# 0.01109f
+C8 LELO_GR03_1.x7.INN LELO_GR03_1.x7.VB_N 0.02883f
+C9 LELO_GR03_1.x1.VB_P a_13690_11042# 0.01726f
+C10 LELO_GR03_1.x12<1>.A LELO_GR03_1.x7.x21.G 1.90663f
+C11 LELO_GR03_1.x1.x21.x6.S a_8392_9027# 0.03827f
+C12 a_8892_9867# a_8392_9667# 0.06031f
+C13 a_8892_12083# VDPWR 0.47089f
+C14 LELO_GR03_1.x10.D a_26148_5928# 0.11744f
+C15 LELO_GR03_1.x7.x21.G a_16662_4968# 0.07913f
+C16 a_26988_6248# a_26988_5928# 0.01f
+C17 LELO_GR03_1.x7.x21.S a_19262_5768# 0.09483f
+C18 a_26988_4488# VDPWR 0.31025f
+C19 a_28156_21470# a_28156_21150# 0.01f
+C20 a_28996_21470# JNWTR_TIEL_CV_0.MP0.G 0.08348f
+C21 LELO_GR03_1.x7.PWRUP_1V8 a_5192_9027# 0.08706f
+C22 LELO_GR03_1.x1.x21.x6.G a_4992_11283# 0.02412f
+C23 LELO_GR03_1.x12<1>.A uo_out<0> 0.01489f
+C24 a_12412_16380# VDPWR 0.46525f
+C25 a_17962_4968# VDPWR 0.52496f
+C26 a_6792_14683# a_6792_14523# 0.15007f
+C27 LELO_GR03_1.x12<1>.A LELO_GR03_1.x7.x8.S 0.07137f
+C28 LELO_GR03_1.x7.VB_N a_19262_3768# 0.07045f
+C29 a_17962_4968# a_17962_4568# 0.03739f
+C30 uo_out<5> uo_out<4> 0.03102f
+C31 a_8092_15234# LELO_GR03_1.x1.x21.OUT 0.016f
+C32 LELO_GR03_1.x7.PWRUP_N_1V8 a_8932_17580# 0.09999f
+C33 LELO_GR03_1.x7.INN a_10072_17200# 0.01236f
+C34 LELO_GR03_1.x12<1>.A LELO_GR03_1.x7.x21.S 0.13622f
+C35 LELO_GR03_1.x1.x21.x6.S a_6792_8867# 0.01038f
+C36 a_14214_12488# VDPWR 0.51847f
+C37 LELO_GR03_1.x7.x6.G LELO_GR03_1.x7.x20.G 0.41094f
+C38 LELO_GR03_1.x7.x21.S a_16662_4968# 0.04677f
+C39 LELO_GR03_1.x7.x21.G a_17962_5768# 0.07806f
+C40 a_26148_2728# a_26148_2408# 0.01f
+C41 a_28156_21470# JNWTR_TIEL_CV_0.MP0.G 0.06129f
+C42 LELO_GR03_1.x7.PWRUP_1V8 a_8392_9507# 0.10021f
+C43 LELO_GR03_1.x1.x21.x6.G a_6292_12083# 0.01301f
+C44 LELO_GR03_1.x1.x18.G VDPWR 4.51863f
+C45 a_19262_5768# VDPWR 0.56481f
+C46 LELO_GR03_1.x1.x21.OUT a_3284_10877# 0.02485f
+C47 LELO_GR03_1.x1.XQ2<3>.Emitter LELO_GR03_1.x1.x21.x6.S 0.40338f
+C48 a_13906_9122# a_14338_9122# 0.14233f
+C49 LELO_GR03_1.x12<1>.A a_16662_3768# 0.0837f
+C50 ui_in<0> rst_n 0.03102f
+C51 LELO_GR03_1.x7.INN LELO_GR03_1.x1.x17.D 0.06511f
+C52 a_10452_18060# a_10452_17580# 0.02114f
+C53 LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x1.x18.S 2.12117f
+C54 LELO_GR03_1.BIAS_CIRCUIT2_0.xb7.D a_12394_11042# 0.01147f
+C55 LELO_GR03_1.x1.x21.x6.S a_6792_9027# 0.03822f
+C56 a_5192_9667# a_5192_9507# 0.15007f
+C57 a_14214_12648# VDPWR 0.6559f
+C58 LELO_GR03_1.x7.x21.S a_17962_5768# 0.09483f
+C59 LELO_GR03_1.x7.x21.G LELO_GR03_1.x7.x20.G 8.06917f
+C60 LELO_GR03_1.x7.x6.G LELO_GR03_1.x10.CK 0.27008f
+C61 a_26988_6248# LELO_GR03_1.x10.D 0.07033f
+C62 a_26148_6248# a_26148_5928# 0.01f
+C63 LELO_GR03_1.x10.XA3.Y VDPWR 0.75326f
+C64 a_28156_21470# JNWTR_TIEL_CV_0.Y 0.05539f
+C65 LELO_GR03_1.x7.INN a_15202_9122# 0.01671f
+C66 LELO_GR03_1.x7.PWRUP_1V8 a_8392_9667# 0.01767f
+C67 LELO_GR03_1.x1.x21.x4.G a_6292_12883# 0.0244f
+C68 LELO_GR03_1.x1.x21.x6.G a_7592_12883# 0.02117f
+C69 LELO_GR03_1.x12<1>.A VDPWR 2.74895f
+C70 a_16662_4968# VDPWR 0.52429f
+C71 LELO_GR03_1.x12<1>.A a_17962_4568# 0.07048f
+C72 LELO_GR03_1.x10.XA7.CN LELO_GR03_1.x10.XA6.MP1.S 0.02377f
+C73 LELO_GR03_1.x7.x20.G LELO_GR03_1.x7.x8.S 0.2115f
+C74 ui_in<0> ui_in<1> 0.03102f
+C75 uo_out<6> uo_out<5> 0.03102f
+C76 a_11972_18060# LELO_GR03_1.x1.x18.S 0.03954f
+C77 LELO_GR03_1.x7.INN LELO_GR03_1.x1.x21.OUT 1.97799f
+C78 LELO_GR03_1.x12<1>.A a_15202_5544# 0.01881f
+C79 LELO_GR03_1.x1.x21.x6.S a_5192_8867# 0.01027f
+C80 a_7592_9867# a_6792_9667# 0.02954f
+C81 a_12614_12488# VDPWR 0.51948f
+C82 LELO_GR03_1.x7.x21.S LELO_GR03_1.x7.x20.G 9.41516f
+C83 a_26148_6248# LELO_GR03_1.x10.D 0.08649f
+C84 a_26988_4808# VDPWR 0.31091f
+C85 LELO_GR03_1.x7.PWRUP_N_1V8 a_14122_11042# 0.01469f
+C86 LELO_GR03_1.x1.x21.INP a_10620_5354# 0.01216f
+C87 LELO_GR03_1.x7.PWRUP_1V8 a_6792_9507# 0.10088f
+C88 a_10072_15560# VDPWR 0.4671f
+C89 a_17962_5768# VDPWR 0.56481f
+C90 LELO_GR03_1.x1.x18.G a_12732_14260# 0.01165f
+C91 LELO_GR03_1.x10.XA7.C LELO_GR03_1.x10.XA6.MP1.S 0.02158f
+C92 LELO_GR03_1.x10.XA7.CN LELO_GR03_1.x10.XA6.A 0.66281f
+C93 LELO_GR03_1.x10.CK LELO_GR03_1.x7.x8.S 0.95048f
+C94 LELO_GR03_1.x7.VB_N a_17962_3768# 0.07046f
+C95 a_11746_5544# VDPWR 0.01131f
+C96 a_23162_4968# a_23662_4868# 0.01086f
+C97 LELO_GR03_1.x7.x21.S a_23662_2468# 0.05519f
+C98 a_11972_18060# LELO_GR03_1.x7.PWRUP_N_1V8 0.08427f
+C99 LELO_GR03_1.x7.INN a_8932_17200# 0.01441f
+C100 LELO_GR03_1.x1.VB_P a_13258_11042# 0.01378f
+C101 LELO_GR03_1.x1.x21.x6.S a_5192_9027# 0.03815f
+C102 a_12614_12648# VDPWR 0.6578f
+C103 LELO_GR03_1.x7.x21.S LELO_GR03_1.x10.CK 0.49349f
+C104 LELO_GR03_1.x7.PWRUP_N_1V8 a_13906_9122# 0.017f
+C105 LELO_GR03_1.x7.INN LELO_GR03_1.BIAS_CIRCUIT2_0.xa6.N 0.37639f
+C106 LELO_GR03_1.x7.PWRUP_1V8 a_6792_9667# 0.0158f
+C107 a_13258_7464# a_13690_7464# 0.21349f
+C108 a_11212_16360# VDPWR 0.49859f
+C109 LELO_GR03_1.x7.x20.G VDPWR 12.0705f
+C110 a_17962_2968# a_18262_2768# 0.01415f
+C111 LELO_GR03_1.x7.INN LELO_GR03_1.x1.VB_P 2.42852f
+C112 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x21.x11<1>.A 10.2482f
+C113 a_5192_14683# a_5192_14523# 0.15007f
+C114 LELO_GR03_1.x10.XA7.CN LELO_GR03_1.x10.XA6.MN1.S 0.03056f
+C115 LELO_GR03_1.x10.XA7.C LELO_GR03_1.x10.XA6.A 0.59031f
+C116 LELO_GR03_1.x7.x20.G a_17962_4568# 0.0288f
+C117 LELO_GR03_1.x10.XA7.MP2.S a_26988_5288# 0.0183f
+C118 uo_out<7> uo_out<6> 0.03102f
+C119 a_10452_18060# LELO_GR03_1.x1.x18.S 0.0408f
+C120 LELO_GR03_1.x12<1>.A a_14770_5544# 0.01291f
+C121 LELO_GR03_1.x1.x21.x6.S a_8392_9507# 0.03837f
+C122 a_11314_12488# VDPWR 0.42429f
+C123 LELO_GR03_1.x1.x21.x6.S li_6290_10467# 0.27946f
+C124 a_23662_2468# VDPWR 0.54085f
+C125 LELO_GR03_1.x7.INN a_14770_9122# 0.03724f
+C126 LELO_GR03_1.x1.x21.x3<1>.S LELO_GR03_1.x1.x21.x6.S 0.01132f
+C127 LELO_GR03_1.x7.PWRUP_1V8 a_5192_9507# 0.1012f
+C128 LELO_GR03_1.x1.x21.x6.G a_6292_12883# 0.01298f
+C129 a_12412_17180# VDPWR 0.63504f
+C130 LELO_GR03_1.x10.CK VDPWR 2.17901f
+C131 LELO_GR03_1.x7.x8.S a_19862_2128# 0.04179f
+C132 LELO_GR03_1.x7.x10.D a_23662_3268# 0.10492f
+C133 LELO_GR03_1.x10.XA7.C LELO_GR03_1.x10.XA6.MN1.S 0.01275f
+C134 LELO_GR03_1.x10.XA7.CN a_26988_5288# 0.02572f
+C135 LELO_GR03_1.x7.VB_N a_14828_2916# 0.01635f
+C136 LELO_GR03_1.BIAS_CIRCUIT2_0.xa5.N VDPWR 0.09013f
+C137 a_8932_18060# a_8932_17580# 0.02114f
+C138 a_10452_18060# LELO_GR03_1.x7.PWRUP_N_1V8 0.08493f
+C139 a_11972_18220# a_11972_18060# 0.15007f
+C140 LELO_GR03_1.x7.PWRUP_N_1V8 a_22462_6128# 0.08565f
+C141 LELO_GR03_1.BIAS_CIRCUIT2_0.xb7.D a_11962_11042# 0.23115f
+C142 LELO_GR03_1.x1.x21.x6.S a_8392_9667# 0.03733f
+C143 LELO_GR03_1.BIAS_CIRCUIT2_0.xb7.D VDPWR 1.05643f
+C144 LELO_GR03_1.x7.PWRUP_1V8 a_5192_9667# 0.0258f
+C145 LELO_GR03_1.x1.x21.x6.G a_7592_13683# 0.01304f
+C146 LELO_GR03_1.x1.x21.x3<1>.D a_6292_11283# 0.05639f
+C147 a_13042_5544# a_13474_5544# 0.14233f
+C148 LELO_GR03_1.x1.x9.D VDPWR 0.50766f
+C149 LELO_GR03_1.x7.x10.D a_23662_4068# 0.01812f
+C150 LELO_GR03_1.x12<1>.A a_16136_15088# 0.01207f
+C151 LELO_GR03_1.x10.XA7.MP2.S LELO_GR03_1.x10.XA7.MN2.D 0.05173f
+C152 LELO_GR03_1.x10.XA7.C a_26988_5288# 0.06949f
+C153 LELO_GR03_1.x10.XA7.CN a_26148_5288# 0.06325f
+C154 LELO_GR03_1.x7.VB_N a_14828_3076# 0.01382f
+C155 uio_out<0> uo_out<7> 0.03102f
+C156 a_8932_18060# LELO_GR03_1.x1.x18.S 0.0657f
+C157 LELO_GR03_1.x1.x14.D a_8932_15560# 0.01174f
+C158 LELO_GR03_1.x7.PWRUP_N_1V8 a_20862_5968# 0.01423f
+C159 LELO_GR03_1.x1.x21.x6.S a_6792_9507# 0.0371f
+C160 a_14214_13128# VDPWR 0.67267f
+C161 LELO_GR03_1.x7.PWRUP_N_1V8 a_13690_11042# 0.03508f
+C162 LELO_GR03_1.x1.x21.x6.G LELO_GR03_1.x1.x21.x4.G 2.0254f
+C163 LELO_GR03_1.x1.x21.x3<1>.D a_7592_12083# 0.12415f
+C164 a_8932_15560# VDPWR 0.47171f
+C165 LELO_GR03_1.x7.x10.D a_21862_2968# 0.01803f
+C166 LELO_GR03_1.x7.x8.S a_18262_2128# 0.03993f
+C167 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x21.x3<1>.D 0.1454f
+C168 LELO_GR03_1.x1.x18.G a_12732_15060# 0.03397f
+C169 a_13690_11042# a_14122_11042# 0.21349f
+C170 a_10620_5354# VDPWR 0.11589f
+C171 LELO_GR03_1.x10.XA7.C a_26148_5288# 0.01225f
+C172 a_8932_18060# LELO_GR03_1.x7.PWRUP_N_1V8 0.08311f
+C173 LELO_GR03_1.x1.VB_P a_12826_11042# 0.01378f
+C174 LELO_GR03_1.x7.PWRUP_N_1V8 a_20862_6128# 0.09959f
+C175 LELO_GR03_1.x1.x21.x6.S a_6792_9667# 0.0369f
+C176 a_14214_13288# VDPWR 0.70074f
+C177 LELO_GR03_1.x7.x6.G LELO_GR03_1.x7.VB_N 0.89742f
+C178 a_22462_6128# a_22462_5968# 0.15007f
+C179 LELO_GR03_1.x7.INN a_14554_11042# 0.03268f
+C180 LELO_GR03_1.x7.PWRUP_N_1V8 a_13474_9122# 0.03751f
+C181 LELO_GR03_1.x1.x21.INP LELO_GR03_1.x1.XQ2<16>.Emitter 0.25091f
+C182 LELO_GR03_1.x1.x21.x3<1>.S a_8892_11283# 0.05639f
+C183 LELO_GR03_1.x1.x21.x6.G a_3932_8957# 0.02128f
+C184 LELO_GR03_1.x1.x21.x3<1>.D a_8892_12883# 0.03722f
+C185 a_10072_16360# VDPWR 0.49601f
+C186 LELO_GR03_1.x10.XA6.A a_26988_4008# 0.06499f
+C187 LELO_GR03_1.x10.XA7.C LELO_GR03_1.x10.XA1.MN1.S 0.07714f
+C188 LELO_GR03_1.x1.x18.G LELO_GR03_1.x1.x15.G 0.37563f
+C189 a_11212_15560# a_11472_15060# 0.01109f
+C190 LELO_GR03_1.x10.XA7.CN LELO_GR03_1.x10.XA7.MP2.S 0.07161f
+C191 LELO_GR03_1.x10.CK LELO_GR03_1.BIAS_CIRCUIT2_0.xb6.S 0.55068f
+C192 LELO_GR03_1.x7.VB_N a_13420_3076# 0.01238f
+C193 uio_out<1> uio_out<0> 0.03102f
+C194 LELO_GR03_1.x12<1>.A a_14338_5544# 0.01289f
+C195 LELO_GR03_1.x7.PWRUP_N_1V8 a_19262_5968# 0.01397f
+C196 LELO_GR03_1.BIAS_CIRCUIT2_0.xb7.D a_11530_9122# 0.01216f
+C197 LELO_GR03_1.x1.x21.x6.S a_5192_9507# 0.04074f
+C198 a_4992_9867# a_5192_9667# 0.01928f
+C199 a_12614_13128# VDPWR 0.67748f
+C200 a_26988_3528# a_26988_3208# 0.01f
+C201 LELO_GR03_1.x7.INN a_14338_9122# 0.01679f
+C202 a_3500_8957# a_3932_8957# 0.01515f
+C203 LELO_GR03_1.x1.x21.x3<1>.D LELO_GR03_1.x1.VB_P 1.14014f
+C204 a_11212_17200# VDPWR 0.54627f
+C205 a_12610_2046# VDPWR 0.01059f
+C206 LELO_GR03_1.x10.XA6.A a_26148_4008# 0.05912f
+C207 LELO_GR03_1.x7.x8.S a_16662_2128# 0.0398f
+C208 a_16662_2968# a_16662_2768# 0.07221f
+C209 LELO_GR03_1.x10.XA7.C a_26988_3208# 0.1046f
+C210 LELO_GR03_1.x1.x21.INP a_7592_12083# 0.07099f
+C211 LELO_GR03_1.x12<1>.A LELO_GR03_1.x7.x7<2>.S 3.68148f
+C212 a_13474_9122# a_13906_9122# 0.14233f
+C213 a_10188_5354# VDPWR 0.06222f
+C214 LELO_GR03_1.x10.XA7.C LELO_GR03_1.x10.XA7.MP2.S 0.04215f
+C215 LELO_GR03_1.x7.VB_N LELO_GR03_1.x7.x8.S 2.04366f
+C216 LELO_GR03_1.x10.CK a_14732_4108# 0.01313f
+C217 LELO_GR03_1.x1.x14.D LELO_GR03_1.x1.x11.D 0.06816f
+C218 LELO_GR03_1.x1.x21.INP LELO_GR03_1.x1.x21.OUT 1.13542f
+C219 a_8092_15234# LELO_GR03_1.x7.PWRUP_N_1V8 0.03139f
+C220 a_10452_18220# a_10452_18060# 0.15007f
+C221 LELO_GR03_1.x7.PWRUP_N_1V8 a_19262_6128# 0.10081f
+C222 LELO_GR03_1.x1.x21.x6.S a_5192_9667# 0.02924f
+C223 a_12614_13288# VDPWR 0.69991f
+C224 LELO_GR03_1.x1.x21.x3<1>.S a_8892_12083# 0.12399f
+C225 LELO_GR03_1.x1.x11.D VDPWR 0.44846f
+C226 a_21862_3768# LELO_GR03_1.x7.x10.D 0.01549f
+C227 LELO_GR03_1.x10.XA6.A LELO_GR03_1.x10.XA4.MP1.S 0.01889f
+C228 LELO_GR03_1.x7.x8.S a_21462_2768# 0.0611f
+C229 LELO_GR03_1.x10.XA7.C a_26148_3208# 0.09819f
+C230 LELO_GR03_1.x10.XA7.CN a_26988_3528# 0.04767f
+C231 a_16976_15408# LELO_GR03_1.x7.PWRUP_1V8 0.01772f
+C232 LELO_GR03_1.x12<1>.A a_16662_4568# 0.07882f
+C233 LELO_GR03_1.x10.XA7.C LELO_GR03_1.x10.XA7.CN 0.47409f
+C234 a_16662_4968# a_16662_4568# 0.03739f
+C235 uio_out<2> uio_out<1> 0.03102f
+C236 LELO_GR03_1.x7.INN LELO_GR03_1.x1.x18.S 1.48837f
+C237 LELO_GR03_1.x1.x14.D a_8932_16360# 0.02722f
+C238 LELO_GR03_1.x1.x21.x6.S a_8892_9867# 0.07792f
+C239 LELO_GR03_1.BIAS_CIRCUIT2_0.xc4.D VDPWR 2.64839f
+C240 a_26148_3528# a_26148_3208# 0.01f
+C241 LELO_GR03_1.x7.PWRUP_N_1V8 a_13258_11042# 0.07921f
+C242 LELO_GR03_1.x1.x21.x3<1>.D a_6292_12083# 0.12503f
+C243 a_8932_16360# VDPWR 0.49443f
+C244 LELO_GR03_1.x7.VB_N VDPWR 0.20303f
+C245 LELO_GR03_1.x7.x8.S a_19862_2608# 0.05627f
+C246 LELO_GR03_1.x10.XA7.C a_26988_3528# 0.06653f
+C247 LELO_GR03_1.x10.XA7.CN a_26148_3528# 0.04737f
+C248 a_16136_15408# LELO_GR03_1.x7.PWRUP_1V8 0.01871f
+C249 LELO_GR03_1.x1.x21.INP LELO_GR03_1.x1.VB_P 0.12712f
+C250 LELO_GR03_1.x12<1>.A a_14732_4270# 0.01465f
+C251 a_9972_5354# VDPWR 0.03746f
+C252 LELO_GR03_1.x7.x20.G LELO_GR03_1.x7.x7<2>.S 2.23394f
+C253 LELO_GR03_1.x7.INN LELO_GR03_1.x7.PWRUP_N_1V8 1.60304f
+C254 LELO_GR03_1.x1.VB_P a_12394_11042# 0.01378f
+C255 LELO_GR03_1.x7.PWRUP_N_1V8 a_22462_6608# 0.08085f
+C256 LELO_GR03_1.x1.x21.x6.S a_7592_9867# 0.0815f
+C257 a_11314_13288# VDPWR 0.55272f
+C258 a_20862_6128# a_20862_5968# 0.15007f
+C259 LELO_GR03_1.x7.INN a_14122_11042# 0.01392f
+C260 LELO_GR03_1.x7.PWRUP_N_1V8 a_13042_9122# 0.04195f
+C261 LELO_GR03_1.x7.PWRUP_1V8 a_4992_9867# 0.02145f
+C262 a_12732_14260# a_12614_13288# 0.01214f
+C263 LELO_GR03_1.x1.x21.x3<1>.D a_7592_12883# 0.1265f
+C264 a_10072_17200# VDPWR 0.51909f
+C265 a_12826_7464# a_13258_7464# 0.21349f
+C266 LELO_GR03_1.x10.XA6.A a_26988_4488# 0.01281f
+C267 LELO_GR03_1.x7.x8.S a_19862_2768# 0.06297f
+C268 LELO_GR03_1.x10.XA7.CN LELO_GR03_1.x10.XA3.MP1.S 0.03112f
+C269 LELO_GR03_1.x10.XA7.C a_26148_3528# 0.07292f
+C270 LELO_GR03_1.x1.x18.S LELO_GR03_1.x1.x21.x11<1>.A 0.4743f
+C271 LELO_GR03_1.x1.VB_P LELO_GR03_1.x7.x6.G 0.04106f
+C272 LELO_GR03_1.x1.XQ2<16>.Emitter VDPWR 0.05892f
+C273 LELO_GR03_1.x7.VB_N a_14732_3308# 0.08186f
+C274 LELO_GR03_1.x7.x20.G a_16662_4568# 0.01085f
+C275 a_13430_4262# a_13424_4108# 0.12014f
+C276 uio_out<3> uio_out<2> 0.03102f
+C277 a_7660_15234# LELO_GR03_1.x7.PWRUP_N_1V8 0.01556f
+C278 LELO_GR03_1.x1.x14.D LELO_GR03_1.x1.x17.D 1.31295f
+C279 LELO_GR03_1.x12<1>.A a_13906_5544# 0.01127f
+C280 LELO_GR03_1.x1.x21.x6.S a_8892_10667# 0.05874f
+C281 a_6292_11283# VDPWR 0.54279f
+C282 LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.x1.x21.x6.S 1.97521f
+C283 LELO_GR03_1.x1.x21.x3<1>.D a_8892_13683# 0.02225f
+C284 LELO_GR03_1.x1.x17.D VDPWR 0.44695f
+C285 LELO_GR03_1.x7.x8.S a_18262_2608# 0.05026f
+C286 LELO_GR03_1.x10.XA7.CN LELO_GR03_1.x10.XA3.MN1.S 0.0238f
+C287 LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x1.x21.x11<1>.A 0.04203f
+C288 LELO_GR03_1.x1.x21.INP a_6292_12083# 0.08724f
+C289 LELO_GR03_1.x7.VB_N a_13424_3308# 0.08906f
+C290 a_8932_18220# a_8932_18060# 0.15007f
+C291 LELO_GR03_1.x1.x14.D LELO_GR03_1.x1.x21.OUT 0.7124f
+C292 LELO_GR03_1.x7.PWRUP_N_1V8 a_20862_6608# 0.0888f
+C293 LELO_GR03_1.x1.x21.x6.S a_6292_9867# 0.07729f
+C294 a_7592_12083# VDPWR 0.46598f
+C295 a_16662_5968# a_16662_5768# 0.08533f
+C296 a_3284_10877# LELO_GR03_1.x1.x21.x6.G 0.21991f
+C297 LELO_GR03_1.x1.x21.OUT VDPWR 15.5738f
+C298 a_12610_5544# a_13042_5544# 0.14233f
+C299 LELO_GR03_1.x7.x8.S a_18262_2768# 0.05864f
+C300 a_14828_2916# a_14828_2436# 0.02114f
+C301 LELO_GR03_1.x10.XA7.C LELO_GR03_1.x10.XA3.MN1.S 0.01857f
+C302 LELO_GR03_1.x10.XA7.CN a_26988_4008# 0.08626f
+C303 LELO_GR03_1.x10.XA6.A LELO_GR03_1.x10.XA3.Y 0.22909f
+C304 a_16980_16158# a_16976_15408# 0.01328f
+C305 LELO_GR03_1.x1.x21.INP a_7592_12883# 0.0705f
+C306 LELO_GR03_1.x7.VB_N LELO_GR03_1.BIAS_CIRCUIT2_0.xb6.S 1.16238f
+C307 LELO_GR03_1.x7.x20.G a_23662_4868# 0.09759f
+C308 LELO_GR03_1.x10.CK a_14732_4270# 0.07712f
+C309 uio_out<4> uio_out<3> 0.03102f
+C310 a_7444_17154# LELO_GR03_1.x1.x18.S 0.04011f
+C311 LELO_GR03_1.x7.PWRUP_N_1V8 a_20862_6768# 0.01486f
+C312 LELO_GR03_1.x1.x21.x6.S a_7592_10667# 0.05919f
+C313 a_8892_12883# VDPWR 0.46514f
+C314 a_22462_6608# a_22462_6128# 0.02114f
+C315 LELO_GR03_1.x7.PWRUP_N_1V8 a_12826_11042# 0.03624f
+C316 LELO_GR03_1.x7.PWRUP_1V8 a_4992_10667# 0.01229f
+C317 LELO_GR03_1.x1.x21.x3<1>.D a_6292_12883# 0.12629f
+C318 a_8932_17200# VDPWR 0.47947f
+C319 LELO_GR03_1.x7.x8.S a_16662_2608# 0.04949f
+C320 LELO_GR03_1.x10.XA7.CN a_26148_4008# 0.02602f
+C321 a_11962_3966# VDPWR 0.06561f
+C322 LELO_GR03_1.x10.XA6.A a_26988_4808# 0.09795f
+C323 LELO_GR03_1.x7.INN a_20562_2968# 0.06962f
+C324 a_13258_11042# a_13690_11042# 0.21349f
+C325 LELO_GR03_1.x7.VB_N a_14732_4108# 0.07116f
+C326 uo_out<0> uio_in<7> 0.03102f
+C327 LELO_GR03_1.x1.VB_P a_11962_11042# 0.01378f
+C328 LELO_GR03_1.x7.PWRUP_N_1V8 a_19262_6608# 0.08961f
+C329 a_8892_11283# a_8892_10667# 0.02327f
+C330 LELO_GR03_1.x1.VB_P VDPWR 8.85786f
+C331 a_19262_6128# a_19262_5968# 0.15007f
+C332 LELO_GR03_1.x7.PWRUP_N_1V8 a_12610_9122# 0.01878f
+C333 a_8392_13883# a_8892_13683# 0.01703f
+C334 a_2852_8957# a_3932_8957# 0.0381f
+C335 a_3068_8957# a_3500_8957# 0.14233f
+C336 LELO_GR03_1.x1.x21.x3<1>.D a_7592_13683# 0.06844f
+C337 a_11972_17420# VDPWR 0.79494f
+C338 LELO_GR03_1.BIAS_CIRCUIT2_0.xa6.N a_15202_5544# 0.01216f
+C339 LELO_GR03_1.x7.x8.S a_16662_2768# 0.05399f
+C340 LELO_GR03_1.x10.XA7.CN LELO_GR03_1.x10.XA4.MP1.S 0.02318f
+C341 LELO_GR03_1.x10.XA7.C a_26148_4008# 0.06561f
+C342 LELO_GR03_1.x10.XA6.A a_26148_4808# 0.0777f
+C343 LELO_GR03_1.x10.CK a_21462_1968# 0.03081f
+C344 a_16140_16158# a_16136_15408# 0.01328f
+C345 LELO_GR03_1.x1.x21.OUT a_12732_14260# 0.06998f
+C346 LELO_GR03_1.x7.INN a_21862_3768# 0.07338f
+C347 LELO_GR03_1.x1.VB_P a_15202_5544# 0.1266f
+C348 a_8392_8867# LELO_GR03_1.x1.XQ2<16>.Emitter 0.01129f
+C349 LELO_GR03_1.x7.VB_N LELO_GR03_1.BIAS_CIRCUIT2_0.xc2.S 1.32706f
+C350 uo_out<0> uo_out<1> 0.03102f
+C351 uio_out<5> uio_out<4> 0.03102f
+C352 a_7228_15234# LELO_GR03_1.x7.PWRUP_N_1V8 0.01101f
+C353 LELO_GR03_1.x7.PWRUP_N_1V8 a_19262_6768# 0.02642f
+C354 a_4992_11283# VDPWR 0.69633f
+C355 LELO_GR03_1.x7.x21.G a_16662_5768# 0.07119f
+C356 LELO_GR03_1.x1.x21.x11<1>.A LELO_GR03_1.x1.x21.x6.G 0.05672f
+C357 LELO_GR03_1.x1.x21.x3<1>.D LELO_GR03_1.x1.x21.x4.G 2.34035f
+C358 a_11472_14260# a_11314_13288# 0.01162f
+C359 a_11972_17580# VDPWR 0.68142f
+C360 LELO_GR03_1.x1.VB_P a_14732_3308# 0.01219f
+C361 LELO_GR03_1.x10.XA7.CN LELO_GR03_1.x10.XA4.MN1.S 0.03049f
+C362 LELO_GR03_1.x1.x21.INP a_6292_12883# 0.08721f
+C363 a_13042_9122# a_13474_9122# 0.14233f
+C364 LELO_GR03_1.x7.VB_N a_13424_4108# 0.08883f
+C365 LELO_GR03_1.x1.x21.INP LELO_GR03_1.x1.x18.S 0.05862f
+C366 a_6292_10667# LELO_GR03_1.x1.x21.x6.S 0.05699f
+C367 a_6292_12083# VDPWR 0.46637f
+C368 LELO_GR03_1.x7.x21.S a_16662_5768# 0.09084f
+C369 LELO_GR03_1.x1.x15.G LELO_GR03_1.BIAS_CIRCUIT2_0.xc4.D 0.02348f
+C370 a_6292_13683# LELO_GR03_1.x1.x21.x4.G 0.01414f
+C371 a_10452_17420# VDPWR 0.78931f
+C372 a_13420_2916# a_13420_2436# 0.02114f
+C373 LELO_GR03_1.x10.XA7.CN a_26988_4488# 0.02605f
+C374 a_26988_5928# uo_out<0> 0.01873f
+C375 a_11530_2046# VDPWR 0.01059f
+C376 LELO_GR03_1.x1.x21.INP a_7592_13683# 0.07881f
+C377 LELO_GR03_1.x7.INN a_20562_3768# 0.15326f
+C378 LELO_GR03_1.x1.VB_P a_14770_5544# 0.0354f
+C379 a_6792_8867# LELO_GR03_1.x1.XQ2<16>.Emitter 0.01141f
+C380 LELO_GR03_1.x7.VB_N LELO_GR03_1.x7.x7<2>.S 1.08266f
+C381 uio_out<6> uio_out<5> 0.03102f
+C382 a_5288_15234# LELO_GR03_1.x1.x21.OUT 0.01083f
+C383 LELO_GR03_1.x7.INN a_8092_15234# 0.06053f
+C384 LELO_GR03_1.x1.x21.INP LELO_GR03_1.x7.PWRUP_N_1V8 0.17013f
+C385 LELO_GR03_1.x7.PWRUP_N_1V8 a_17962_6768# 0.01373f
+C386 a_7592_11283# a_7592_10667# 0.02327f
+C387 a_7592_12883# VDPWR 0.46599f
+C388 a_20862_6608# a_20862_6128# 0.02114f
+C389 LELO_GR03_1.x7.PWRUP_N_1V8 a_12394_11042# 0.01542f
+C390 LELO_GR03_1.x1.XQ2<3>.Emitter LELO_GR03_1.x1.XQ2<16>.Emitter 0.6187f
+C391 a_10452_17580# VDPWR 0.68189f
+C392 LELO_GR03_1.x1.VB_P LELO_GR03_1.BIAS_CIRCUIT2_0.xb6.S 0.49304f
+C393 LELO_GR03_1.x10.XA7.C a_26988_4488# 0.06678f
+C394 LELO_GR03_1.x10.XA7.CN a_26148_4488# 0.08881f
+C395 a_16662_5768# VDPWR 0.56515f
+C396 LELO_GR03_1.x10.CK a_26988_2728# 0.06129f
+C397 LELO_GR03_1.x1.x18.G LELO_GR03_1.x7.PWRUP_1V8 0.03561f
+C398 a_8932_15560# a_8392_14683# 0.01053f
+C399 a_16980_16478# a_16980_16158# 0.01f
+C400 LELO_GR03_1.x1.x21.INP LELO_GR03_1.x1.x21.x4.G 1.23246f
+C401 LELO_GR03_1.x1.XQ2<3>.Emitter a_6292_11283# 0.07414f
+C402 LELO_GR03_1.x7.INN a_21862_4568# 0.07078f
+C403 a_7660_15234# a_8092_15234# 0.01515f
+C404 LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x7.x6.G 0.01245f
+C405 a_8892_13683# VDPWR 0.6499f
+C406 LELO_GR03_1.x1.x21.x3<1>.D LELO_GR03_1.x1.x21.x6.G 1.87765f
+C407 a_8932_17420# VDPWR 0.77437f
+C408 a_12394_7464# a_12826_7464# 0.21349f
+C409 LELO_GR03_1.x1.VB_P a_14732_4108# 0.02557f
+C410 LELO_GR03_1.x10.XA7.CN LELO_GR03_1.x10.XA3.Y 0.38708f
+C411 LELO_GR03_1.x10.D uo_out<0> 0.35767f
+C412 a_26988_5928# VDPWR 0.31353f
+C413 LELO_GR03_1.x10.CK a_26148_2728# 0.06153f
+C414 LELO_GR03_1.x12<1>.A LELO_GR03_1.x7.PWRUP_1V8 0.23938f
+C415 a_10072_15560# a_10212_15060# 0.01081f
+C416 LELO_GR03_1.x7.PWRUP_N_1V8 a_8392_14043# 0.08084f
+C417 LELO_GR03_1.x1.x21.OUT a_12732_15060# 0.08881f
+C418 LELO_GR03_1.x1.XQ2<3>.Emitter a_7592_12083# 0.07878f
+C419 a_5192_8867# LELO_GR03_1.x1.XQ2<16>.Emitter 0.01015f
+C420 uio_out<7> uio_out<6> 0.03102f
+C421 LELO_GR03_1.x1.XQ2<3>.Emitter LELO_GR03_1.x1.x21.OUT 0.13035f
+C422 LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x7.x21.G 1.0409f
+C423 a_4992_12083# VDPWR 0.79059f
+C424 LELO_GR03_1.x1.x21.x11<1>.A a_3284_10877# 0.23685f
+C425 LELO_GR03_1.x7.PWRUP_N_1V8 uo_out<0> 0.03288f
+C426 a_8932_17580# VDPWR 0.68081f
+C427 LELO_GR03_1.BIAS_CIRCUIT2_0.xa6.N a_14554_7464# 0.22032f
+C428 LELO_GR03_1.x10.XA7.C LELO_GR03_1.x10.XA3.Y 0.08927f
+C429 LELO_GR03_1.x10.XA7.CN a_26988_4808# 0.026f
+C430 a_26988_6248# uo_out<0> 0.03476f
+C431 a_16140_16478# a_16140_16158# 0.01f
+C432 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x15.G 1.22377f
+C433 LELO_GR03_1.x1.VB_P a_14554_7464# 0.02143f
+C434 LELO_GR03_1.x7.x21.S a_23662_3268# 0.12399f
+C435 LELO_GR03_1.x7.x6.G a_21862_2968# 0.06957f
+C436 LELO_GR03_1.x1.x14.D LELO_GR03_1.x1.x18.S 0.40691f
+C437 a_5072_15234# LELO_GR03_1.x1.x21.OUT 0.01559f
+C438 LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x7.x21.S 1.62854f
+C439 a_6292_12883# VDPWR 0.46652f
+C440 a_22462_6768# a_22462_6608# 0.15007f
+C441 LELO_GR03_1.x1.x18.S VDPWR 8.27691f
+C442 LELO_GR03_1.x7.PWRUP_N_1V8 ui_in<0> 0.23988f
+C443 a_12178_5544# a_12610_5544# 0.14233f
+C444 LELO_GR03_1.x10.XA7.CN a_26148_4808# 0.02661f
+C445 a_26148_6248# uo_out<0> 0.02107f
+C446 LELO_GR03_1.x10.D VDPWR 2.18854f
+C447 LELO_GR03_1.x1.x18.G a_12412_15580# 0.07466f
+C448 LELO_GR03_1.x7.PWRUP_N_1V8 a_6792_14043# 0.08241f
+C449 LELO_GR03_1.x1.x21.OUT a_10212_14260# 0.08303f
+C450 LELO_GR03_1.x1.x21.INP LELO_GR03_1.x1.x21.x6.G 2.25153f
+C451 LELO_GR03_1.x1.XQ2<3>.Emitter LELO_GR03_1.x1.VB_P 0.02327f
+C452 LELO_GR03_1.x7.INN a_20562_4568# 0.07498f
+C453 LELO_GR03_1.x7.x21.S a_23662_4068# 0.12405f
+C454 LELO_GR03_1.x7.x6.G LELO_GR03_1.x7.x10.D 0.44419f
+C455 uio_oe<0> uio_out<7> 0.03102f
+C456 LELO_GR03_1.x1.x14.D LELO_GR03_1.x7.PWRUP_N_1V8 0.1696f
+C457 a_7592_13683# VDPWR 0.65292f
+C458 a_19262_6608# a_19262_6128# 0.02114f
+C459 a_23662_3268# VDPWR 0.46404f
+C460 LELO_GR03_1.x10.XA3.Y LELO_GR03_1.x10.XA3.MP1.S 0.04373f
+C461 a_2852_8957# a_3068_8957# 0.01515f
+C462 LELO_GR03_1.x7.PWRUP_N_1V8 VDPWR 24.9448f
+C463 LELO_GR03_1.BIAS_CIRCUIT2_0.xb6.S a_14828_2436# 0.03946f
+C464 LELO_GR03_1.x7.x8.S a_21862_2968# 0.05812f
+C465 a_26988_6248# VDPWR 0.278f
+C466 LELO_GR03_1.x12<1>.A a_12412_15580# 0.01251f
+C467 LELO_GR03_1.x1.x21.OUT a_11472_15060# 0.01208f
+C468 LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.x10.CK 0.56191f
+C469 a_12826_11042# a_13258_11042# 0.21349f
+C470 a_5720_15234# LELO_GR03_1.x7.PWRUP_N_1V8 0.01426f
+C471 LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.BIAS_CIRCUIT2_0.xa5.N 0.2286f
+C472 LELO_GR03_1.x7.PWRUP_N_1V8 a_15202_5544# 0.01285f
+C473 LELO_GR03_1.x1.x21.x4.G VDPWR 1.59462f
+C474 LELO_GR03_1.x7.x21.S a_22462_5968# 0.03732f
+C475 a_23662_4068# VDPWR 0.46402f
+C476 LELO_GR03_1.x10.XA3.Y LELO_GR03_1.x10.XA3.MN1.S 0.04373f
+C477 LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.BIAS_CIRCUIT2_0.xb7.D 0.09712f
+C478 a_11972_18060# VDPWR 0.68934f
+C479 LELO_GR03_1.x7.x8.S LELO_GR03_1.x7.x10.D 1.64392f
+C480 LELO_GR03_1.x7.PWRUP_N_1V8 a_5192_14043# 0.08251f
+C481 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x21.x3<1>.S 0.49228f
+C482 LELO_GR03_1.x1.XQ2<3>.Emitter a_6292_12083# 0.07855f
+C483 LELO_GR03_1.x10.CK LELO_GR03_1.x10.XA7.C 0.08598f
+C484 LELO_GR03_1.x7.x20.G a_23162_4968# 0.08533f
+C485 LELO_GR03_1.x7.x21.S LELO_GR03_1.x7.x10.D 1.67709f
+C486 LELO_GR03_1.x7.x6.G a_21862_3768# 0.07064f
+C487 uio_oe<1> uio_oe<0> 0.06577f
+C488 a_7444_17154# LELO_GR03_1.x7.INN 0.23092f
+C489 LELO_GR03_1.x7.PWRUP_1V8 a_11530_5544# 0.01292f
+C490 LELO_GR03_1.x7.x21.S a_22462_6128# 0.04923f
+C491 LELO_GR03_1.x10.XA3.Y a_26988_4008# 0.02049f
+C492 a_2852_8957# LELO_GR03_1.x1.x21.x11<1>.A 0.02026f
+C493 LELO_GR03_1.x1.x21.x3<1>.S a_8892_12883# 0.12129f
+C494 LELO_GR03_1.x1.VB_P a_14732_4270# 0.01448f
+C495 a_11972_18220# VDPWR 0.70434f
+C496 LELO_GR03_1.x7.PWRUP_1V8 a_19862_2128# 0.08081f
+C497 LELO_GR03_1.x7.x8.S a_20562_2968# 0.02172f
+C498 a_22462_5968# VDPWR 0.77953f
+C499 LELO_GR03_1.x1.XQ2<3>.Emitter a_7592_12883# 0.07882f
+C500 a_12610_9122# a_13042_9122# 0.14233f
+C501 LELO_GR03_1.x7.x20.G a_21862_4968# 0.08054f
+C502 a_5504_17154# LELO_GR03_1.x1.x18.S 0.04685f
+C503 LELO_GR03_1.x7.PWRUP_N_1V8 a_14770_5544# 0.01329f
+C504 LELO_GR03_1.x7.PWRUP_1V8 a_10620_5354# 0.13049f
+C505 LELO_GR03_1.x7.x21.S a_20862_5968# 0.03573f
+C506 a_20862_6768# a_20862_6608# 0.15007f
+C507 LELO_GR03_1.x10.XA3.Y a_26148_4008# 0.02736f
+C508 LELO_GR03_1.x7.x10.D VDPWR 2.1742f
+C509 LELO_GR03_1.x1.x21.x3<1>.S LELO_GR03_1.x1.VB_P 2.15099f
+C510 a_10452_18060# VDPWR 0.68792f
+C511 LELO_GR03_1.x7.x8.S a_21862_3768# 0.05789f
+C512 a_22462_6128# VDPWR 0.67804f
+C513 LELO_GR03_1.x7.PWRUP_N_1V8 a_16976_15088# 0.06129f
+C514 LELO_GR03_1.x7.x20.G a_23162_5768# 0.08712f
+C515 uio_oe<2> uio_oe<1> 0.06484f
+C516 a_5288_15234# LELO_GR03_1.x1.x18.S 0.01153f
+C517 a_7012_15234# a_8092_15234# 0.0381f
+C518 a_7228_15234# a_7660_15234# 0.14233f
+C519 LELO_GR03_1.x7.x21.S a_20862_6128# 0.05026f
+C520 LELO_GR03_1.x7.x21.G a_19262_5968# 0.01189f
+C521 LELO_GR03_1.x1.x21.x6.G VDPWR 3.15964f
+C522 LELO_GR03_1.x10.XA3.Y LELO_GR03_1.x10.XA4.MP1.S 0.05173f
+C523 a_10452_18220# VDPWR 0.7043f
+C524 LELO_GR03_1.x7.PWRUP_1V8 a_18262_2128# 0.08478f
+C525 LELO_GR03_1.BIAS_CIRCUIT2_0.xc2.S a_13420_2436# 0.03934f
+C526 LELO_GR03_1.x7.x8.S a_19262_2968# 0.07043f
+C527 a_20862_5968# VDPWR 0.77275f
+C528 LELO_GR03_1.x7.PWRUP_N_1V8 a_16136_15088# 0.0593f
+C529 LELO_GR03_1.x7.PWRUP_1V8 a_12610_2046# 0.05866f
+C530 LELO_GR03_1.x7.x20.G a_20562_4968# 0.08183f
+C531 a_5288_15234# LELO_GR03_1.x7.PWRUP_N_1V8 0.01706f
+C532 LELO_GR03_1.x1.x21.INP LELO_GR03_1.x7.INN 0.02905f
+C533 LELO_GR03_1.x7.PWRUP_1V8 a_10188_5354# 0.01181f
+C534 LELO_GR03_1.x7.x21.S a_19262_5968# 0.03494f
+C535 LELO_GR03_1.x7.x21.G a_19262_6128# 0.01244f
+C536 LELO_GR03_1.x10.XA3.Y LELO_GR03_1.x10.XA4.MN1.S 0.07879f
+C537 LELO_GR03_1.x7.PWRUP_1V8 a_12614_13288# 0.01505f
+C538 a_8932_18060# VDPWR 0.67637f
+C539 a_11962_7464# a_12394_7464# 0.21349f
+C540 a_20862_6128# VDPWR 0.67916f
+C541 LELO_GR03_1.x1.x18.G a_12412_16380# 0.17685f
+C542 LELO_GR03_1.x12<1>.A a_11212_15560# 0.01447f
+C543 LELO_GR03_1.x1.XQ2<3>.Emitter a_6292_12883# 0.07093f
+C544 LELO_GR03_1.x7.x20.G a_21862_5768# 0.07846f
+C545 LELO_GR03_1.x7.x21.G a_21862_4568# 0.02524f
+C546 uio_oe<3> uio_oe<2> 0.06329f
+C547 LELO_GR03_1.x1.XQ2<3>.Emitter LELO_GR03_1.x1.x18.S 0.1479f
+C548 LELO_GR03_1.x7.PWRUP_N_1V8 a_14554_7464# 0.01792f
+C549 LELO_GR03_1.x7.INN LELO_GR03_1.x7.x6.G 0.68776f
+C550 LELO_GR03_1.x7.x21.S a_19262_6128# 0.05038f
+C551 LELO_GR03_1.x7.x21.G a_17962_5968# 0.09361f
+C552 LELO_GR03_1.x10.XA3.Y a_26988_4488# 0.07964f
+C553 LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.BIAS_CIRCUIT2_0.xc4.D 0.34625f
+C554 a_8932_18220# VDPWR 0.7034f
+C555 LELO_GR03_1.x7.PWRUP_1V8 a_16662_2128# 0.08458f
+C556 a_19262_5968# VDPWR 0.74522f
+C557 clk ena 0.03102f
+C558 LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.x7.VB_N 1.26714f
+C559 LELO_GR03_1.x7.x20.G a_19262_4968# 0.05037f
+C560 a_5072_15234# LELO_GR03_1.x1.x18.S 0.06041f
+C561 LELO_GR03_1.x1.x14.D a_8092_15234# 0.04003f
+C562 LELO_GR03_1.x1.XQ2<3>.Emitter LELO_GR03_1.x7.PWRUP_N_1V8 0.09289f
+C563 LELO_GR03_1.x7.PWRUP_N_1V8 a_14338_5544# 0.01763f
+C564 LELO_GR03_1.x7.INN LELO_GR03_1.x7.x21.G 1.42571f
+C565 a_14214_12648# a_14214_12488# 0.15007f
+C566 LELO_GR03_1.x7.x21.S a_17962_5968# 0.06599f
+C567 a_19262_6768# a_19262_6608# 0.15007f
+C568 LELO_GR03_1.x10.XA3.Y a_26148_4488# 0.09561f
+C569 a_26988_4808# a_26988_4488# 0.01f
+C570 LELO_GR03_1.x1.x21.OUT a_8892_9867# 0.01356f
+C571 LELO_GR03_1.x1.x21.x3<1>.S a_8892_13683# 0.08661f
+C572 LELO_GR03_1.x7.PWRUP_1V8 a_11314_13288# 0.01173f
+C573 a_8092_15234# VDPWR 0.07857f
+C574 a_11746_5544# a_12178_5544# 0.14233f
+C575 LELO_GR03_1.x7.x8.S a_17962_2968# 0.0715f
+C576 a_19262_6128# VDPWR 0.67994f
+C577 LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x1.x15.G 0.0958f
+C578 LELO_GR03_1.x12<1>.A LELO_GR03_1.x1.x18.G 0.63422f
+C579 LELO_GR03_1.x1.XQ2<3>.Emitter LELO_GR03_1.x1.x21.x4.G 2.79723f
+C580 LELO_GR03_1.x7.PWRUP_1V8 a_12178_2046# 0.01053f
+C581 LELO_GR03_1.x7.INN LELO_GR03_1.x7.x8.S 0.04857f
+C582 LELO_GR03_1.x7.x20.G a_20562_5768# 0.07869f
+C583 LELO_GR03_1.x7.x21.G a_19262_3768# 0.01303f
+C584 uio_oe<4> uio_oe<3> 0.06143f
+C585 LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.x1.XQ2<16>.Emitter 0.27694f
+C586 LELO_GR03_1.x7.INN LELO_GR03_1.x7.x21.S 0.41262f
+C587 LELO_GR03_1.x7.x21.S a_22462_6608# 0.03976f
+C588 a_21862_4568# VDPWR 0.01947f
+C589 a_6292_13683# LELO_GR03_1.x1.x21.x3<1>.D 0.0599f
+C590 LELO_GR03_1.x7.PWRUP_1V8 a_19862_2608# 0.08464f
+C591 a_17962_5968# VDPWR 0.57973f
+C592 LELO_GR03_1.x7.x8.S a_19262_3768# 0.05703f
+C593 rst_n clk 0.03102f
+C594 LELO_GR03_1.x1.x21.OUT a_10212_15060# 0.13092f
+C595 a_12394_11042# a_12826_11042# 0.21349f
+C596 LELO_GR03_1.x7.x20.G a_17962_4968# 0.05421f
+C597 LELO_GR03_1.x7.x21.G a_20562_4568# 0.01135f
+C598 LELO_GR03_1.x7.x6.G a_16662_2968# 0.08813f
+C599 LELO_GR03_1.x1.x14.D LELO_GR03_1.x7.INN 0.56168f
+C600 LELO_GR03_1.x1.x21.INP a_7444_17154# 0.22067f
+C601 LELO_GR03_1.x7.x21.S a_22462_6768# 0.01139f
+C602 a_26988_4808# LELO_GR03_1.x10.XA3.Y 0.05912f
+C603 a_26148_4808# a_26148_4488# 0.01f
+C604 LELO_GR03_1.x1.x21.OUT a_8892_10667# 0.04084f
+C605 LELO_GR03_1.x7.INN VDPWR 2.34055f
+C606 a_22462_6608# VDPWR 0.67349f
+C607 LELO_GR03_1.x1.x9.D a_11212_15560# 0.03869f
+C608 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x7.PWRUP_1V8 0.80337f
+C609 LELO_GR03_1.x1.x21.INP LELO_GR03_1.x1.x21.x3<1>.D 3.06003f
+C610 LELO_GR03_1.x7.x20.G a_19262_5768# 0.01654f
+C611 uio_oe<5> uio_oe<4> 0.06143f
+C612 LELO_GR03_1.x1.x21.INP a_7228_15234# 0.01483f
+C613 LELO_GR03_1.x7.PWRUP_N_1V8 a_14122_7464# 0.025f
+C614 LELO_GR03_1.x7.x21.S a_20862_6608# 0.03993f
+C615 a_26148_4808# LELO_GR03_1.x10.XA3.Y 0.06582f
+C616 LELO_GR03_1.x1.x21.x3<1>.S a_7592_13683# 0.01987f
+C617 LELO_GR03_1.x7.PWRUP_1V8 a_18262_2608# 0.09996f
+C618 a_22462_6768# VDPWR 0.686f
+C619 LELO_GR03_1.x7.x8.S a_16662_2968# 0.0683f
+C620 a_14828_3076# a_14828_2916# 0.15007f
+C621 a_12412_17180# LELO_GR03_1.x1.x18.G 0.08567f
+C622 a_11212_16360# LELO_GR03_1.x12<1>.A 0.01907f
+C623 LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x1.x21.x3<1>.S 1.40819f
+C624 LELO_GR03_1.x1.x21.INP a_6292_13683# 0.02387f
+C625 LELO_GR03_1.x1.XQ2<3>.Emitter LELO_GR03_1.x1.x21.x6.G 0.53872f
+C626 LELO_GR03_1.x12<1>.A LELO_GR03_1.x7.x20.G 0.06724f
+C627 a_12178_9122# a_12610_9122# 0.14233f
+C628 LELO_GR03_1.x10.D LELO_GR03_1.x10.XA6.MP1.S 0.04519f
+C629 LELO_GR03_1.x7.x20.G a_16662_4968# 0.03163f
+C630 LELO_GR03_1.x7.x21.G a_17962_3768# 0.01303f
+C631 a_7012_15234# a_7228_15234# 0.01515f
+C632 LELO_GR03_1.x7.PWRUP_N_1V8 a_13906_5544# 0.02938f
+C633 a_12614_12648# a_12614_12488# 0.15007f
+C634 LELO_GR03_1.x1.x21.x11<1>.A VDPWR 0.46498f
+C635 LELO_GR03_1.x1.x21.x4.G li_6290_10467# 0.38947f
+C636 LELO_GR03_1.x7.x21.S a_20862_6768# 0.01151f
+C637 LELO_GR03_1.x7.x21.G a_19262_6608# 0.02033f
+C638 a_20562_4568# VDPWR 0.01895f
+C639 LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.x1.VB_P 0.47339f
+C640 LELO_GR03_1.x7.PWRUP_1V8 a_18262_2768# 0.01733f
+C641 a_20862_6608# VDPWR 0.67472f
+C642 LELO_GR03_1.x7.x7<2>.S a_20562_2968# 0.04703f
+C643 LELO_GR03_1.x7.x8.S a_17962_3768# 0.05701f
+C644 LELO_GR03_1.x1.x9.D LELO_GR03_1.x1.x18.G 0.06367f
+C645 LELO_GR03_1.x7.PWRUP_N_1V8 a_8392_14523# 0.08587f
+C646 LELO_GR03_1.x7.PWRUP_1V8 a_11746_2046# 0.01008f
+C647 LELO_GR03_1.x12<1>.A LELO_GR03_1.x10.CK 0.48232f
+C648 LELO_GR03_1.x1.x21.x6.S LELO_GR03_1.x1.XQ2<16>.Emitter 0.0393f
+C649 LELO_GR03_1.x10.D LELO_GR03_1.x10.XA6.A 0.15699f
+C650 LELO_GR03_1.x7.x20.G a_17962_5768# 0.01014f
+C651 LELO_GR03_1.x7.x21.G a_19262_4568# 0.03749f
+C652 uio_oe<6> uio_oe<5> 0.06205f
+C653 LELO_GR03_1.x7.x21.S a_19262_6608# 0.03996f
+C654 LELO_GR03_1.x7.x21.G a_19262_6768# 0.01061f
+C655 LELO_GR03_1.x7.x6.G a_16662_5968# 0.01962f
+C656 LELO_GR03_1.x7.PWRUP_1V8 a_4992_11283# 0.01164f
+C657 LELO_GR03_1.x7.PWRUP_1V8 a_16662_2608# 0.09981f
+C658 LELO_GR03_1.BIAS_CIRCUIT2_0.xa5.N a_11962_7464# 0.22774f
+C659 a_20862_6768# VDPWR 0.688f
+C660 LELO_GR03_1.x7.x7<2>.S a_21862_3768# 0.05639f
+C661 ui_in<2> ui_in<1> 0.03102f
+C662 LELO_GR03_1.x1.x9.D LELO_GR03_1.x12<1>.A 0.67642f
+C663 LELO_GR03_1.x1.x21.OUT a_12412_15580# 0.04002f
+C664 LELO_GR03_1.x12<1>.A a_13430_4262# 0.01325f
+C665 LELO_GR03_1.x10.D LELO_GR03_1.x10.XA6.MN1.S 0.05644f
+C666 LELO_GR03_1.x1.x14.D a_7444_17154# 0.02457f
+C667 a_7012_15234# LELO_GR03_1.x1.x21.INP 0.10664f
+C668 LELO_GR03_1.BIAS_CIRCUIT2_0.xb7.D a_12614_12488# 0.05828f
+C669 a_14214_13128# a_14214_12648# 0.02114f
+C670 a_6292_11283# a_6292_10667# 0.02327f
+C671 a_4992_12883# VDPWR 0.77937f
+C672 LELO_GR03_1.x7.x21.S a_19262_6768# 0.01152f
+C673 LELO_GR03_1.x7.x21.G a_16662_5968# 0.07068f
+C674 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x21.x6.S 0.55327f
+C675 a_6792_13883# a_6292_13683# 0.03405f
+C676 LELO_GR03_1.x7.PWRUP_1V8 a_16662_2768# 0.01934f
+C677 LELO_GR03_1.BIAS_CIRCUIT2_0.xa5.N a_11746_5544# 0.04489f
+C678 a_19262_6608# VDPWR 0.67476f
+C679 LELO_GR03_1.x7.x7<2>.S a_19262_2968# 0.01236f
+C680 LELO_GR03_1.x7.PWRUP_N_1V8 a_6792_14523# 0.09935f
+C681 LELO_GR03_1.x12<1>.A a_14732_5070# 0.076f
+C682 LELO_GR03_1.x7.PWRUP_1V8 a_11530_2046# 0.06396f
+C683 LELO_GR03_1.x10.D a_26988_5288# 0.02349f
+C684 uio_oe<7> uio_oe<6> 0.06422f
+C685 a_6152_15234# LELO_GR03_1.x1.x21.INP 0.03853f
+C686 LELO_GR03_1.x7.PWRUP_N_1V8 a_13690_7464# 0.04398f
+C687 LELO_GR03_1.x1.x21.x4.G a_6792_9667# 0.01056f
+C688 LELO_GR03_1.BIAS_CIRCUIT2_0.xb7.D a_12614_12648# 0.04375f
+C689 LELO_GR03_1.x1.x21.x3<1>.D VDPWR 2.41308f
+C690 LELO_GR03_1.x7.x21.S a_16662_5968# 0.06401f
+C691 LELO_GR03_1.x7.x21.G a_17962_6768# 0.09813f
+C692 a_19262_4568# VDPWR 0.01895f
+C693 LELO_GR03_1.x7.x10.D a_21462_1968# 0.06994f
+C694 LELO_GR03_1.x1.x21.x3<1>.S LELO_GR03_1.x1.x21.x6.G 0.01873f
+C695 a_8392_14043# a_8392_13883# 0.15007f
+C696 a_11530_5544# a_11746_5544# 0.01515f
+C697 a_19262_6768# VDPWR 0.68795f
+C698 LELO_GR03_1.x7.x7<2>.S a_20562_3768# 0.12141f
+C699 LELO_GR03_1.x10.CK a_23662_2468# 0.05381f
+C700 a_13420_3076# a_13420_2916# 0.15007f
+C701 ui_in<3> ui_in<2> 0.03102f
+C702 LELO_GR03_1.x1.x9.D a_11212_16360# 0.10742f
+C703 LELO_GR03_1.x12<1>.A a_13430_5062# 0.04354f
+C704 LELO_GR03_1.x10.D a_26148_5288# 0.03117f
+C705 a_6152_15234# a_7012_15234# 0.04873f
+C706 LELO_GR03_1.x7.INN a_14554_7464# 0.02181f
+C707 LELO_GR03_1.x7.PWRUP_N_1V8 a_13474_5544# 0.06303f
+C708 LELO_GR03_1.BIAS_CIRCUIT2_0.xb7.D a_11314_12488# 0.01854f
+C709 a_6292_13683# VDPWR 0.62842f
+C710 LELO_GR03_1.x7.x21.S a_17962_6768# 0.05715f
+C711 LELO_GR03_1.x7.x21.G LELO_GR03_1.x7.x6.G 1.01765f
+C712 LELO_GR03_1.x7.PWRUP_1V8 a_14828_2436# 0.0886f
+C713 a_16662_5968# VDPWR 0.58001f
+C714 LELO_GR03_1.x7.x7<2>.S a_21862_4568# 0.06098f
+C715 LELO_GR03_1.x10.CK a_19862_1968# 0.01836f
+C716 LELO_GR03_1.x7.PWRUP_N_1V8 a_5192_14523# 0.08991f
+C717 LELO_GR03_1.x7.INN a_12732_15060# 0.01006f
+C718 a_26988_5928# LELO_GR03_1.x10.XA7.CN 0.06207f
+C719 LELO_GR03_1.x7.x6.G LELO_GR03_1.x7.x8.S 2.76219f
+C720 LELO_GR03_1.x10.D LELO_GR03_1.x10.XA7.MN2.D 0.01917f
+C721 LELO_GR03_1.x1.x14.D LELO_GR03_1.x1.x21.INP 0.27258f
+C722 LELO_GR03_1.BIAS_CIRCUIT2_0.xc4.D a_14214_12488# 0.01026f
+C723 a_4992_13683# VDPWR 0.73617f
+C724 LELO_GR03_1.x7.x21.S LELO_GR03_1.x7.x6.G 1.20345f
+C725 LELO_GR03_1.x1.x21.OUT a_8892_11283# 0.03616f
+C726 a_5192_13883# a_4992_13683# 0.06482f
+C727 LELO_GR03_1.x1.x21.INP VDPWR 7.05993f
+C728 a_11530_5544# LELO_GR03_1.BIAS_CIRCUIT2_0.xa5.N 0.18782f
+C729 a_17962_6768# VDPWR 0.54126f
+C730 LELO_GR03_1.x7.x7<2>.S a_17962_2968# 0.01112f
+C731 LELO_GR03_1.x7.x21.G uo_out<0> 0.0853f
+C732 ui_in<4> ui_in<3> 0.03102f
+C733 LELO_GR03_1.x7.INN LELO_GR03_1.x1.x15.G 0.0916f
+C734 a_11962_11042# a_12394_11042# 0.21349f
+C735 LELO_GR03_1.x7.INN LELO_GR03_1.x7.x7<2>.S 2.82705f
+C736 LELO_GR03_1.x7.x6.G a_16662_3768# 0.09829f
+C737 LELO_GR03_1.x10.D LELO_GR03_1.x10.XA7.MP2.S 0.34151f
+C738 a_14732_5070# LELO_GR03_1.x10.CK 0.07196f
+C739 a_5720_15234# LELO_GR03_1.x1.x21.INP 0.0678f
+C740 LELO_GR03_1.x1.x14.D a_7012_15234# 0.0457f
+C741 LELO_GR03_1.BIAS_CIRCUIT2_0.xc4.D a_14214_12648# 0.0401f
+C742 a_12614_13128# a_12614_12648# 0.02114f
+C743 a_8392_13883# VDPWR 0.78987f
+C744 LELO_GR03_1.x7.x21.S LELO_GR03_1.x7.x21.G 8.14807f
+C745 a_16662_6768# LELO_GR03_1.x7.x6.G 0.01359f
+C746 a_19862_2128# a_19862_1968# 0.15007f
+C747 LELO_GR03_1.x12<1>.A LELO_GR03_1.BIAS_CIRCUIT2_0.xc4.D 0.01457f
+C748 LELO_GR03_1.x7.PWRUP_1V8 a_13420_2436# 0.08533f
+C749 LELO_GR03_1.x7.x6.G VDPWR 1.22992f
+C750 LELO_GR03_1.x7.x7<2>.S a_19262_3768# 0.10027f
+C751 LELO_GR03_1.x10.CK a_18262_1968# 0.01852f
+C752 a_14732_3308# a_14828_3076# 0.02043f
+C753 LELO_GR03_1.x1.x11.D a_10072_15560# 0.03793f
+C754 LELO_GR03_1.x1.x21.OUT a_11212_15560# 0.08603f
+C755 LELO_GR03_1.x12<1>.A LELO_GR03_1.x7.VB_N 0.12226f
+C756 LELO_GR03_1.x10.D LELO_GR03_1.x10.XA7.CN 0.37141f
+C757 a_26148_5928# LELO_GR03_1.x10.XA7.C 0.06698f
+C758 LELO_GR03_1.x7.x21.G a_16662_3768# 0.01303f
+C759 ui_in<0> uo_out<0> 0.02867f
+C760 LELO_GR03_1.x1.x14.D a_6152_15234# 0.08396f
+C761 LELO_GR03_1.x7.PWRUP_N_1V8 a_13258_7464# 0.08418f
+C762 LELO_GR03_1.x1.x21.x4.G a_7592_9867# 0.07044f
+C763 LELO_GR03_1.x1.VB_P a_8892_11283# 0.07221f
+C764 a_4992_11283# a_4992_10667# 0.02327f
+C765 a_8392_14043# VDPWR 0.68147f
+C766 a_16662_6768# LELO_GR03_1.x7.x21.G 0.09397f
+C767 LELO_GR03_1.x1.x21.OUT a_8892_12083# 0.01336f
+C768 a_6792_14043# a_6792_13883# 0.15007f
+C769 a_10620_5354# a_11530_5544# 0.0422f
+C770 LELO_GR03_1.x7.x21.G VDPWR 12.6987f
+C771 LELO_GR03_1.x7.x7<2>.S a_20562_4568# 0.07802f
+C772 LELO_GR03_1.x10.D a_26988_3528# 0.0631f
+C773 LELO_GR03_1.BIAS_CIRCUIT2_0.xb6.S a_14828_2916# 0.04723f
+C774 a_16662_3768# LELO_GR03_1.x7.x8.S 0.05692f
+C775 ui_in<5> ui_in<4> 0.03102f
+C776 LELO_GR03_1.x1.x21.OUT a_12412_16380# 0.01326f
+C777 LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x7.PWRUP_1V8 0.61233f
+C778 LELO_GR03_1.x7.INN a_11472_15060# 0.01272f
+C779 a_11746_9122# a_12178_9122# 0.14233f
+C780 LELO_GR03_1.x10.D LELO_GR03_1.x10.XA7.C 0.87755f
+C781 LELO_GR03_1.x7.x21.G a_17962_4568# 0.03987f
+C782 VDPWR uo_out<0> 1.84972f
+C783 a_5720_15234# a_6152_15234# 0.01515f
+C784 LELO_GR03_1.x7.PWRUP_N_1V8 a_13042_5544# 0.06487f
+C785 a_14214_13288# a_14214_13128# 0.15007f
+C786 a_12614_13128# LELO_GR03_1.BIAS_CIRCUIT2_0.xb7.D 0.0391f
+C787 a_6792_13883# VDPWR 0.79062f
+C788 a_16662_6768# LELO_GR03_1.x7.x21.S 0.05705f
+C789 LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.x1.x21.x4.G 0.16458f
+C790 LELO_GR03_1.x7.x21.S VDPWR 12.243f
+C791 LELO_GR03_1.x10.D a_26148_3528# 0.05912f
+C792 LELO_GR03_1.x10.CK a_16662_1968# 0.02019f
+C793 LELO_GR03_1.BIAS_CIRCUIT2_0.xb6.S a_14828_3076# 0.03584f
+C794 a_11212_17200# LELO_GR03_1.x1.x9.D 0.01206f
+C795 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x18.G 1.18369f
+C796 LELO_GR03_1.x7.PWRUP_N_1V8 a_16976_15408# 0.05952f
+C797 VDPWR ui_in<0> 0.90759f
+C798 LELO_GR03_1.x12<1>.A a_15202_9122# 0.03379f
+C799 LELO_GR03_1.x1.x21.x6.G a_8892_9867# 0.07046f
+C800 LELO_GR03_1.x1.x21.x4.G a_6292_9867# 0.08332f
+C801 LELO_GR03_1.BIAS_CIRCUIT2_0.xc4.D a_11314_12488# 0.05642f
+C802 a_12614_13288# LELO_GR03_1.BIAS_CIRCUIT2_0.xb7.D 0.01008f
+C803 LELO_GR03_1.x1.VB_P a_8892_12083# 0.15627f
+C804 a_6792_14043# VDPWR 0.68353f
+C805 LELO_GR03_1.x1.x14.D VDPWR 0.60681f
+C806 a_16662_6768# VDPWR 0.53893f
+C807 LELO_GR03_1.x7.x7<2>.S a_17962_3768# 0.07541f
+C808 LELO_GR03_1.x10.D LELO_GR03_1.x10.XA3.MP1.S 0.0112f
+C809 a_13424_3308# a_13420_3076# 0.05991f
+C810 ui_in<6> ui_in<5> 0.03102f
+C811 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x12<1>.A 0.68406f
+C812 LELO_GR03_1.x1.x18.S a_12412_15580# 0.0564f
+C813 LELO_GR03_1.x7.PWRUP_N_1V8 a_16136_15408# 0.08793f
+C814 LELO_GR03_1.x1.XQ2<3>.Emitter LELO_GR03_1.x1.x21.x3<1>.D 3.50912f
+C815 LELO_GR03_1.x7.VB_N LELO_GR03_1.x10.CK 0.41201f
+C816 LELO_GR03_1.BIAS_CIRCUIT2_0.xc4.D LELO_GR03_1.BIAS_CIRCUIT2_0.xb7.D 0.03585f
+C817 LELO_GR03_1.x1.x21.x6.G a_7592_9867# 0.01323f
+C818 LELO_GR03_1.x1.x21.x4.G a_7592_10667# 0.07186f
+C819 LELO_GR03_1.x1.VB_P a_14214_12488# 0.04522f
+C820 a_5192_13883# VDPWR 0.77762f
+C821 a_17962_4568# VDPWR 0.01895f
+C822 a_18262_2128# a_18262_1968# 0.15007f
+C823 a_10188_5354# a_10620_5354# 0.01515f
+C824 a_15202_5544# VDPWR 0.01511f
+C825 LELO_GR03_1.x7.x7<2>.S a_19262_4568# 0.05947f
+C826 LELO_GR03_1.x10.CK a_21462_2768# 0.01432f
+C827 LELO_GR03_1.x1.x21.OUT a_10072_15560# 0.10521f
+C828 LELO_GR03_1.x1.XQ2<3>.Emitter a_6292_13683# 0.0727f
+C829 LELO_GR03_1.x7.PWRUP_N_1V8 a_12826_7464# 0.03624f
+C830 LELO_GR03_1.x12<1>.A LELO_GR03_1.BIAS_CIRCUIT2_0.xa6.N 0.06571f
+C831 LELO_GR03_1.x1.x21.x6.G a_8892_10667# 0.07107f
+C832 LELO_GR03_1.x1.VB_P a_14214_12648# 0.01043f
+C833 LELO_GR03_1.BIAS_CIRCUIT2_0.xc4.D a_14214_13128# 0.04889f
+C834 a_5192_14043# VDPWR 0.68401f
+C835 LELO_GR03_1.x12<1>.A LELO_GR03_1.x1.VB_P 1.50666f
+C836 LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.x1.x21.x6.G 0.13568f
+C837 a_5192_14043# a_5192_13883# 0.15007f
+C838 LELO_GR03_1.BIAS_CIRCUIT2_0.xc2.S a_13420_2916# 0.04665f
+C839 ui_in<7> ui_in<6> 0.03102f
+C840 LELO_GR03_1.x1.x11.D a_10072_16360# 0.10585f
+C841 LELO_GR03_1.x1.x21.OUT a_11212_16360# 0.1613f
+C842 LELO_GR03_1.x1.XQ2<3>.Emitter LELO_GR03_1.x1.x21.INP 2.19394f
+C843 LELO_GR03_1.x7.PWRUP_N_1V8 a_12610_5544# 0.02331f
+C844 LELO_GR03_1.x1.x21.x4.G LELO_GR03_1.x1.x21.x6.S 2.63692f
+C845 LELO_GR03_1.x1.VB_P a_12614_12488# 0.03595f
+C846 LELO_GR03_1.BIAS_CIRCUIT2_0.xc4.D a_14214_13288# 0.02895f
+C847 a_12614_13288# a_12614_13128# 0.15007f
+C848 a_9972_5354# a_10620_5354# 0.06667f
+C849 LELO_GR03_1.BIAS_CIRCUIT2_0.xc2.S a_13420_3076# 0.0341f
+C850 LELO_GR03_1.x7.PWRUP_N_1V8 a_16140_16158# 0.01541f
+C851 a_11530_9122# VDPWR 0.01362f
+C852 a_5504_17154# LELO_GR03_1.x1.x14.D 0.23245f
+C853 LELO_GR03_1.x1.x21.x6.G a_7592_10667# 0.03679f
+C854 LELO_GR03_1.x1.x21.x4.G a_6292_10667# 0.10773f
+C855 LELO_GR03_1.x1.VB_P a_12614_12648# 0.01036f
+C856 a_16976_15088# VDPWR 0.28375f
+C857 a_14770_5544# a_15202_5544# 0.01515f
+C858 LELO_GR03_1.BIAS_CIRCUIT2_0.xb6.S VDPWR 0.0145f
+C859 a_19862_2608# a_19862_2128# 0.02114f
+C860 LELO_GR03_1.x1.x21.x3<1>.S LELO_GR03_1.x1.x21.x3<1>.D 1.3458f
+C861 uio_in<0> ui_in<7> 0.03102f
+C862 LELO_GR03_1.x1.x17.D a_8932_15560# 0.03794f
+C863 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x9.D 0.91741f
+C864 LELO_GR03_1.x7.PWRUP_N_1V8 a_16980_16478# 0.02121f
+C865 a_11530_9122# a_11746_9122# 0.01515f
+C866 LELO_GR03_1.x7.x6.G LELO_GR03_1.x7.x7<2>.S 1.09604f
+C867 LELO_GR03_1.x7.VB_N a_12610_2046# 0.05602f
+C868 LELO_GR03_1.x1.XQ2<3>.Emitter a_6152_15234# 0.0196f
+C869 LELO_GR03_1.BIAS_CIRCUIT2_0.xc4.D a_12614_13288# 0.01172f
+C870 LELO_GR03_1.x1.VB_P a_11314_12488# 0.10812f
+C871 LELO_GR03_1.BIAS_CIRCUIT2_0.xa5.N a_11962_3966# 0.2189f
+C872 a_16662_2128# a_16662_1968# 0.15007f
+C873 LELO_GR03_1.x1.VB_P LELO_GR03_1.x10.CK 0.4856f
+C874 a_9972_5354# a_10188_5354# 0.01515f
+C875 LELO_GR03_1.BIAS_CIRCUIT2_0.xb6.S a_14732_3308# 0.09041f
+C876 a_11972_17420# a_12412_17180# 0.016f
+C877 LELO_GR03_1.x1.x21.OUT a_8932_15560# 0.09368f
+C878 LELO_GR03_1.x7.PWRUP_N_1V8 a_16140_16478# 0.05285f
+C879 LELO_GR03_1.x7.x21.G LELO_GR03_1.x7.x7<2>.S 2.9858f
+C880 a_12178_2046# a_12610_2046# 0.01515f
+C881 a_5072_15234# a_6152_15234# 0.0381f
+C882 a_5288_15234# a_5720_15234# 0.14233f
+C883 LELO_GR03_1.x7.PWRUP_N_1V8 a_12394_7464# 0.01542f
+C884 LELO_GR03_1.x1.x21.x6.G LELO_GR03_1.x1.x21.x6.S 1.66371f
+C885 LELO_GR03_1.x1.VB_P LELO_GR03_1.BIAS_CIRCUIT2_0.xb7.D 0.87271f
+C886 LELO_GR03_1.BIAS_CIRCUIT2_0.xc2.S VDPWR 0.01994f
+C887 LELO_GR03_1.x7.x7<2>.S LELO_GR03_1.x7.x8.S 2.03566f
+C888 uio_in<1> uio_in<0> 0.03102f
+C889 LELO_GR03_1.x1.x21.INP LELO_GR03_1.x1.x21.x3<1>.S 0.8365f
+C890 a_10072_17200# LELO_GR03_1.x1.x11.D 0.01251f
+C891 LELO_GR03_1.x1.x21.OUT a_10072_16360# 0.16501f
+C892 LELO_GR03_1.x1.x18.S a_12412_16380# 0.1229f
+C893 a_22462_5968# a_21862_5768# 0.02379f
+C894 LELO_GR03_1.x7.x21.S LELO_GR03_1.x7.x7<2>.S 0.03734f
+C895 LELO_GR03_1.x7.x21.G a_16662_4568# 0.03188f
+C896 LELO_GR03_1.x1.XQ2<3>.Emitter LELO_GR03_1.x1.x14.D 0.03828f
+C897 a_11314_13288# LELO_GR03_1.BIAS_CIRCUIT2_0.xc4.D 0.0738f
+C898 a_12732_15060# VDPWR 0.02927f
+C899 LELO_GR03_1.x1.x21.x3<1>.S a_8392_13883# 0.02064f
+C900 LELO_GR03_1.x1.VB_P a_14732_5070# 0.01332f
+C901 LELO_GR03_1.x1.XQ2<3>.Emitter VDPWR 6.09807f
+C902 LELO_GR03_1.x7.x7<2>.S a_16662_3768# 0.05778f
+C903 LELO_GR03_1.x7.INN LELO_GR03_1.x7.PWRUP_1V8 0.16785f
+C904 LELO_GR03_1.x1.x21.OUT a_11212_17200# 0.07044f
+C905 LELO_GR03_1.x1.x18.S LELO_GR03_1.x1.x18.G 1.86988f
+C906 LELO_GR03_1.x1.XQ2<3>.Emitter a_5720_15234# 0.06019f
+C907 LELO_GR03_1.BIAS_CIRCUIT2_0.xa5.N a_11530_2046# 0.01585f
+C908 LELO_GR03_1.x7.x7<2>.S VDPWR 0.03776f
+C909 a_18262_2608# a_18262_2128# 0.02114f
+C910 LELO_GR03_1.x1.x21.x3<1>.S a_8392_14043# 0.05754f
+C911 LELO_GR03_1.x1.XQ2<16>.Emitter a_9972_5354# 0.02937f
+C912 LELO_GR03_1.BIAS_CIRCUIT2_0.xc2.S a_13424_3308# 0.08956f
+C913 a_14732_4108# LELO_GR03_1.BIAS_CIRCUIT2_0.xb6.S 0.05699f
+C914 LELO_GR03_1.x7.x7<2>.S a_17962_4568# 0.06095f
+C915 LELO_GR03_1.x10.D LELO_GR03_1.x10.XA3.Y 0.0469f
+C916 uio_in<2> uio_in<1> 0.03102f
+C917 LELO_GR03_1.x1.x18.S LELO_GR03_1.x12<1>.A 0.3023f
+C918 LELO_GR03_1.x1.x17.D a_8932_16360# 0.10684f
+C919 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x11.D 1.02978f
+C920 LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x1.x18.G 0.59568f
+C921 LELO_GR03_1.x7.x21.G a_23662_4868# 0.0111f
+C922 a_16662_4568# VDPWR 0.02214f
+C923 LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.x1.x21.x11<1>.A 0.02822f
+C924 LELO_GR03_1.x7.PWRUP_N_1V8 a_14214_12648# 0.08188f
+C925 a_8392_14523# a_8392_14043# 0.02114f
+C926 LELO_GR03_1.x1.x21.x3<1>.S a_6792_13883# 0.01719f
+C927 a_28996_20830# VDPWR 0.35852f
+C928 LELO_GR03_1.BIAS_CIRCUIT2_0.xc2.S LELO_GR03_1.BIAS_CIRCUIT2_0.xb6.S 0.02024f
+C929 a_21862_4968# a_21862_4568# 0.03739f
+C930 LELO_GR03_1.x1.x21.OUT a_8932_16360# 0.16503f
+C931 LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x12<1>.A 1.60483f
+C932 a_8392_9027# a_8392_8867# 0.15007f
+C933 LELO_GR03_1.x7.x21.S a_23662_4868# 0.06238f
+C934 LELO_GR03_1.x1.x21.x6.G a_7592_11283# 0.04821f
+C935 a_11472_15060# VDPWR 0.03208f
+C936 a_14338_5544# a_14770_5544# 0.14233f
+C937 LELO_GR03_1.x7.x8.S a_21462_1968# 0.04993f
+C938 LELO_GR03_1.x1.x15.G a_12732_14260# 0.06802f
+C939 LELO_GR03_1.x1.x21.x3<1>.S a_6792_14043# 0.05599f
+C940 uio_in<3> uio_in<2> 0.03102f
+C941 LELO_GR03_1.x1.x21.OUT a_10072_17200# 0.0702f
+C942 LELO_GR03_1.x1.x18.S a_11212_16360# 0.06101f
+C943 LELO_GR03_1.x7.INN a_12412_15580# 0.01567f
+C944 a_11962_3966# LELO_GR03_1.x7.VB_N 0.22285f
+C945 a_20862_5968# a_20562_5768# 0.05456f
+C946 LELO_GR03_1.x1.XQ2<3>.Emitter a_5504_17154# 0.22929f
+C947 LELO_GR03_1.x1.VB_P LELO_GR03_1.BIAS_CIRCUIT2_0.xc4.D 1.56435f
+C948 LELO_GR03_1.x1.x21.x3<1>.S VDPWR 5.15225f
+C949 a_19862_2768# a_19862_2608# 0.15007f
+C950 a_23662_4868# VDPWR 0.61536f
+C951 LELO_GR03_1.x10.XA6.A uo_out<0> 0.0107f
+C952 LELO_GR03_1.x7.PWRUP_N_1V8 a_12614_12648# 0.09191f
+C953 LELO_GR03_1.x1.VB_P LELO_GR03_1.x7.VB_N 0.38386f
+C954 a_28996_21150# VDPWR 0.39823f
+C955 LELO_GR03_1.x7.VB_N a_18262_2768# 0.01445f
+C956 LELO_GR03_1.x7.x20.G a_23662_3268# 0.07055f
+C957 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x17.D 1.03026f
+C958 LELO_GR03_1.x1.x18.S a_12412_17180# 0.09066f
+C959 LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x7.x20.G 0.67265f
+C960 a_11530_2046# a_12610_2046# 0.0381f
+C961 LELO_GR03_1.x1.XQ2<3>.Emitter a_5288_15234# 0.0418f
+C962 LELO_GR03_1.x1.VB_P a_11314_13288# 0.08771f
+C963 a_8392_14523# VDPWR 0.68567f
+C964 a_16662_2608# a_16662_2128# 0.02114f
+C965 LELO_GR03_1.x10.XA6.MP1.S VDPWR 0.08534f
+C966 LELO_GR03_1.x1.x21.x3<1>.S a_5192_14043# 0.04394f
+C967 JNWTR_TIEL_CV_0.Y uo_out<0> 0.0716f
+C968 a_13424_4108# LELO_GR03_1.BIAS_CIRCUIT2_0.xc2.S 0.05705f
+C969 LELO_GR03_1.x10.CK a_23662_3268# 0.01442f
+C970 LELO_GR03_1.x7.x20.G a_23662_4068# 0.17318f
+C971 uio_in<4> uio_in<3> 0.03102f
+C972 LELO_GR03_1.x1.x18.S LELO_GR03_1.x1.x9.D 0.81883f
+C973 a_8932_17200# LELO_GR03_1.x1.x17.D 0.01179f
+C974 LELO_GR03_1.x7.PWRUP_N_1V8 a_12412_17180# 0.01429f
+C975 LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x10.CK 0.02422f
+C976 a_11746_2046# a_12178_2046# 0.14233f
+C977 a_26988_2408# VDPWR 0.3676f
+C978 a_5072_15234# a_5288_15234# 0.01515f
+C979 a_8392_14683# VDPWR 0.70605f
+C980 LELO_GR03_1.x10.XA6.A VDPWR 1.35257f
+C981 LELO_GR03_1.x1.XQ2<3>.Emitter a_6792_8867# 0.01563f
+C982 LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.BIAS_CIRCUIT2_0.xb7.D 0.60508f
+C983 a_6792_14523# a_6792_14043# 0.02114f
+C984 LELO_GR03_1.x1.x15.G a_11472_14260# 0.09786f
+C985 JNWTR_TIEL_CV_0.Y ui_in<0> 0.12763f
+C986 JNWTR_TIEL_CV_0.MP0.G VDPWR 0.57072f
+C987 LELO_GR03_1.BIAS_CIRCUIT2_0.xa6.N a_15202_9122# 0.15179f
+C988 LELO_GR03_1.x7.PWRUP_1V8 a_14828_2916# 0.08426f
+C989 LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x1.x9.D 0.0318f
+C990 a_8932_17200# LELO_GR03_1.x1.x21.OUT 0.07043f
+C991 LELO_GR03_1.x7.PWRUP_N_1V8 a_13430_4262# 0.07077f
+C992 LELO_GR03_1.x1.VB_P a_15202_9122# 0.12779f
+C993 a_6792_9027# a_6792_8867# 0.15007f
+C994 a_22462_5968# LELO_GR03_1.x7.x20.G 0.01636f
+C995 a_26148_2408# VDPWR 0.01514f
+C996 a_6792_14523# VDPWR 0.68691f
+C997 LELO_GR03_1.x7.PWRUP_N_1V8 a_14214_13128# 0.08638f
+C998 LELO_GR03_1.x1.x15.G a_12732_15060# 0.04988f
+C999 LELO_GR03_1.x7.PWRUP_1V8 a_4992_13683# 0.01109f
+C1000 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.VB_P 0.55103f
+C1001 JNWTR_TIEL_CV_0.Y VDPWR 0.02653f
+C1002 a_14770_9122# a_15202_9122# 0.01515f
+C1003 a_20562_4968# a_20562_4568# 0.03739f
+C1004 a_14732_4270# a_14732_4108# 0.11281f
+C1005 LELO_GR03_1.x7.x20.G LELO_GR03_1.x7.x10.D 1.17387f
+C1006 uio_in<5> uio_in<4> 0.03102f
+C1007 LELO_GR03_1.x1.x21.INP LELO_GR03_1.x7.PWRUP_1V8 0.80654f
+C1008 a_10452_17420# a_10072_17200# 0.02945f
+C1009 LELO_GR03_1.x1.x18.S a_10072_16360# 0.06064f
+C1010 a_19262_5968# a_19262_5768# 0.08533f
+C1011 a_26988_2728# VDPWR 0.40216f
+C1012 a_5072_15234# LELO_GR03_1.x1.XQ2<3>.Emitter 0.10899f
+C1013 LELO_GR03_1.x1.VB_P a_8892_12883# 0.14793f
+C1014 a_6792_14683# VDPWR 0.69106f
+C1015 a_26988_5288# VDPWR 0.36276f
+C1016 a_18262_2768# a_18262_2608# 0.15007f
+C1017 LELO_GR03_1.x7.x10.D a_23662_2468# 0.07289f
+C1018 LELO_GR03_1.x1.x21.OUT a_4992_11283# 0.01163f
+C1019 a_28996_21470# VDPWR 0.2855f
+C1020 LELO_GR03_1.x7.PWRUP_1V8 a_13420_2916# 0.10205f
+C1021 LELO_GR03_1.x10.CK LELO_GR03_1.x7.x10.D 1.54399f
+C1022 LELO_GR03_1.x7.x20.G a_20562_2968# 0.0111f
+C1023 LELO_GR03_1.x1.x18.S a_11212_17200# 0.08198f
+C1024 LELO_GR03_1.x7.INN a_11212_15560# 0.01734f
+C1025 LELO_GR03_1.x7.PWRUP_N_1V8 a_13430_5062# 0.07672f
+C1026 LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.x7.x6.G 0.06131f
+C1027 LELO_GR03_1.x1.VB_P LELO_GR03_1.BIAS_CIRCUIT2_0.xa6.N 0.88038f
+C1028 a_8392_9507# a_8392_9027# 0.02114f
+C1029 a_20862_5968# LELO_GR03_1.x7.x20.G 0.01108f
+C1030 LELO_GR03_1.x1.x21.x3<1>.D LELO_GR03_1.x1.x21.x6.S 0.01133f
+C1031 a_5192_14523# VDPWR 0.68603f
+C1032 a_14122_7464# a_14554_7464# 0.21349f
+C1033 a_26148_5288# VDPWR 0.06902f
+C1034 LELO_GR03_1.x10.XA7.MP2.S uo_out<0> 0.08268f
+C1035 LELO_GR03_1.x7.PWRUP_N_1V8 a_12614_13128# 0.10676f
+C1036 a_14770_9122# LELO_GR03_1.BIAS_CIRCUIT2_0.xa6.N 0.08791f
+C1037 LELO_GR03_1.x7.PWRUP_1V8 a_13420_3076# 0.01515f
+C1038 a_16662_4568# LELO_GR03_1.x7.x7<2>.S 0.06126f
+C1039 LELO_GR03_1.x7.x20.G a_21862_3768# 0.02527f
+C1040 uio_in<6> uio_in<5> 0.03102f
+C1041 LELO_GR03_1.x1.x18.S LELO_GR03_1.x1.x11.D 0.79454f
+C1042 LELO_GR03_1.x1.VB_P a_14770_9122# 0.0354f
+C1043 LELO_GR03_1.x10.XA1.MN1.S VDPWR 0.01198f
+C1044 a_5192_14683# VDPWR 0.68988f
+C1045 LELO_GR03_1.x10.XA7.MN2.D VDPWR 0.01218f
+C1046 LELO_GR03_1.x10.XA7.CN uo_out<0> 0.25437f
+C1047 LELO_GR03_1.x7.PWRUP_N_1V8 a_12614_13288# 0.03106f
+C1048 a_5192_14523# a_5192_14043# 0.02114f
+C1049 a_11472_15060# LELO_GR03_1.x1.x15.G 0.11207f
+C1050 LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.x7.x8.S 1.64754f
+C1051 LELO_GR03_1.x1.XQ2<3>.Emitter LELO_GR03_1.x1.x21.x3<1>.S 0.04091f
+C1052 a_11972_17580# a_11972_17420# 0.15007f
+C1053 LELO_GR03_1.x1.x18.S a_8932_16360# 0.06046f
+C1054 LELO_GR03_1.x7.INN LELO_GR03_1.x1.x18.G 0.31804f
+C1055 a_5192_9027# a_5192_8867# 0.15007f
+C1056 a_26988_3208# VDPWR 0.38807f
+C1057 LELO_GR03_1.x7.PWRUP_1V8 ui_in<0> 0.02431f
+C1058 a_10212_15060# VDPWR 0.03012f
+C1059 a_13906_5544# a_14338_5544# 0.14233f
+C1060 LELO_GR03_1.x10.XA7.MP2.S VDPWR 0.32956f
+C1061 LELO_GR03_1.x10.XA7.C uo_out<0> 0.15831f
+C1062 LELO_GR03_1.x1.x21.INP LELO_GR03_1.x1.x21.x6.S 0.0457f
+C1063 LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.BIAS_CIRCUIT2_0.xc4.D 1.28669f
+C1064 LELO_GR03_1.x7.x20.G a_20562_3768# 0.03426f
+C1065 uio_in<7> uio_in<6> 0.03102f
+C1066 LELO_GR03_1.x7.INN LELO_GR03_1.x12<1>.A 2.77172f
+C1067 LELO_GR03_1.x1.x18.S a_10072_17200# 0.07485f
+C1068 LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x7.VB_N 0.05558f
+C1069 a_8892_10667# VDPWR 0.01265f
+C1070 a_11530_2046# a_11746_2046# 0.01515f
+C1071 a_17962_5968# a_17962_5768# 0.08533f
+C1072 LELO_GR03_1.x7.x21.G a_23162_4968# 0.0133f
+C1073 a_26148_3208# VDPWR 0.07316f
+C1074 LELO_GR03_1.x7.PWRUP_1V8 VDPWR 5.03316f
+C1075 a_16662_2768# a_16662_2608# 0.15007f
+C1076 LELO_GR03_1.x10.XA7.CN VDPWR 1.62967f
+C1077 a_14554_11042# LELO_GR03_1.BIAS_CIRCUIT2_0.xa6.N 0.23425f
+C1078 LELO_GR03_1.x12<1>.A a_19262_3768# 0.07101f
+C1079 LELO_GR03_1.x7.x20.G a_21862_4568# 0.0395f
+C1080 a_19262_4968# a_19262_4568# 0.03739f
+C1081 LELO_GR03_1.x1.x18.S LELO_GR03_1.x1.x17.D 0.80848f
+C1082 a_8932_17420# a_8932_17200# 0.064f
+C1083 LELO_GR03_1.x7.INN a_10072_15560# 0.01682f
+C1084 LELO_GR03_1.x1.VB_P a_14554_11042# 0.0352f
+C1085 a_6792_9507# a_6792_9027# 0.02114f
+C1086 LELO_GR03_1.x7.x21.S a_23162_4968# 0.06753f
+C1087 LELO_GR03_1.x7.x21.G a_21862_4968# 0.05013f
+C1088 a_26988_3528# VDPWR 0.31332f
+C1089 a_28996_21150# a_28996_20830# 0.01f
+C1090 LELO_GR03_1.x1.x21.x3<1>.D a_7592_11283# 0.05639f
+C1091 a_8892_13683# LELO_GR03_1.x1.VB_P 0.07058f
+C1092 a_16976_15408# VDPWR 0.27933f
+C1093 LELO_GR03_1.x10.XA7.C VDPWR 3.20291f
+C1094 LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x1.x17.D 0.0606f
+C1095 LELO_GR03_1.x1.x18.S LELO_GR03_1.x1.x21.OUT 12.2299f
+C1096 LELO_GR03_1.x7.INN LELO_GR03_1.x7.x20.G 2.3874f
+C1097 a_7592_10667# VDPWR 0.01148f
+C1098 LELO_GR03_1.x7.x21.S a_21862_4968# 0.04684f
+C1099 LELO_GR03_1.x7.x21.G a_23162_5768# 0.01538f
+C1100 LELO_GR03_1.x1.x21.x3<1>.D a_8892_12083# 0.01317f
+C1101 LELO_GR03_1.x1.x21.x4.G a_6292_11283# 0.0416f
+C1102 a_23162_4968# VDPWR 0.59077f
+C1103 a_21862_2968# a_21462_2768# 0.04431f
+C1104 a_14338_9122# a_14770_9122# 0.14233f
+C1105 a_10452_17580# a_10452_17420# 0.15007f
+C1106 LELO_GR03_1.x1.x18.S a_8932_17200# 0.07244f
+C1107 LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x1.x21.OUT 0.29926f
+C1108 a_8392_9667# a_8392_9507# 0.15007f
+C1109 LELO_GR03_1.x7.x21.S a_23162_5768# 0.08385f
+C1110 LELO_GR03_1.x7.x21.G a_20562_4968# 0.03493f
+C1111 LELO_GR03_1.x10.XA3.MP1.S VDPWR 0.09448f
+C1112 a_28156_21150# a_28156_20830# 0.01f
+C1113 LELO_GR03_1.x7.PWRUP_1V8 a_11530_9122# 0.01991f
+C1114 LELO_GR03_1.x1.x21.x4.G a_7592_12083# 0.01351f
+C1115 a_12412_15580# VDPWR 0.54241f
+C1116 a_16980_16158# ui_in<0> 0.07602f
+C1117 a_21862_4968# VDPWR 0.52496f
+C1118 LELO_GR03_1.x7.x10.D a_21462_2768# 0.09553f
+C1119 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x21.x4.G 0.34092f
+C1120 a_8392_14523# LELO_GR03_1.x1.x21.x3<1>.S 0.04101f
+C1121 LELO_GR03_1.x1.x21.INP a_7592_11283# 0.08607f
+C1122 LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.BIAS_CIRCUIT2_0.xb6.S 0.45409f
+C1123 LELO_GR03_1.x12<1>.A a_17962_3768# 0.08363f
+C1124 LELO_GR03_1.x7.x20.G a_20562_4568# 0.01397f
+C1125 uo_out<2> uo_out<1> 0.03102f
+C1126 LELO_GR03_1.x7.INN LELO_GR03_1.x1.x9.D 0.23662f
+C1127 LELO_GR03_1.x1.x18.S a_11972_17420# 0.02372f
+C1128 LELO_GR03_1.x1.x21.x6.S VDPWR 0.03785f
+C1129 LELO_GR03_1.x7.x21.S a_20562_4968# 0.04684f
+C1130 LELO_GR03_1.x7.x21.G a_21862_5768# 0.01025f
+C1131 a_16980_16158# VDPWR 0.29671f
+C1132 a_16140_16158# ui_in<0> 0.08303f
+C1133 a_14828_2436# a_14828_2276# 0.15007f
+C1134 a_23162_5768# VDPWR 0.63147f
+C1135 a_16976_15408# a_16976_15088# 0.01f
+C1136 LELO_GR03_1.x7.PWRUP_1V8 a_16136_15088# 0.0195f
+C1137 LELO_GR03_1.x7.PWRUP_N_1V8 LELO_GR03_1.x1.VB_P 0.80564f
+C1138 LELO_GR03_1.x12<1>.A a_19262_4568# 0.07046f
+C1139 a_5288_15234# LELO_GR03_1.x7.PWRUP_1V8 0.02257f
+C1140 LELO_GR03_1.x1.x18.S a_11972_17580# 0.04794f
+C1141 LELO_GR03_1.x7.PWRUP_N_1V8 a_11972_17420# 0.01151f
+C1142 LELO_GR03_1.x1.VB_P a_14122_11042# 0.02096f
+C1143 a_5192_9507# a_5192_9027# 0.02114f
+C1144 a_6292_10667# VDPWR 0.01148f
+C1145 LELO_GR03_1.x7.x21.S a_21862_5768# 0.09483f
+C1146 LELO_GR03_1.x7.x21.G a_19262_4968# 0.08036f
+C1147 a_26988_4008# VDPWR 0.31476f
+C1148 JNWTR_TIEL_CV_0.MP0.G a_28996_21150# 0.06636f
+C1149 LELO_GR03_1.x1.x21.x4.G LELO_GR03_1.x1.VB_P 0.0492f
+C1150 LELO_GR03_1.x7.PWRUP_1V8 a_8392_9027# 0.08555f
+C1151 a_16980_16478# ui_in<0> 0.05912f
+C1152 a_13690_7464# a_14122_7464# 0.21349f
+C1153 a_20562_4968# VDPWR 0.52496f
+C1154 LELO_GR03_1.x7.INN a_14214_13288# 0.01387f
+C1155 a_6792_14523# LELO_GR03_1.x1.x21.x3<1>.S 0.04186f
+C1156 a_8392_14683# a_8392_14523# 0.15007f
+C1157 LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.BIAS_CIRCUIT2_0.xc2.S 0.5692f
+C1158 LELO_GR03_1.x7.VB_N a_19262_2968# 0.07066f
+C1159 uo_out<3> uo_out<2> 0.03102f
+C1160 LELO_GR03_1.x7.PWRUP_N_1V8 a_11972_17580# 0.10074f
+C1161 LELO_GR03_1.x1.x18.S a_10452_17420# 0.02328f
+C1162 LELO_GR03_1.x7.INN a_10072_16360# 0.02772f
+C1163 a_4992_10667# VDPWR 0.01148f
+C1164 LELO_GR03_1.x7.x21.S a_19262_4968# 0.04682f
+C1165 LELO_GR03_1.x7.x21.G a_20562_5768# 0.01137f
+C1166 JNWTR_TIEL_CV_0.MP0.G a_28156_21150# 0.05912f
+C1167 LELO_GR03_1.x1.x21.x6.G a_7592_12083# 0.02616f
+C1168 a_16980_16478# VDPWR 0.29886f
+C1169 a_16140_16478# ui_in<0> 0.06129f
+C1170 a_21862_5768# VDPWR 0.63f
+C1171 a_20562_2968# a_19862_2768# 0.03979f
+C1172 LELO_GR03_1.x1.x21.OUT LELO_GR03_1.x1.x21.x6.G 1.32704f
+C1173 a_16136_15408# a_16136_15088# 0.01f
+C1174 LELO_GR03_1.x7.x20.G a_19262_4568# 0.02484f
+C1175 LELO_GR03_1.x1.XQ2<3>.Emitter LELO_GR03_1.x7.PWRUP_1V8 0.41438f
+C1176 a_11972_18060# a_11972_17580# 0.02114f
+C1177 a_8932_17580# a_8932_17420# 0.15007f
+C1178 LELO_GR03_1.x1.x18.S a_10452_17580# 0.05128f
+C1179 LELO_GR03_1.BIAS_CIRCUIT2_0.xb7.D a_12826_11042# 0.01055f
+C1180 a_6792_9667# a_6792_9507# 0.15007f
+C1181 a_8892_11283# VDPWR 0.54178f
+C1182 LELO_GR03_1.x7.x21.S a_20562_5768# 0.09483f
+C1183 LELO_GR03_1.x7.x21.G a_17962_4968# 0.08488f
+C1184 LELO_GR03_1.x10.XA4.MP1.S VDPWR 0.09506f
+C1185 a_28996_21470# a_28996_21150# 0.01f
+C1186 LELO_GR03_1.x7.PWRUP_1V8 a_6792_9027# 0.08775f
+C1187 LELO_GR03_1.x1.x21.x4.G a_6292_12083# 0.01854f
+C1188 a_16140_16478# VDPWR 0.03156f
+C1189 a_13474_5544# a_13906_5544# 0.14233f
+C1190 a_19262_4968# VDPWR 0.52496f
+C1191 LELO_GR03_1.x7.PWRUP_1V8 LELO_GR03_1.x1.x15.G 0.19155f
+C1192 a_5192_14523# LELO_GR03_1.x1.x21.x3<1>.S 0.03878f
+C1193 uo_out<4> uo_out<3> 0.03102f
+C1194 LELO_GR03_1.x7.INN LELO_GR03_1.x1.x11.D 1.39295f
+C1195 LELO_GR03_1.x7.PWRUP_N_1V8 a_10452_17580# 0.09965f
+C1196 LELO_GR03_1.x1.x18.S a_8932_17420# 0.02152f
+C1197 LELO_GR03_1.x12<1>.A LELO_GR03_1.x7.x6.G 1.02054f
+C1198 LELO_GR03_1.x1.x21.x6.S a_8392_8867# 0.01041f
+C1199 a_7592_11283# VDPWR 0.54279f
+C1200 LELO_GR03_1.x10.D a_26988_5928# 0.08349f
+C1201 LELO_GR03_1.x7.x21.S a_17962_4968# 0.04686f
+C1202 LELO_GR03_1.x7.x21.G a_19262_5768# 0.0725f
+C1203 a_26988_2728# a_26988_2408# 0.01f
+C1204 JNWTR_TIEL_CV_0.Y JNWTR_TIEL_CV_0.MP0.G 0.02571f
+C1205 LELO_GR03_1.x1.x21.x4.G a_7592_12883# 0.01674f
+C1206 LELO_GR03_1.x1.x21.x6.G LELO_GR03_1.x1.VB_P 0.38143f
+C1207 ena VGND 0.06659f
+C1208 clk VGND 0.04284f
+C1209 rst_n VGND 0.04203f
+C1210 ui_in<1> VGND 0.04306f
+C1211 ui_in<2> VGND 0.04259f
+C1212 ui_in<3> VGND 0.04259f
+C1213 ui_in<4> VGND 0.04259f
+C1214 ui_in<5> VGND 0.04259f
+C1215 ui_in<6> VGND 0.04259f
+C1216 ui_in<7> VGND 0.04259f
+C1217 uio_in<0> VGND 0.04259f
+C1218 uio_in<1> VGND 0.04259f
+C1219 uio_in<2> VGND 0.04259f
+C1220 uio_in<3> VGND 0.04259f
+C1221 uio_in<4> VGND 0.04259f
+C1222 uio_in<5> VGND 0.04259f
+C1223 uio_in<6> VGND 0.04259f
+C1224 uio_in<7> VGND 0.04259f
+C1225 uo_out<1> VGND 0.04259f
+C1226 uo_out<2> VGND 0.04259f
+C1227 uo_out<3> VGND 0.04259f
+C1228 uo_out<4> VGND 0.04259f
+C1229 uo_out<5> VGND 0.04259f
+C1230 uo_out<6> VGND 0.04259f
+C1231 uo_out<7> VGND 0.04259f
+C1232 uio_out<0> VGND 0.04259f
+C1233 uio_out<1> VGND 0.04259f
+C1234 uio_out<2> VGND 0.04259f
+C1235 uio_out<3> VGND 0.04259f
+C1236 uio_out<4> VGND 0.04259f
+C1237 uio_out<5> VGND 0.04259f
+C1238 uio_out<6> VGND 0.04259f
+C1239 uio_out<7> VGND 0.04259f
+C1240 uio_oe<0> VGND 0.08799f
+C1241 uio_oe<1> VGND 0.05524f
+C1242 uio_oe<2> VGND 0.05462f
+C1243 uio_oe<3> VGND 0.05357f
+C1244 uio_oe<4> VGND 0.05232f
+C1245 uio_oe<5> VGND 0.05274f
+C1246 uio_oe<6> VGND 0.05462f
+C1247 uio_oe<7> VGND 0.11114f
+C1248 uo_out<0> VGND 10.6913f
+C1249 ui_in<0> VGND 8.32226f
+C1250 VDPWR VGND 0.30293p
+C1251 m4_9998_21812# VGND 0.01451f $ **FLOATING
+C1252 m4_6134_21830# VGND 0.01451f $ **FLOATING
+C1253 li_6290_10467# VGND 0.07212f $ **FLOATING
+C1254 a_21462_1968# VGND 0.66549f $ **FLOATING
+C1255 a_26988_2408# VGND 0.08176f $ **FLOATING
+C1256 a_26148_2408# VGND 0.44705f $ **FLOATING
+C1257 a_26148_2728# VGND 0.40396f $ **FLOATING
+C1258 LELO_GR03_1.x10.XA1.MN1.S VGND 0.09688f
+C1259 a_26148_3208# VGND 0.31166f $ **FLOATING
+C1260 a_26148_3528# VGND 0.31439f $ **FLOATING
+C1261 LELO_GR03_1.x10.XA3.MN1.S VGND 0.09448f
+C1262 a_26148_4008# VGND 0.31586f $ **FLOATING
+C1263 LELO_GR03_1.x10.XA4.MN1.S VGND 0.08682f
+C1264 a_26148_4488# VGND 0.31072f $ **FLOATING
+C1265 LELO_GR03_1.x10.XA3.Y VGND 0.99509f
+C1266 a_26148_4808# VGND 0.31389f $ **FLOATING
+C1267 a_23662_2468# VGND 0.11352f $ **FLOATING
+C1268 a_19862_1968# VGND 0.84954f $ **FLOATING
+C1269 a_19862_2128# VGND 0.67996f $ **FLOATING
+C1270 a_18262_1968# VGND 0.85014f $ **FLOATING
+C1271 a_18262_2128# VGND 0.67968f $ **FLOATING
+C1272 a_16662_1968# VGND 0.85008f $ **FLOATING
+C1273 a_16662_2128# VGND 0.68161f $ **FLOATING
+C1274 a_21462_2768# VGND 0.61462f $ **FLOATING
+C1275 a_19862_2608# VGND 0.67541f $ **FLOATING
+C1276 a_19862_2768# VGND 0.76754f $ **FLOATING
+C1277 a_18262_2608# VGND 0.67449f $ **FLOATING
+C1278 a_18262_2768# VGND 0.76872f $ **FLOATING
+C1279 a_16662_2608# VGND 0.67458f $ **FLOATING
+C1280 a_16662_2768# VGND 0.74203f $ **FLOATING
+C1281 a_14828_2276# VGND 0.83097f $ **FLOATING
+C1282 a_14828_2436# VGND 0.68466f $ **FLOATING
+C1283 a_13420_2276# VGND 0.83098f $ **FLOATING
+C1284 a_13420_2436# VGND 0.68464f $ **FLOATING
+C1285 a_21862_2968# VGND 0.62333f $ **FLOATING
+C1286 LELO_GR03_1.x7.x10.D VGND 3.48979f
+C1287 a_20562_2968# VGND 0.63565f $ **FLOATING
+C1288 a_21862_3768# VGND 0.46603f $ **FLOATING
+C1289 a_19262_2968# VGND 0.66826f $ **FLOATING
+C1290 a_20562_3768# VGND 0.46613f $ **FLOATING
+C1291 a_21862_4568# VGND 0.57741f $ **FLOATING
+C1292 a_17962_2968# VGND 0.67427f $ **FLOATING
+C1293 a_19262_3768# VGND 0.46613f $ **FLOATING
+C1294 a_20562_4568# VGND 0.57752f $ **FLOATING
+C1295 a_16662_2968# VGND 0.57786f $ **FLOATING
+C1296 a_17962_3768# VGND 0.46613f $ **FLOATING
+C1297 a_19262_4568# VGND 0.57752f $ **FLOATING
+C1298 a_14828_2916# VGND 0.67855f $ **FLOATING
+C1299 a_14828_3076# VGND 0.79095f $ **FLOATING
+C1300 a_13420_2916# VGND 0.67687f $ **FLOATING
+C1301 a_13420_3076# VGND 0.77326f $ **FLOATING
+C1302 LELO_GR03_1.x7.x8.S VGND 8.0828f
+C1303 a_16662_3768# VGND 0.46661f $ **FLOATING
+C1304 a_17962_4568# VGND 0.57752f $ **FLOATING
+C1305 a_14732_3308# VGND 0.6587f $ **FLOATING
+C1306 a_13424_3308# VGND 0.57975f $ **FLOATING
+C1307 LELO_GR03_1.BIAS_CIRCUIT2_0.xb6.S VGND 2.17362f
+C1308 a_14732_4108# VGND 0.52663f $ **FLOATING
+C1309 LELO_GR03_1.BIAS_CIRCUIT2_0.xc2.S VGND 2.10929f
+C1310 a_13424_4108# VGND 0.52182f $ **FLOATING
+C1311 LELO_GR03_1.x7.x7<2>.S VGND 3.48264f
+C1312 a_16662_4568# VGND 0.57799f $ **FLOATING
+C1313 a_14732_4270# VGND 0.59476f $ **FLOATING
+C1314 a_23662_4868# VGND 0.03221f $ **FLOATING
+C1315 LELO_GR03_1.x10.XA6.A VGND 0.97505f
+C1316 LELO_GR03_1.x10.XA6.MN1.S VGND 0.08222f
+C1317 a_26148_5288# VGND 0.31612f $ **FLOATING
+C1318 LELO_GR03_1.x10.XA7.MN2.D VGND 0.09787f
+C1319 LELO_GR03_1.x10.XA7.MP2.S VGND 0.12071f
+C1320 LELO_GR03_1.x10.XA7.CN VGND 1.4416f
+C1321 LELO_GR03_1.x10.XA7.C VGND 2.58085f
+C1322 a_23162_4968# VGND 0.02437f $ **FLOATING
+C1323 a_21862_4968# VGND 0.07579f $ **FLOATING
+C1324 a_23162_5768# VGND 0.02581f $ **FLOATING
+C1325 a_20562_4968# VGND 0.07579f $ **FLOATING
+C1326 a_19262_4968# VGND 0.07579f $ **FLOATING
+C1327 a_17962_4968# VGND 0.07579f $ **FLOATING
+C1328 a_16662_4968# VGND 0.07798f $ **FLOATING
+C1329 LELO_GR03_1.x7.x20.G VGND 4.29281f
+C1330 LELO_GR03_1.x10.CK VGND 11.436f
+C1331 a_13430_4262# VGND 0.5947f $ **FLOATING
+C1332 a_14732_5070# VGND 0.61761f $ **FLOATING
+C1333 a_13430_5062# VGND 0.61568f $ **FLOATING
+C1334 a_12610_2046# VGND 1.87477f $ **FLOATING
+C1335 LELO_GR03_1.x7.VB_N VGND 10.4012f
+C1336 a_12178_2046# VGND 0.5348f
+C1337 a_11962_3966# VGND 0.63171f
+C1338 a_11746_2046# VGND 0.5342f
+C1339 a_11530_2046# VGND 1.85509f $ **FLOATING
+C1340 a_26148_5928# VGND 0.31234f $ **FLOATING
+C1341 LELO_GR03_1.x10.D VGND 2.5924f
+C1342 a_26988_6248# VGND 0.08095f $ **FLOATING
+C1343 a_26148_6248# VGND 0.34856f $ **FLOATING
+C1344 a_22462_6768# VGND 0.14116f $ **FLOATING
+C1345 a_20862_6768# VGND 0.13909f $ **FLOATING
+C1346 a_19262_6768# VGND 0.13909f $ **FLOATING
+C1347 a_17962_6768# VGND 0.10637f $ **FLOATING
+C1348 LELO_GR03_1.x7.x6.G VGND 5.3337f
+C1349 LELO_GR03_1.x7.x21.G VGND 3.44672f
+C1350 LELO_GR03_1.x7.x21.S VGND 0.40168f
+C1351 a_16662_6768# VGND 0.10795f $ **FLOATING
+C1352 a_15202_5544# VGND 1.88175f $ **FLOATING
+C1353 a_14770_5544# VGND 0.52984f
+C1354 a_14554_7464# VGND 0.63171f
+C1355 a_14338_5544# VGND 0.43595f
+C1356 a_14122_7464# VGND 0.63171f
+C1357 a_13906_5544# VGND 0.43595f
+C1358 a_13690_7464# VGND 0.63171f
+C1359 a_13474_5544# VGND 0.4391f
+C1360 a_13258_7464# VGND 0.63171f
+C1361 a_13042_5544# VGND 0.43595f
+C1362 a_12826_7464# VGND 0.63171f
+C1363 a_12610_5544# VGND 0.43595f
+C1364 a_12394_7464# VGND 0.63171f
+C1365 a_12178_5544# VGND 0.43595f
+C1366 a_11962_7464# VGND 0.63171f
+C1367 a_11746_5544# VGND 0.52984f
+C1368 LELO_GR03_1.BIAS_CIRCUIT2_0.xa5.N VGND 2.47253f
+C1369 a_11530_5544# VGND 1.85576f $ **FLOATING
+C1370 a_10620_5354# VGND 1.79084f $ **FLOATING
+C1371 a_10188_5354# VGND 0.62372f
+C1372 a_9972_5354# VGND 1.84774f $ **FLOATING
+C1373 LELO_GR03_1.x1.XQ2<16>.Emitter VGND 28.8431f
+C1374 a_15202_9122# VGND 1.89085f $ **FLOATING
+C1375 LELO_GR03_1.BIAS_CIRCUIT2_0.xa6.N VGND 2.75119f
+C1376 a_14770_9122# VGND 0.54117f
+C1377 a_14554_11042# VGND 0.63753f
+C1378 a_14338_9122# VGND 0.44285f
+C1379 a_14122_11042# VGND 0.63533f
+C1380 a_13906_9122# VGND 0.43778f
+C1381 a_13690_11042# VGND 0.63171f
+C1382 a_13474_9122# VGND 0.43595f
+C1383 a_13258_11042# VGND 0.63171f
+C1384 a_13042_9122# VGND 0.43595f
+C1385 a_12826_11042# VGND 0.63171f
+C1386 a_12610_9122# VGND 0.43595f
+C1387 a_12394_11042# VGND 0.63171f
+C1388 a_12178_9122# VGND 0.43595f
+C1389 a_11962_11042# VGND 0.63171f
+C1390 a_11746_9122# VGND 0.52984f
+C1391 a_11530_9122# VGND 1.89258f $ **FLOATING
+C1392 a_8392_8867# VGND 0.84559f $ **FLOATING
+C1393 a_8392_9027# VGND 0.67704f $ **FLOATING
+C1394 a_6792_8867# VGND 0.84568f $ **FLOATING
+C1395 a_6792_9027# VGND 0.67618f $ **FLOATING
+C1396 a_5192_8867# VGND 0.84885f $ **FLOATING
+C1397 a_5192_9027# VGND 0.67784f $ **FLOATING
+C1398 a_8392_9507# VGND 0.67352f $ **FLOATING
+C1399 a_8392_9667# VGND 0.73928f $ **FLOATING
+C1400 a_6792_9507# VGND 0.67271f $ **FLOATING
+C1401 a_6792_9667# VGND 0.7487f $ **FLOATING
+C1402 a_5192_9507# VGND 0.67554f $ **FLOATING
+C1403 a_5192_9667# VGND 0.76327f $ **FLOATING
+C1404 a_8892_9867# VGND 0.58635f $ **FLOATING
+C1405 a_7592_9867# VGND 0.62387f $ **FLOATING
+C1406 a_8892_10667# VGND 0.6255f $ **FLOATING
+C1407 a_6292_9867# VGND 0.66015f $ **FLOATING
+C1408 a_7592_10667# VGND 0.62442f $ **FLOATING
+C1409 a_4992_9867# VGND 0.80668f $ **FLOATING
+C1410 LELO_GR03_1.x1.x21.x6.S VGND 5.19157f
+C1411 a_6292_10667# VGND 0.6245f $ **FLOATING
+C1412 a_4992_10667# VGND 0.78082f $ **FLOATING
+C1413 a_8892_11283# VGND 0.09067f $ **FLOATING
+C1414 a_7592_11283# VGND 0.08848f $ **FLOATING
+C1415 a_14214_12488# VGND 0.16389f $ **FLOATING
+C1416 a_12614_12488# VGND 0.16305f $ **FLOATING
+C1417 a_11314_12488# VGND 0.12507f $ **FLOATING
+C1418 LELO_GR03_1.BIAS_CIRCUIT2_0.xb7.D VGND 1.59076f
+C1419 a_14214_13288# VGND 0.14194f $ **FLOATING
+C1420 a_12614_13288# VGND 0.12797f $ **FLOATING
+C1421 LELO_GR03_1.BIAS_CIRCUIT2_0.xc4.D VGND 0.82882f
+C1422 a_11314_13288# VGND 0.09827f $ **FLOATING
+C1423 a_6292_11283# VGND 0.08848f $ **FLOATING
+C1424 LELO_GR03_1.x1.VB_P VGND 5.93992f
+C1425 a_4992_11283# VGND 0.0899f $ **FLOATING
+C1426 a_8892_13683# VGND 0.01462f $ **FLOATING
+C1427 a_7592_13683# VGND 0.01242f $ **FLOATING
+C1428 LELO_GR03_1.x1.x21.x4.G VGND 4.74029f
+C1429 a_3932_8957# VGND 1.87956f $ **FLOATING
+C1430 LELO_GR03_1.x1.x21.x6.G VGND 4.53414f
+C1431 a_3500_8957# VGND 0.52984f
+C1432 a_3284_10877# VGND 0.63171f
+C1433 a_3068_8957# VGND 0.52984f
+C1434 LELO_GR03_1.x1.x21.x11<1>.A VGND 5.31745f
+C1435 a_2852_8957# VGND 1.85543f $ **FLOATING
+C1436 a_12732_14260# VGND 0.64503f $ **FLOATING
+C1437 a_16976_15088# VGND 0.08297f $ **FLOATING
+C1438 a_16136_15088# VGND 0.36727f $ **FLOATING
+C1439 a_11472_14260# VGND 0.70569f $ **FLOATING
+C1440 a_12732_15060# VGND 0.60095f $ **FLOATING
+C1441 LELO_GR03_1.x1.x15.G VGND 4.88419f
+C1442 a_10212_14260# VGND 0.72942f $ **FLOATING
+C1443 a_11472_15060# VGND 0.64527f $ **FLOATING
+C1444 LELO_GR03_1.x1.x21.x3<1>.S VGND 0.18661f
+C1445 a_8392_14683# VGND 0.1269f $ **FLOATING
+C1446 a_6792_14683# VGND 0.14733f $ **FLOATING
+C1447 a_5192_14683# VGND 0.1494f $ **FLOATING
+C1448 a_10212_15060# VGND 0.64519f $ **FLOATING
+C1449 LELO_GR03_1.x7.PWRUP_1V8 VGND 28.731f
+C1450 a_16976_15408# VGND 0.06561f $ **FLOATING
+C1451 a_16136_15408# VGND 0.34051f $ **FLOATING
+C1452 a_12412_15580# VGND 0.09905f $ **FLOATING
+C1453 a_16980_16158# VGND 0.06525f $ **FLOATING
+C1454 a_16140_16158# VGND 0.35589f $ **FLOATING
+C1455 a_16980_16478# VGND 0.08059f $ **FLOATING
+C1456 a_16140_16478# VGND 0.349f $ **FLOATING
+C1457 a_11212_15560# VGND 0.08196f $ **FLOATING
+C1458 LELO_GR03_1.x1.x18.G VGND 1.14043f
+C1459 LELO_GR03_1.x12<1>.A VGND 41.0414f
+C1460 a_10072_15560# VGND 0.07594f $ **FLOATING
+C1461 a_12412_17180# VGND 0.0149f $ **FLOATING
+C1462 LELO_GR03_1.x1.x9.D VGND 0.10471f
+C1463 a_8932_15560# VGND 0.07695f $ **FLOATING
+C1464 a_11212_17200# VGND 0.0108f $ **FLOATING
+C1465 LELO_GR03_1.x1.x11.D VGND 0.06373f
+C1466 LELO_GR03_1.x1.x17.D VGND 0.07702f
+C1467 LELO_GR03_1.x1.x21.OUT VGND 15.1143f
+C1468 LELO_GR03_1.x1.x18.S VGND 6.27927f
+C1469 LELO_GR03_1.x7.PWRUP_N_1V8 VGND 16.956f
+C1470 a_11972_18220# VGND 0.14116f $ **FLOATING
+C1471 a_10452_18220# VGND 0.13909f $ **FLOATING
+C1472 a_8932_18220# VGND 0.14134f $ **FLOATING
+C1473 a_8092_15234# VGND 1.79035f $ **FLOATING
+C1474 LELO_GR03_1.x7.INN VGND 12.5838f
+C1475 a_7660_15234# VGND 0.52984f
+C1476 a_7444_17154# VGND 0.63171f
+C1477 a_7228_15234# VGND 0.52984f
+C1478 LELO_GR03_1.x1.x21.INP VGND 4.76075f
+C1479 a_7012_15234# VGND 1.81037f $ **FLOATING
+C1480 a_6152_15234# VGND 1.81037f $ **FLOATING
+C1481 LELO_GR03_1.x1.x14.D VGND 2.30718f
+C1482 a_5720_15234# VGND 0.52984f
+C1483 a_5504_17154# VGND 0.63171f
+C1484 a_5288_15234# VGND 0.52984f
+C1485 LELO_GR03_1.x1.XQ2<3>.Emitter VGND 6.08199f
+C1486 a_5072_15234# VGND 1.85166f $ **FLOATING
+C1487 a_28996_20830# VGND 0.09642f $ **FLOATING
+C1488 a_28156_20830# VGND 0.44295f $ **FLOATING
+C1489 a_28156_21150# VGND 0.39998f $ **FLOATING
+C1490 JNWTR_TIEL_CV_0.MP0.G VGND 0.53365f
+C1491 JNWTR_TIEL_CV_0.Y VGND 9.89066f
+C1492 a_28996_21470# VGND 0.08187f $ **FLOATING
+C1493 a_28156_21470# VGND 0.34452f $ **FLOATING
+.ends
+

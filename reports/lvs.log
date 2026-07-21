@@ -1,0 +1,1001 @@
+
+Circuit 1 cell sky130_fd_pr__res_high_po and Circuit 2 cell sky130_fd_pr__res_high_po are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__res_high_po is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__res_high_po is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__res_high_po       |Circuit 2: sky130_fd_pr__res_high_po       
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__res_high_po and sky130_fd_pr__res_high_po are equivalent.
+
+Circuit 1 cell sky130_fd_pr__cap_mim_m3_1 and Circuit 2 cell sky130_fd_pr__cap_mim_m3_1 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__cap_mim_m3_1      |Circuit 2: sky130_fd_pr__cap_mim_m3_1      
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__cap_mim_m3_1 and sky130_fd_pr__cap_mim_m3_1 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8_lvt and Circuit 2 cell sky130_fd_pr__pfet_01v8_lvt are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_lvt is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_lvt is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8_lvt     |Circuit 2: sky130_fd_pr__pfet_01v8_lvt     
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8_lvt and sky130_fd_pr__pfet_01v8_lvt are equivalent.
+
+Class JNWTR_RES4 (0):  Merged 3 series devices.
+Class JNWTR_RES4 (1):  Merged 3 series devices.
+Subcircuit summary:
+Circuit 1: JNWTR_RES4                      |Circuit 2: JNWTR_RES4                      
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__res_high_po (4->1)           |sky130_fd_pr__res_high_po (4->1)           
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 3                          |Number of nets: 3                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: JNWTR_RES4                      |Circuit 2: JNWTR_RES4                      
+-------------------------------------------|-------------------------------------------
+0                                          |B **Mismatch**                             
+N                                          |N                                          
+P                                          |P                                          
+---------------------------------------------------------------------------------------
+Cell pin lists for JNWTR_RES4 and JNWTR_RES4 altered to match.
+Device classes JNWTR_RES4 and JNWTR_RES4 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Subcircuit summary:
+Circuit 1: JNWTR_CAPX1                     |Circuit 2: JNWTR_CAPX1                     
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__cap_mim_m3_1 (1)             |sky130_fd_pr__cap_mim_m3_1 (1)             
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 2                          |Number of nets: 2                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: JNWTR_CAPX1                     |Circuit 2: JNWTR_CAPX1                     
+-------------------------------------------|-------------------------------------------
+B                                          |B                                          
+A                                          |A                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes JNWTR_CAPX1 and JNWTR_CAPX1 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pnp_05v5_W3p40L3p40 and Circuit 2 cell sky130_fd_pr__pnp_05v5_W3p40L3p40 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pnp_05v5_W3p40L3p40 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pnp_05v5_W3p40L3p40 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pnp_05v5_W3p40L3p |Circuit 2: sky130_fd_pr__pnp_05v5_W3p40L3p 
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pnp_05v5_W3p40L3p40 and sky130_fd_pr__pnp_05v5_W3p40L3p40 are equivalent.
+
+Class JNWTR_RES2 (0):  Merged 1 series devices.
+Class JNWTR_RES2 (1):  Merged 1 series devices.
+Subcircuit summary:
+Circuit 1: JNWTR_RES2                      |Circuit 2: JNWTR_RES2                      
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__res_high_po (2->1)           |sky130_fd_pr__res_high_po (2->1)           
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 3                          |Number of nets: 3                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: JNWTR_RES2                      |Circuit 2: JNWTR_RES2                      
+-------------------------------------------|-------------------------------------------
+0                                          |B **Mismatch**                             
+P                                          |P                                          
+N                                          |N                                          
+---------------------------------------------------------------------------------------
+Cell pin lists for JNWTR_RES2 and JNWTR_RES2 altered to match.
+Device classes JNWTR_RES2 and JNWTR_RES2 are equivalent.
+
+Cell LELOATR_LVT_PCH_4C5F0 (0) disconnected node: a_160_778#
+Cell LELOATR_LVT_PCH_4C5F0 (0) disconnected node: a_160_n22#
+Class LELOATR_LVT_PCH_4C5F0 (0):  Merged 1 parallel devices.
+Cell LELOATR_LVT_PCH_4C5F0 (0) disconnected node: a_160_778#
+Cell LELOATR_LVT_PCH_4C5F0 (0) disconnected node: a_160_n22#
+Subcircuit summary:
+Circuit 1: LELOATR_LVT_PCH_4C5F0           |Circuit 2: LELOATR_LVT_PCH_4C5F0           
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_lvt (2->1)         |sky130_fd_pr__pfet_01v8_lvt (1)            
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: LELOATR_LVT_PCH_4C5F0           |Circuit 2: LELOATR_LVT_PCH_4C5F0           
+-------------------------------------------|-------------------------------------------
+G                                          |G                                          
+D                                          |D                                          
+S                                          |S                                          
+B                                          |B                                          
+a_160_778#                                 |(no matching pin)                          
+a_160_n22#                                 |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes LELOATR_LVT_PCH_4C5F0 and LELOATR_LVT_PCH_4C5F0 are equivalent.
+
+Subcircuit summary:
+Circuit 1: JNWTR_RPPO4                     |Circuit 2: JNWTR_RPPO4                     
+-------------------------------------------|-------------------------------------------
+JNWTR_RES4 (1)                             |JNWTR_RES4 (1)                             
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 3                          |Number of nets: 3                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: JNWTR_RPPO4                     |Circuit 2: JNWTR_RPPO4                     
+-------------------------------------------|-------------------------------------------
+N                                          |N                                          
+P                                          |P                                          
+B                                          |B                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes JNWTR_RPPO4 and JNWTR_RPPO4 are equivalent.
+
+Cell JNWATR_PCH_4C5F0 (0) disconnected node: a_160_778#
+Cell JNWATR_PCH_4C5F0 (0) disconnected node: a_160_n22#
+Class JNWATR_PCH_4C5F0 (0):  Merged 1 parallel devices.
+Cell JNWATR_PCH_4C5F0 (0) disconnected node: a_160_778#
+Cell JNWATR_PCH_4C5F0 (0) disconnected node: a_160_n22#
+Subcircuit summary:
+Circuit 1: JNWATR_PCH_4C5F0                |Circuit 2: JNWATR_PCH_4C5F0                
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (2->1)             |sky130_fd_pr__pfet_01v8 (1)                
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: JNWATR_PCH_4C5F0                |Circuit 2: JNWATR_PCH_4C5F0                
+-------------------------------------------|-------------------------------------------
+G                                          |G                                          
+D                                          |D                                          
+S                                          |S                                          
+B                                          |B                                          
+a_160_778#                                 |(no matching pin)                          
+a_160_n22#                                 |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes JNWATR_PCH_4C5F0 and JNWATR_PCH_4C5F0 are equivalent.
+
+Cell JNWATR_NCH_4C5F0 (0) disconnected node: a_160_778#
+Cell JNWATR_NCH_4C5F0 (0) disconnected node: a_160_n22#
+Cell JNWATR_NCH_4C5F0 (0) disconnected node: a_1056_n40#
+Class JNWATR_NCH_4C5F0 (0):  Merged 1 parallel devices.
+Cell JNWATR_NCH_4C5F0 (0) disconnected node: a_160_778#
+Cell JNWATR_NCH_4C5F0 (0) disconnected node: a_160_n22#
+Cell JNWATR_NCH_4C5F0 (0) disconnected node: a_1056_n40#
+Subcircuit summary:
+Circuit 1: JNWATR_NCH_4C5F0                |Circuit 2: JNWATR_NCH_4C5F0                
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (2->1)             |sky130_fd_pr__nfet_01v8 (1)                
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: JNWATR_NCH_4C5F0                |Circuit 2: JNWATR_NCH_4C5F0                
+-------------------------------------------|-------------------------------------------
+G                                          |G                                          
+S                                          |S                                          
+D                                          |D                                          
+B                                          |B                                          
+a_160_778#                                 |(no matching pin)                          
+a_160_n22#                                 |(no matching pin)                          
+a_1056_n40#                                |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes JNWATR_NCH_4C5F0 and JNWATR_NCH_4C5F0 are equivalent.
+
+Subcircuit summary:
+Circuit 1: JNWTR_CAPX4                     |Circuit 2: JNWTR_CAPX4                     
+-------------------------------------------|-------------------------------------------
+JNWTR_CAPX1 (4)                            |JNWTR_CAPX1 (4)                            
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 2                          |Number of nets: 2                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Resolving symmetries by net name.
+Netlists match with 1 symmetry.
+
+Subcircuit pins:
+Circuit 1: JNWTR_CAPX4                     |Circuit 2: JNWTR_CAPX4                     
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes JNWTR_CAPX4 and JNWTR_CAPX4 are equivalent.
+
+Class JNWATR_PCH_8C1F2 (0):  Merged 1 parallel devices.
+Subcircuit summary:
+Circuit 1: JNWATR_PCH_8C1F2                |Circuit 2: JNWATR_PCH_8C1F2                
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (2->1)             |sky130_fd_pr__pfet_01v8 (1)                
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: JNWATR_PCH_8C1F2                |Circuit 2: JNWATR_PCH_8C1F2                
+-------------------------------------------|-------------------------------------------
+G                                          |G                                          
+D                                          |D                                          
+S                                          |S                                          
+B                                          |B                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes JNWATR_PCH_8C1F2 and JNWATR_PCH_8C1F2 are equivalent.
+
+Cell JNWATR_NCH_8C1F2 (0) disconnected node: a_1312_n40#
+Class JNWATR_NCH_8C1F2 (0):  Merged 1 parallel devices.
+Cell JNWATR_NCH_8C1F2 (0) disconnected node: a_1312_n40#
+Subcircuit summary:
+Circuit 1: JNWATR_NCH_8C1F2                |Circuit 2: JNWATR_NCH_8C1F2                
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (2->1)             |sky130_fd_pr__nfet_01v8 (1)                
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: JNWATR_NCH_8C1F2                |Circuit 2: JNWATR_NCH_8C1F2                
+-------------------------------------------|-------------------------------------------
+G                                          |G                                          
+D                                          |D                                          
+S                                          |S                                          
+B                                          |B                                          
+a_1312_n40#                                |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes JNWATR_NCH_8C1F2 and JNWATR_NCH_8C1F2 are equivalent.
+
+Class JNWTR_RES16 (0):  Merged 15 series devices.
+Class JNWTR_RES16 (1):  Merged 15 series devices.
+Subcircuit summary:
+Circuit 1: JNWTR_RES16                     |Circuit 2: JNWTR_RES16                     
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__res_high_po (16->1)          |sky130_fd_pr__res_high_po (16->1)          
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 3                          |Number of nets: 3                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: JNWTR_RES16                     |Circuit 2: JNWTR_RES16                     
+-------------------------------------------|-------------------------------------------
+0                                          |B **Mismatch**                             
+P                                          |P                                          
+N                                          |N                                          
+---------------------------------------------------------------------------------------
+Cell pin lists for JNWTR_RES16 and JNWTR_RES16 altered to match.
+Device classes JNWTR_RES16 and JNWTR_RES16 are equivalent.
+
+Cell JNWTR_PCHDL (0) disconnected node: a_120_n16#
+Cell JNWTR_PCHDL (0) disconnected node: a_120_304#
+Subcircuit summary:
+Circuit 1: JNWTR_PCHDL                     |Circuit 2: JNWTR_PCHDL                     
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: JNWTR_PCHDL                     |Circuit 2: JNWTR_PCHDL                     
+-------------------------------------------|-------------------------------------------
+G                                          |G                                          
+S                                          |S                                          
+D                                          |D                                          
+B                                          |B                                          
+a_120_n16#                                 |(no matching pin)                          
+a_120_304#                                 |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes JNWTR_PCHDL and JNWTR_PCHDL are equivalent.
+
+Cell JNWTR_NCHDL (0) disconnected node: a_270_n16#
+Cell JNWTR_NCHDL (0) disconnected node: a_270_304#
+Subcircuit summary:
+Circuit 1: JNWTR_NCHDL                     |Circuit 2: JNWTR_NCHDL                     
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: JNWTR_NCHDL                     |Circuit 2: JNWTR_NCHDL                     
+-------------------------------------------|-------------------------------------------
+G                                          |G                                          
+S                                          |S                                          
+D                                          |D                                          
+B                                          |B                                          
+a_270_n16#                                 |(no matching pin)                          
+a_270_304#                                 |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes JNWTR_NCHDL and JNWTR_NCHDL are equivalent.
+
+Subcircuit summary:
+Circuit 1: JNWTR_RPPO2                     |Circuit 2: JNWTR_RPPO2                     
+-------------------------------------------|-------------------------------------------
+JNWTR_RES2 (1)                             |JNWTR_RES2 (1)                             
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 3                          |Number of nets: 3                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: JNWTR_RPPO2                     |Circuit 2: JNWTR_RPPO2                     
+-------------------------------------------|-------------------------------------------
+N                                          |N                                          
+P                                          |P                                          
+B                                          |B                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes JNWTR_RPPO2 and JNWTR_RPPO2 are equivalent.
+
+Cell JNWATR_PCH_2C5F0 (0) disconnected node: a_160_778#
+Cell JNWATR_PCH_2C5F0 (0) disconnected node: a_160_n22#
+Class JNWATR_PCH_2C5F0 (0):  Merged 1 parallel devices.
+Cell JNWATR_PCH_2C5F0 (0) disconnected node: a_160_778#
+Cell JNWATR_PCH_2C5F0 (0) disconnected node: a_160_n22#
+Subcircuit summary:
+Circuit 1: JNWATR_PCH_2C5F0                |Circuit 2: JNWATR_PCH_2C5F0                
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (2->1)             |sky130_fd_pr__pfet_01v8 (1)                
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: JNWATR_PCH_2C5F0                |Circuit 2: JNWATR_PCH_2C5F0                
+-------------------------------------------|-------------------------------------------
+G                                          |G                                          
+D                                          |D                                          
+S                                          |S                                          
+B                                          |B                                          
+a_160_778#                                 |(no matching pin)                          
+a_160_n22#                                 |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes JNWATR_PCH_2C5F0 and JNWATR_PCH_2C5F0 are equivalent.
+
+Cell BANDGAP_OTA_PMOS (0) disconnected node: x4<0>/a_1312_n40#
+Subcircuit summary:
+Circuit 1: BANDGAP_OTA_PMOS                |Circuit 2: BANDGAP_OTA_PMOS                
+-------------------------------------------|-------------------------------------------
+LELOATR_LVT_PCH_4C5F0 (6)                  |LELOATR_LVT_PCH_4C5F0 (6)                  
+JNWTR_RPPO4 (1)                            |JNWTR_RPPO4 (1)                            
+JNWATR_PCH_4C5F0 (6)                       |JNWATR_PCH_4C5F0 (6)                       
+JNWATR_NCH_4C5F0 (4)                       |JNWATR_NCH_4C5F0 (4)                       
+JNWTR_CAPX4 (1)                            |JNWTR_CAPX4 (1)                            
+JNWATR_PCH_8C1F2 (3)                       |JNWATR_PCH_8C1F2 (3)                       
+JNWATR_NCH_8C1F2 (3)                       |JNWATR_NCH_8C1F2 (3)                       
+Number of devices: 24                      |Number of devices: 24                      
+Number of nets: 14                         |Number of nets: 14                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Resolving symmetries by net name.
+Netlists match with 6 symmetries.
+
+Subcircuit pins:
+Circuit 1: BANDGAP_OTA_PMOS                |Circuit 2: BANDGAP_OTA_PMOS                
+-------------------------------------------|-------------------------------------------
+VSS                                        |VSS                                        
+VDD                                        |VDD                                        
+OUT                                        |OUT                                        
+VB_P                                       |VB_P                                       
+PWRUP_N_1V8                                |PWRUP_N_1V8                                
+PWRUP_1V8                                  |PWRUP_1V8                                  
+INP                                        |INP                                        
+INN                                        |INN                                        
+x4<0>/a_1312_n40#                          |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes BANDGAP_OTA_PMOS and BANDGAP_OTA_PMOS are equivalent.
+
+Subcircuit summary:
+Circuit 1: JNWTR_RPPO16                    |Circuit 2: JNWTR_RPPO16                    
+-------------------------------------------|-------------------------------------------
+JNWTR_RES16 (1)                            |JNWTR_RES16 (1)                            
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 3                          |Number of nets: 3                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: JNWTR_RPPO16                    |Circuit 2: JNWTR_RPPO16                    
+-------------------------------------------|-------------------------------------------
+N                                          |N                                          
+P                                          |P                                          
+B                                          |B                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes JNWTR_RPPO16 and JNWTR_RPPO16 are equivalent.
+
+Cell JNWTR_TAPCELLB_CV (0) disconnected node: MN1/a_270_304#
+Cell JNWTR_TAPCELLB_CV (0) disconnected node: MP1/a_120_304#
+Subcircuit summary:
+Circuit 1: JNWTR_TAPCELLB_CV               |Circuit 2: JNWTR_TAPCELLB_CV               
+-------------------------------------------|-------------------------------------------
+JNWTR_PCHDL (1)                            |JNWTR_PCHDL (1)                            
+JNWTR_NCHDL (1)                            |JNWTR_NCHDL (1)                            
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 2                          |Number of nets: 2                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: JNWTR_TAPCELLB_CV               |Circuit 2: JNWTR_TAPCELLB_CV               
+-------------------------------------------|-------------------------------------------
+AVSS                                       |AVSS                                       
+AVDD                                       |AVDD                                       
+MN1/a_270_304#                             |(no matching pin)                          
+MP1/a_120_304#                             |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes JNWTR_TAPCELLB_CV and JNWTR_TAPCELLB_CV are equivalent.
+
+Cell JNWTR_NDX1_CV (0) disconnected node: MN0/a_270_n16#
+Cell JNWTR_NDX1_CV (0) disconnected node: MP0/a_120_n16#
+Cell JNWTR_NDX1_CV (0) disconnected node: MN1/a_270_304#
+Cell JNWTR_NDX1_CV (0) disconnected node: MP1/a_120_304#
+Subcircuit summary:
+Circuit 1: JNWTR_NDX1_CV                   |Circuit 2: JNWTR_NDX1_CV                   
+-------------------------------------------|-------------------------------------------
+JNWTR_PCHDL (2)                            |JNWTR_PCHDL (2)                            
+JNWTR_NCHDL (2)                            |JNWTR_NCHDL (2)                            
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 8 **Mismatch**             |Number of nets: 6 **Mismatch**             
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: JNWTR_NDX1_CV                   |Circuit 2: JNWTR_NDX1_CV                   
+
+---------------------------------------------------------------------------------------
+Net: AVSS                                  |Net: AVSS                                  
+  JNWTR_NCHDL/S = 1                        |  JNWTR_NCHDL/S = 1                        
+                                           |  JNWTR_NCHDL/B = 2                        
+                                           |                                           
+Net: AVDD                                  |Net: AVDD                                  
+  JNWTR_PCHDL/S = 1                        |  JNWTR_PCHDL/S = 1                        
+  JNWTR_PCHDL/D = 1                        |  JNWTR_PCHDL/D = 1                        
+                                           |  JNWTR_PCHDL/B = 2                        
+                                           |                                           
+Net: 0                                     |(no matching net)                          
+  JNWTR_NCHDL/B = 2                        |                                           
+                                           |                                           
+Net: MP1/B                                 |(no matching net)                          
+  JNWTR_PCHDL/B = 2                        |                                           
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+  Flattening non-matched subcircuits JNWTR_NDX1_CV JNWTR_NDX1_CV
+
+Cell JNWTR_IVX1_CV (0) disconnected node: MN0/a_270_n16#
+Cell JNWTR_IVX1_CV (0) disconnected node: MP0/a_120_n16#
+Cell JNWTR_IVX1_CV (0) disconnected node: MN0/a_270_304#
+Cell JNWTR_IVX1_CV (0) disconnected node: MP0/a_120_304#
+Subcircuit summary:
+Circuit 1: JNWTR_IVX1_CV                   |Circuit 2: JNWTR_IVX1_CV                   
+-------------------------------------------|-------------------------------------------
+JNWTR_PCHDL (1)                            |JNWTR_PCHDL (1)                            
+JNWTR_NCHDL (1)                            |JNWTR_NCHDL (1)                            
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 6 **Mismatch**             |Number of nets: 4 **Mismatch**             
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: JNWTR_IVX1_CV                   |Circuit 2: JNWTR_IVX1_CV                   
+
+---------------------------------------------------------------------------------------
+Net: AVSS                                  |Net: AVSS                                  
+  JNWTR_NCHDL/S = 1                        |  JNWTR_NCHDL/S = 1                        
+                                           |  JNWTR_NCHDL/B = 1                        
+                                           |                                           
+Net: AVDD                                  |Net: AVDD                                  
+  JNWTR_PCHDL/S = 1                        |  JNWTR_PCHDL/S = 1                        
+                                           |  JNWTR_PCHDL/B = 1                        
+                                           |                                           
+Net: MP0/B                                 |(no matching net)                          
+  JNWTR_PCHDL/B = 1                        |                                           
+                                           |                                           
+Net: 0                                     |(no matching net)                          
+  JNWTR_NCHDL/B = 1                        |                                           
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+  Flattening non-matched subcircuits JNWTR_IVX1_CV JNWTR_IVX1_CV
+
+Cell JNWTR_IVTRIX1_CV (0) disconnected node: MN0/a_270_n16#
+Cell JNWTR_IVTRIX1_CV (0) disconnected node: MP0/a_120_n16#
+Cell JNWTR_IVTRIX1_CV (0) disconnected node: MN1/a_270_304#
+Cell JNWTR_IVTRIX1_CV (0) disconnected node: MP1/a_120_304#
+Subcircuit summary:
+Circuit 1: JNWTR_IVTRIX1_CV                |Circuit 2: JNWTR_IVTRIX1_CV                
+-------------------------------------------|-------------------------------------------
+JNWTR_PCHDL (2)                            |JNWTR_PCHDL (2)                            
+JNWTR_NCHDL (2)                            |JNWTR_NCHDL (2)                            
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 10 **Mismatch**            |Number of nets: 8 **Mismatch**             
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: JNWTR_IVTRIX1_CV                |Circuit 2: JNWTR_IVTRIX1_CV                
+
+---------------------------------------------------------------------------------------
+Net: AVSS                                  |Net: AVSS                                  
+  JNWTR_NCHDL/S = 1                        |  JNWTR_NCHDL/S = 1                        
+                                           |  JNWTR_NCHDL/B = 2                        
+                                           |                                           
+Net: AVDD                                  |Net: AVDD                                  
+  JNWTR_PCHDL/S = 1                        |  JNWTR_PCHDL/S = 1                        
+                                           |  JNWTR_PCHDL/B = 2                        
+                                           |                                           
+Net: 0                                     |(no matching net)                          
+  JNWTR_NCHDL/B = 2                        |                                           
+                                           |                                           
+Net: MP1/B                                 |(no matching net)                          
+  JNWTR_PCHDL/B = 2                        |                                           
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+  Flattening non-matched subcircuits JNWTR_IVTRIX1_CV JNWTR_IVTRIX1_CV
+
+Cell JNWTR_NDTRIX1_CV (0) disconnected node: MN2/a_270_n16#
+Cell JNWTR_NDTRIX1_CV (0) disconnected node: MP2/a_120_n16#
+Cell JNWTR_NDTRIX1_CV (0) disconnected node: MN1/a_270_304#
+Cell JNWTR_NDTRIX1_CV (0) disconnected node: MP1/a_120_304#
+Subcircuit summary:
+Circuit 1: JNWTR_NDTRIX1_CV                |Circuit 2: JNWTR_NDTRIX1_CV                
+-------------------------------------------|-------------------------------------------
+JNWTR_PCHDL (3)                            |JNWTR_PCHDL (3)                            
+JNWTR_NCHDL (3)                            |JNWTR_NCHDL (3)                            
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 11 **Mismatch**            |Number of nets: 9 **Mismatch**             
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: JNWTR_NDTRIX1_CV                |Circuit 2: JNWTR_NDTRIX1_CV                
+
+---------------------------------------------------------------------------------------
+Net: AVDD                                  |Net: AVDD                                  
+  JNWTR_PCHDL/S = 1                        |  JNWTR_PCHDL/S = 1                        
+  JNWTR_PCHDL/D = 1                        |  JNWTR_PCHDL/D = 1                        
+                                           |  JNWTR_PCHDL/B = 3                        
+                                           |                                           
+Net: AVSS                                  |Net: AVSS                                  
+  JNWTR_NCHDL/S = 1                        |  JNWTR_NCHDL/S = 1                        
+                                           |  JNWTR_NCHDL/B = 3                        
+                                           |                                           
+Net: 0                                     |(no matching net)                          
+  JNWTR_NCHDL/B = 3                        |                                           
+                                           |                                           
+Net: MP2/B                                 |(no matching net)                          
+  JNWTR_PCHDL/B = 3                        |                                           
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+  Flattening non-matched subcircuits JNWTR_NDTRIX1_CV JNWTR_NDTRIX1_CV
+
+Circuit 1 cell sky130_fd_pr__diode_pw2nd_05v5 and Circuit 2 cell sky130_fd_pr__diode_pw2nd_05v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__diode_pw2nd_05v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__diode_pw2nd_05v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__diode_pw2nd_05v5  |Circuit 2: sky130_fd_pr__diode_pw2nd_05v5  
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__diode_pw2nd_05v5 and sky130_fd_pr__diode_pw2nd_05v5 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__rf_pnp_05v5_W3p40L3p40 in circuit BANDGAP_CIRCUIT (0)(25 instances)
+
+Class BANDGAP_CIRCUIT (0):  Merged 23 parallel devices.
+Class BANDGAP_CIRCUIT (1):  Merged 23 parallel devices.
+Subcircuit summary:
+Circuit 1: BANDGAP_CIRCUIT                 |Circuit 2: BANDGAP_CIRCUIT                 
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pnp_05v5_W3p40L3p40 (25->2)  |sky130_fd_pr__pnp_05v5_W3p40L3p40 (25->2)  
+JNWTR_RPPO2 (1)                            |JNWTR_RPPO2 (1)                            
+JNWATR_PCH_2C5F0 (6)                       |JNWATR_PCH_2C5F0 (6)                       
+JNWTR_RPPO4 (2)                            |JNWTR_RPPO4 (2)                            
+JNWATR_PCH_4C5F0 (2)                       |JNWATR_PCH_4C5F0 (2)                       
+JNWATR_PCH_8C1F2 (3)                       |JNWATR_PCH_8C1F2 (3)                       
+JNWTR_CAPX4 (1)                            |JNWTR_CAPX4 (1)                            
+BANDGAP_OTA_PMOS (1)                       |BANDGAP_OTA_PMOS (1)                       
+JNWATR_NCH_4C5F0 (3)                       |JNWATR_NCH_4C5F0 (3)                       
+Number of devices: 21                      |Number of devices: 21                      
+Number of nets: 18                         |Number of nets: 18                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Resolving symmetries by net name.
+Netlists match with 1 symmetry.
+
+Subcircuit pins:
+Circuit 1: BANDGAP_CIRCUIT                 |Circuit 2: BANDGAP_CIRCUIT                 
+-------------------------------------------|-------------------------------------------
+PWRUP_N_1V8                                |PWRUP_N_1V8                                
+VDD_1V8                                    |VDD_1V8                                    
+PWRUP_1V8                                  |PWRUP_1V8                                  
+VB_P                                       |VB_P                                       
+I_PTAT                                     |I_PTAT                                     
+VSS                                        |VSS                                        
+V_CTAT                                     |V_CTAT                                     
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes BANDGAP_CIRCUIT and BANDGAP_CIRCUIT are equivalent.
+
+Subcircuit summary:
+Circuit 1: COMPARATOR                      |Circuit 2: COMPARATOR                      
+-------------------------------------------|-------------------------------------------
+JNWATR_PCH_4C5F0 (11)                      |JNWATR_PCH_4C5F0 (11)                      
+JNWATR_NCH_4C5F0 (11)                      |JNWATR_NCH_4C5F0 (11)                      
+JNWATR_PCH_8C1F2 (3)                       |JNWATR_PCH_8C1F2 (3)                       
+JNWATR_NCH_8C1F2 (3)                       |JNWATR_NCH_8C1F2 (3)                       
+Number of devices: 28                      |Number of devices: 28                      
+Number of nets: 15                         |Number of nets: 15                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Resolving symmetries by net name.
+Netlists match with 7 symmetries.
+
+Subcircuit pins:
+Circuit 1: COMPARATOR                      |Circuit 2: COMPARATOR                      
+-------------------------------------------|-------------------------------------------
+OUT                                        |OUT                                        
+VB_N                                       |VB_N                                       
+PWRUP_N_1V8                                |PWRUP_N_1V8                                
+PWRUP_1V8                                  |PWRUP_1V8                                  
+INP                                        |INP                                        
+INN                                        |INN                                        
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes COMPARATOR and COMPARATOR are equivalent.
+
+Cell BIAS_CIRCUIT2 (0) disconnected node: xb6/a_1056_n40#
+Subcircuit summary:
+Circuit 1: BIAS_CIRCUIT2                   |Circuit 2: BIAS_CIRCUIT2                   
+-------------------------------------------|-------------------------------------------
+JNWATR_NCH_4C5F0 (2)                       |JNWATR_NCH_4C5F0 (2)                       
+JNWATR_NCH_8C1F2 (2)                       |JNWATR_NCH_8C1F2 (2)                       
+JNWATR_PCH_4C5F0 (1)                       |JNWATR_PCH_4C5F0 (1)                       
+JNWATR_PCH_8C1F2 (2)                       |JNWATR_PCH_8C1F2 (2)                       
+JNWTR_RPPO4 (1)                            |JNWTR_RPPO4 (1)                            
+JNWTR_RPPO16 (2)                           |JNWTR_RPPO16 (2)                           
+Number of devices: 10                      |Number of devices: 10                      
+Number of nets: 12                         |Number of nets: 12                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: BIAS_CIRCUIT2                   |Circuit 2: BIAS_CIRCUIT2                   
+-------------------------------------------|-------------------------------------------
+VDD_1V8                                    |VDD_1V8                                    
+VB_P                                       |VB_P                                       
+VSS                                        |VSS                                        
+PWRUP_N_1V8                                |PWRUP_N_1V8                                
+PWRUP_1V8                                  |PWRUP_1V8                                  
+VB_N                                       |VB_N                                       
+xb6/a_1056_n40#                            |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes BIAS_CIRCUIT2 and BIAS_CIRCUIT2 are equivalent.
+
+Subcircuit summary:
+Circuit 1: JNWTR_DFRNQNX1_CV               |Circuit 2: JNWTR_DFRNQNX1_CV               
+-------------------------------------------|-------------------------------------------
+JNWTR_TAPCELLB_CV (1)                      |JNWTR_TAPCELLB_CV (1)                      
+JNWTR_PCHDL (14)                           |JNWTR_PCHDL (14)                           
+JNWTR_NCHDL (14)                           |JNWTR_NCHDL (14)                           
+Number of devices: 29                      |Number of devices: 29                      
+Number of nets: 20                         |Number of nets: 20                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: JNWTR_DFRNQNX1_CV               |Circuit 2: JNWTR_DFRNQNX1_CV               
+-------------------------------------------|-------------------------------------------
+QN                                         |QN                                         
+CK                                         |CK                                         
+D                                          |D                                          
+RN                                         |RN                                         
+Q                                          |Q                                          
+AVSS                                       |AVSS                                       
+AVDD                                       |AVDD                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes JNWTR_DFRNQNX1_CV and JNWTR_DFRNQNX1_CV are equivalent.
+
+Subcircuit summary:
+Circuit 1: LELO_GR03                       |Circuit 2: LELO_GR03                       
+-------------------------------------------|-------------------------------------------
+BANDGAP_CIRCUIT (1)                        |BANDGAP_CIRCUIT (1)                        
+JNWTR_PCHDL (2)                            |JNWTR_PCHDL (2)                            
+JNWTR_NCHDL (2)                            |JNWTR_NCHDL (2)                            
+JNWATR_NCH_4C5F0 (2)                       |JNWATR_NCH_4C5F0 (2)                       
+COMPARATOR (1)                             |COMPARATOR (1)                             
+BIAS_CIRCUIT2 (1)                          |BIAS_CIRCUIT2 (1)                          
+JNWTR_CAPX4 (2)                            |JNWTR_CAPX4 (2)                            
+JNWTR_DFRNQNX1_CV (1)                      |JNWTR_DFRNQNX1_CV (1)                      
+Number of devices: 12                      |Number of devices: 12                      
+Number of nets: 12                         |Number of nets: 12                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Resolving symmetries by net name.
+Netlists match with 1 symmetry.
+
+Subcircuit pins:
+Circuit 1: LELO_GR03                       |Circuit 2: LELO_GR03                       
+-------------------------------------------|-------------------------------------------
+OSC_TEMP_1V8                               |OSC_TEMP_1V8                               
+VDD_1V8                                    |VDD_1V8                                    
+PWRUP_1V8                                  |PWRUP_1V8                                  
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes LELO_GR03 and LELO_GR03 are equivalent.
+
+Cell JNWTR_TIEL_CV (0) disconnected node: MN0/a_270_n16#
+Cell JNWTR_TIEL_CV (0) disconnected node: MP0/a_120_n16#
+Subcircuit summary:
+Circuit 1: JNWTR_TIEL_CV                   |Circuit 2: JNWTR_TIEL_CV                   
+-------------------------------------------|-------------------------------------------
+JNWTR_PCHDL (1)                            |JNWTR_PCHDL (1)                            
+JNWTR_NCHDL (1)                            |JNWTR_NCHDL (1)                            
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 6 **Mismatch**             |Number of nets: 4 **Mismatch**             
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: JNWTR_TIEL_CV                   |Circuit 2: JNWTR_TIEL_CV                   
+
+---------------------------------------------------------------------------------------
+Net: AVSS                                  |Net: AVSS                                  
+  JNWTR_NCHDL/S = 1                        |  JNWTR_NCHDL/S = 1                        
+                                           |  JNWTR_NCHDL/B = 1                        
+                                           |                                           
+Net: AVDD                                  |Net: AVDD                                  
+  JNWTR_PCHDL/S = 1                        |  JNWTR_PCHDL/S = 1                        
+                                           |  JNWTR_PCHDL/B = 1                        
+                                           |                                           
+Net: MP0/B                                 |(no matching net)                          
+  JNWTR_PCHDL/B = 1                        |                                           
+                                           |                                           
+Net: 0                                     |(no matching net)                          
+  JNWTR_NCHDL/B = 1                        |                                           
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+  Flattening non-matched subcircuits JNWTR_TIEL_CV JNWTR_TIEL_CV
+Flattening unmatched subcell sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ in circuit tt_um_lelo_gr03_analogicus (0)(1 instance)
+
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uo_out[7]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uo_out[6]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uo_out[5]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uo_out[4]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uo_out[3]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uo_out[2]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uo_out[1]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uio_out[7]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uio_out[6]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uio_out[5]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uio_out[4]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uio_out[3]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uio_out[2]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uio_out[1]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uio_out[0]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: ui_in[7]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: ui_in[6]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: ui_in[5]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: ui_in[4]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: ui_in[3]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: ui_in[2]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: ui_in[1]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uio_in[7]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uio_in[6]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uio_in[5]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uio_in[4]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uio_in[3]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uio_in[2]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uio_in[1]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: uio_in[0]
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: ena
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: rst_n
+Cell tt_um_lelo_gr03_analogicus (0) disconnected node: clk
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uo_out[7]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uo_out[6]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uo_out[5]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uo_out[4]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uo_out[3]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uo_out[2]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uo_out[1]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uio_out[7]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uio_out[6]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uio_out[5]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uio_out[4]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uio_out[3]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uio_out[2]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uio_out[1]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uio_out[0]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: ui_in[7]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: ui_in[6]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: ui_in[5]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: ui_in[4]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: ui_in[3]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: ui_in[2]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: ui_in[1]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uio_in[7]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uio_in[6]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uio_in[5]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uio_in[4]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uio_in[3]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uio_in[2]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uio_in[1]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: uio_in[0]
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: ena
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: rst_n
+Cell tt_um_lelo_gr03_analogicus (1) disconnected node: clk
+Subcircuit summary:
+Circuit 1: tt_um_lelo_gr03_analogicus      |Circuit 2: tt_um_lelo_gr03_analogicus      
+-------------------------------------------|-------------------------------------------
+JNWTR_TAPCELLB_CV (1)                      |JNWTR_TAPCELLB_CV (1)                      
+sky130_fd_pr__diode_pw2nd_05v5 (1)         |sky130_fd_pr__diode_pw2nd_05v5 (1)         
+LELO_GR03 (1)                              |LELO_GR03 (1)                              
+JNWTR_PCHDL (1)                            |JNWTR_PCHDL (1)                            
+JNWTR_NCHDL (1)                            |JNWTR_NCHDL (1)                            
+sky130_fd_pr__res_generic_m4 (8)           |sky130_fd_pr__res_generic_m4 (8)           
+Number of devices: 13                      |Number of devices: 13                      
+Number of nets: 14                         |Number of nets: 14                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: tt_um_lelo_gr03_analogicus      |Circuit 2: tt_um_lelo_gr03_analogicus      
+-------------------------------------------|-------------------------------------------
+uio_oe[7]                                  |uio_oe[7]                                  
+uio_oe[0]                                  |uio_oe[0]                                  
+uio_oe[3]                                  |uio_oe[3]                                  
+uio_oe[4]                                  |uio_oe[4]                                  
+uio_oe[5]                                  |uio_oe[5]                                  
+uio_oe[6]                                  |uio_oe[6]                                  
+uio_oe[1]                                  |uio_oe[1]                                  
+uio_oe[2]                                  |uio_oe[2]                                  
+uo_out[0]                                  |uo_out[0]                                  
+ui_in[0]                                   |ui_in[0]                                   
+VGND                                       |VGND                                       
+VDPWR                                      |VDPWR                                      
+uo_out[7]                                  |uo_out[7]                                  
+uo_out[6]                                  |uo_out[6]                                  
+uo_out[5]                                  |uo_out[5]                                  
+uo_out[4]                                  |uo_out[4]                                  
+uo_out[3]                                  |uo_out[3]                                  
+uo_out[2]                                  |uo_out[2]                                  
+uo_out[1]                                  |uo_out[1]                                  
+uio_out[7]                                 |uio_out[7]                                 
+uio_out[6]                                 |uio_out[6]                                 
+uio_out[5]                                 |uio_out[5]                                 
+uio_out[4]                                 |uio_out[4]                                 
+uio_out[3]                                 |uio_out[3]                                 
+uio_out[2]                                 |uio_out[2]                                 
+uio_out[1]                                 |uio_out[1]                                 
+uio_out[0]                                 |uio_out[0]                                 
+ui_in[7]                                   |ui_in[7]                                   
+ui_in[6]                                   |ui_in[6]                                   
+ui_in[5]                                   |ui_in[5]                                   
+ui_in[4]                                   |ui_in[4]                                   
+ui_in[3]                                   |ui_in[3]                                   
+ui_in[2]                                   |ui_in[2]                                   
+ui_in[1]                                   |ui_in[1]                                   
+uio_in[7]                                  |uio_in[7]                                  
+uio_in[6]                                  |uio_in[6]                                  
+uio_in[5]                                  |uio_in[5]                                  
+uio_in[4]                                  |uio_in[4]                                  
+uio_in[3]                                  |uio_in[3]                                  
+uio_in[2]                                  |uio_in[2]                                  
+uio_in[1]                                  |uio_in[1]                                  
+uio_in[0]                                  |uio_in[0]                                  
+ena                                        |ena                                        
+rst_n                                      |rst_n                                      
+clk                                        |clk                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes tt_um_lelo_gr03_analogicus and tt_um_lelo_gr03_analogicus are equivalent.
+
+Final result: Circuits match uniquely.
+.
