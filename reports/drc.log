@@ -22,132 +22,95 @@ Scaled tech values by 2 / 1 to match internal grid scaling
 Loading sky130A Device Generator Menu ...
 Load AICEX tech setup...
 Loading "drc/tt_um_lelo_gr03_analogicus_drc.tcl" from command line.
-File <../design/LELO_GR03_SKY130A/tt_um_lelo_gr03_analogicus.mag> is already locked by pid 26025.  Opening read-only.
 Cell tt_um_lelo_gr03_analogicus read from path ../design/LELO_GR03_SKY130A
 Usage: logcommands [start|stop|update|suspend|resume [filename]]
 Coordinate value cannot be parsed:  assuming 0
-File <sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ.mag> is already locked by pid 26025.  Opening read-only.
 Warning:  Parent cell lists instance of "sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ" at bad file path ../design/LELO_GR03_SKY130A/sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ.mag.
 The cell exists in the search paths at sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ.mag.
 The discovered version will be used.
 Cell sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ read from current working directory
-File <../design/LELO_GR03_SKY130A/LELO_GR03.mag> is already locked by pid 26025.  Opening read-only.
 Cell LELO_GR03 read from path ../design/LELO_GR03_SKY130A
-File <../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNWTR_CAPX4.mag> is already locked by pid 26025.  Opening read-only.
 Cell JNWTR_CAPX4 read from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A
 Scaled magic input cell JNWTR_CAPX4 geometry by factor of 2
-File <../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNWTR_CAPX1.mag> is already locked by pid 26025.  Opening read-only.
 Cell JNWTR_CAPX1 read from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A
 Scaled magic input cell JNWTR_CAPX1 geometry by factor of 2
-File <../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNWTR_DFRNQNX1_CV.mag> is already locked by pid 26025.  Opening read-only.
 Cell JNWTR_DFRNQNX1_CV read from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A
 Scaled magic input cell JNWTR_DFRNQNX1_CV geometry by factor of 2
-File <../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNWTR_cut_M1M2_2x1.mag> is already locked by pid 26025.  Opening read-only.
 Cell JNWTR_cut_M1M2_2x1 read from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A
 Scaled magic input cell JNWTR_cut_M1M2_2x1 geometry by factor of 2
-File <../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNWTR_cut_M1M3_2x1.mag> is already locked by pid 26025.  Opening read-only.
 Cell JNWTR_cut_M1M3_2x1 read from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A
 Scaled magic input cell JNWTR_cut_M1M3_2x1 geometry by factor of 2
-File <../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNWTR_IVX1_CV.mag> is already locked by pid 26025.  Opening read-only.
 Cell JNWTR_IVX1_CV read from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A
 Scaled magic input cell JNWTR_IVX1_CV geometry by factor of 2
-File <../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNWTR_cut_M1M4_2x1.mag> is already locked by pid 26025.  Opening read-only.
 Cell JNWTR_cut_M1M4_2x1 read from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A
 Scaled magic input cell JNWTR_cut_M1M4_2x1 geometry by factor of 2
-File <../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNWTR_PCHDL.mag> is already locked by pid 26025.  Opening read-only.
 Cell JNWTR_PCHDL read from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A
 Scaled magic input cell JNWTR_PCHDL geometry by factor of 2
-File <../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNWTR_NCHDL.mag> is already locked by pid 26025.  Opening read-only.
 Cell JNWTR_NCHDL read from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A
 Scaled magic input cell JNWTR_NCHDL geometry by factor of 2
-File <../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNWTR_NDTRIX1_CV.mag> is already locked by pid 26025.  Opening read-only.
 Cell JNWTR_NDTRIX1_CV read from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A
 Scaled magic input cell JNWTR_NDTRIX1_CV geometry by factor of 2
-File <../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNWTR_IVTRIX1_CV.mag> is already locked by pid 26025.  Opening read-only.
 Cell JNWTR_IVTRIX1_CV read from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A
 Scaled magic input cell JNWTR_IVTRIX1_CV geometry by factor of 2
-File <../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNWTR_NDX1_CV.mag> is already locked by pid 26025.  Opening read-only.
 Cell JNWTR_NDX1_CV read from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A
 Scaled magic input cell JNWTR_NDX1_CV geometry by factor of 2
-File <../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNWTR_TAPCELLB_CV.mag> is already locked by pid 26025.  Opening read-only.
 Cell JNWTR_TAPCELLB_CV read from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A
 Scaled magic input cell JNWTR_TAPCELLB_CV geometry by factor of 2
 Cells JNWTR_NCHDL in ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
 Cells JNWTR_PCHDL in ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
 Cells JNWTR_cut_M1M4_2x1 in ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
-File <../design/LELO_GR03_SKY130A/COMPARATOR.mag> is already locked by pid 26025.  Opening read-only.
 Cell COMPARATOR read from path ../design/LELO_GR03_SKY130A
-File <../design/JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.mag> is already locked by pid 26025.  Opening read-only.
 Warning:  Parent cell lists instance of "JNWATR_PCH_4C5F0" at bad file path ../design/LELO_GR03_SKY130A/JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.mag.
 The cell exists in the search paths at ../design/JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.mag.
 The discovered version will be used.
 Cell JNWATR_PCH_4C5F0 read from path ../design/JNW_ATR_SKY130A
 Scaled magic input cell JNWATR_PCH_4C5F0 geometry by factor of 2
-File <../design/LELO_GR03_SKY130A/../JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.mag> is already locked by pid 26025.  Opening read-only.
 Cell JNWATR_NCH_4C5F0 read from path ../design/LELO_GR03_SKY130A/../JNW_ATR_SKY130A
 Scaled magic input cell JNWATR_NCH_4C5F0 geometry by factor of 2
-File <../design/JNW_ATR_SKY130A/JNWATR_NCH_8C1F2.mag> is already locked by pid 26025.  Opening read-only.
 Warning:  Parent cell lists instance of "JNWATR_NCH_8C1F2" at bad file path ../design/LELO_GR03_SKY130A/JNW_ATR_SKY130A/JNWATR_NCH_8C1F2.mag.
 The cell exists in the search paths at ../design/JNW_ATR_SKY130A/JNWATR_NCH_8C1F2.mag.
 The discovered version will be used.
 Cell JNWATR_NCH_8C1F2 read from path ../design/JNW_ATR_SKY130A
 Scaled magic input cell JNWATR_NCH_8C1F2 geometry by factor of 2
-File <../design/JNW_ATR_SKY130A/JNWATR_PCH_8C1F2.mag> is already locked by pid 26025.  Opening read-only.
 Warning:  Parent cell lists instance of "JNWATR_PCH_8C1F2" at bad file path ../design/LELO_GR03_SKY130A/JNW_ATR_SKY130A/JNWATR_PCH_8C1F2.mag.
 The cell exists in the search paths at ../design/JNW_ATR_SKY130A/JNWATR_PCH_8C1F2.mag.
 The discovered version will be used.
 Cell JNWATR_PCH_8C1F2 read from path ../design/JNW_ATR_SKY130A
 Scaled magic input cell JNWATR_PCH_8C1F2 geometry by factor of 2
-File <../design/LELO_GR03_SKY130A/BANDGAP_CIRCUIT.mag> is already locked by pid 26025.  Opening read-only.
 Cell BANDGAP_CIRCUIT read from path ../design/LELO_GR03_SKY130A
+Cells JNWATR_PCH_8C1F2 in ../design/JNW_ATR_SKY130A and ../design/LELO_GR03_SKY130A/JNW_ATR_SKY130A have matching git repository commits and can be considered equivalent.
+Cells JNWATR_PCH_4C5F0 in ../design/JNW_ATR_SKY130A and ../design/LELO_GR03_SKY130A/JNW_ATR_SKY130A have matching git repository commits and can be considered equivalent.
 Cell sky130_fd_pr__rf_pnp_05v5_W3p40L3p40 read from path /opt/pdk/share/pdk/sky130A/libs.ref/sky130_fd_pr/mag
-File <../design/LELO_GR03_SKY130A/../LELO_GR03_SKY130A/BANDGAP_OTA_PMOS.mag> is already locked by pid 26025.  Opening read-only.
 Cell BANDGAP_OTA_PMOS read from path ../design/LELO_GR03_SKY130A/../LELO_GR03_SKY130A
-Duplicate cell in BANDGAP_OTA_PMOS:  Instance of cell JNWATR_PCH_8C1F2 is from path ../design/LELO_GR03_SKY130A/../LELO_GR03_SKY130A/JNW_ATR_SKY130A but cell was previously read from ../design/JNW_ATR_SKY130A.
-New path does not exist and will be ignored.
-Duplicate cell in BANDGAP_OTA_PMOS:  Instance of cell JNWTR_RPPO4.mag is from path ../design/LELO_GR03_SKY130A/../LELO_GR03_SKY130A/JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A.
-New path does not exist and will be ignored.
-Duplicate cell in BANDGAP_OTA_PMOS:  Instance of cell JNWATR_PCH_4C5F0 is from path ../design/LELO_GR03_SKY130A/../LELO_GR03_SKY130A/JNW_ATR_SKY130A but cell was previously read from ../design/JNW_ATR_SKY130A.
-New path does not exist and will be ignored.
-Duplicate cell in BANDGAP_OTA_PMOS:  Instance of cell JNWATR_NCH_4C5F0 is from path ../design/LELO_GR03_SKY130A/../LELO_GR03_SKY130A/JNW_ATR_SKY130A but cell was previously read from ../design/LELO_GR03_SKY130A/../JNW_ATR_SKY130A.
-New path does not exist and will be ignored.
-Duplicate cell in BANDGAP_OTA_PMOS:  Instance of cell JNWATR_NCH_8C1F2 is from path ../design/LELO_GR03_SKY130A/../LELO_GR03_SKY130A/JNW_ATR_SKY130A but cell was previously read from ../design/JNW_ATR_SKY130A.
-New path does not exist and will be ignored.
-Duplicate cell in BANDGAP_OTA_PMOS:  Instance of cell JNWTR_CAPX4 is from path ../design/LELO_GR03_SKY130A/../LELO_GR03_SKY130A/JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A.
-New path does not exist and will be ignored.
-File <../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNWTR_RPPO4.mag> is already locked by pid 26025.  Opening read-only.
+Cells JNWTR_RPPO4.mag in ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR03_SKY130A/../LELO_GR03_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
+Cells JNWATR_PCH_8C1F2 in ../design/JNW_ATR_SKY130A and ../design/LELO_GR03_SKY130A/../LELO_GR03_SKY130A/JNW_ATR_SKY130A have matching git repository commits and can be considered equivalent.
+Cells JNWATR_PCH_4C5F0 in ../design/JNW_ATR_SKY130A and ../design/LELO_GR03_SKY130A/../LELO_GR03_SKY130A/JNW_ATR_SKY130A have matching git repository commits and can be considered equivalent.
+Cells JNWATR_NCH_4C5F0 in ../design/LELO_GR03_SKY130A/../JNW_ATR_SKY130A and ../design/LELO_GR03_SKY130A/../LELO_GR03_SKY130A/JNW_ATR_SKY130A have matching git repository commits and can be considered equivalent.
+Cells JNWATR_NCH_8C1F2 in ../design/JNW_ATR_SKY130A and ../design/LELO_GR03_SKY130A/../LELO_GR03_SKY130A/JNW_ATR_SKY130A have matching git repository commits and can be considered equivalent.
+Cells JNWTR_CAPX4 in ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR03_SKY130A/../LELO_GR03_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
 Cell JNWTR_RPPO4 read from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A
 Scaled magic input cell JNWTR_RPPO4 geometry by factor of 2
-File <../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNWTR_RES4.mag> is already locked by pid 26025.  Opening read-only.
 Cell JNWTR_RES4 read from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A
 Scaled magic input cell JNWTR_RES4 geometry by factor of 2
-File <../design/LELO_GR03_SKY130A/../LELO_GR03_SKY130A/../LELO_ATR_SKY130A/LELOATR_LVT_PCH_4C5F0.mag> is already locked by pid 26025.  Opening read-only.
 Cell LELOATR_LVT_PCH_4C5F0 read from path ../design/LELO_GR03_SKY130A/../LELO_GR03_SKY130A/../LELO_ATR_SKY130A
-File <../design/LELO_GR03_SKY130A/../JNW_ATR_SKY130A/JNWATR_PCH_2C5F0.mag> is already locked by pid 26025.  Opening read-only.
 Cell JNWATR_PCH_2C5F0 read from path ../design/LELO_GR03_SKY130A/../JNW_ATR_SKY130A
 Scaled magic input cell JNWATR_PCH_2C5F0 geometry by factor of 2
-File <../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNWTR_RPPO2.mag> is already locked by pid 26025.  Opening read-only.
 Cell JNWTR_RPPO2 read from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A
 Scaled magic input cell JNWTR_RPPO2 geometry by factor of 2
-File <../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A/JNWTR_RES2.mag> is already locked by pid 26025.  Opening read-only.
 Cell JNWTR_RES2 read from path ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A
 Scaled magic input cell JNWTR_RES2 geometry by factor of 2
-File <../design/LELO_GR03_SKY130A/BIAS_CIRCUIT2.mag> is already locked by pid 26025.  Opening read-only.
 Cell BIAS_CIRCUIT2 read from path ../design/LELO_GR03_SKY130A
 Scaled magic input cell BIAS_CIRCUIT2 geometry by factor of 2
 Cells JNWATR_NCH_8C1F2 in ../design/JNW_ATR_SKY130A and ../design/LELO_GR03_SKY130A/JNW_ATR_SKY130A have matching git repository commits and can be considered equivalent.
 Cells JNWATR_PCH_8C1F2 in ../design/JNW_ATR_SKY130A and ../design/LELO_GR03_SKY130A/JNW_ATR_SKY130A have matching git repository commits and can be considered equivalent.
 Cells JNWATR_PCH_4C5F0 in ../design/JNW_ATR_SKY130A and ../design/LELO_GR03_SKY130A/JNW_ATR_SKY130A have matching git repository commits and can be considered equivalent.
-File <../design/JNW_TR_SKY130A/JNWTR_RPPO16.mag> is already locked by pid 26025.  Opening read-only.
 Warning:  Parent cell lists instance of "JNWTR_RPPO16" at bad file path ../design/LELO_GR03_SKY130A/JNW_TR_SKY130A/JNWTR_RPPO16.mag.
 The cell exists in the search paths at ../design/JNW_TR_SKY130A/JNWTR_RPPO16.mag.
 The discovered version will be used.
 Cell JNWTR_RPPO16 read from path ../design/JNW_TR_SKY130A
 Scaled magic input cell JNWTR_RPPO16 geometry by factor of 2
-File <../design/JNW_TR_SKY130A/JNWTR_RES16.mag> is already locked by pid 26025.  Opening read-only.
 Cell JNWTR_RES16 read from path ../design/JNW_TR_SKY130A
 Scaled magic input cell JNWTR_RES16 geometry by factor of 2
-File <../design/JNW_TR_SKY130A/JNWTR_TIEL_CV.mag> is already locked by pid 26025.  Opening read-only.
 Warning:  Parent cell lists instance of "JNWTR_TIEL_CV" at bad file path ../design/LELO_GR03_SKY130A/JNW_TR_SKY130A/JNWTR_TIEL_CV.mag.
 The cell exists in the search paths at ../design/JNW_TR_SKY130A/JNWTR_TIEL_CV.mag.
 The discovered version will be used.
@@ -159,8 +122,6 @@ Duplicate cell in JNWTR_TIEL_CV:  Instance of cell JNWTR_PCHDL is from path ../d
 New path does not exist and will be ignored.
 Duplicate cell in JNWTR_TIEL_CV:  Instance of cell JNWTR_cut_M1M4_2x1 is from path ../design/JNW_TR_SKY130A/LELO_GR01_SKY130A/../JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR03_SKY130A/../JNW_TR_SKY130A.
 New path does not exist and will be ignored.
-Processing timestamp mismatches.
-Timestamp mismatches found in these cells: JNWTR_CAPX4, BANDGAP_CIRCUIT, sky130_fd_pr__rf_pnp_05v5_W3p40L3p40, BANDGAP_OTA_PMOS, JNWTR_RPPO4, JNWTR_RPPO2.
 DRC style is now "drc(full)"
 Loading DRC CIF style.
 No errors found.
